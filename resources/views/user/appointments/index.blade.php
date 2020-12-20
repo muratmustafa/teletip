@@ -44,15 +44,13 @@
 
                     <tr>
                       <td>{{ ++$i }}</td>
-                      <td>{{ $appointment->doctor_id }}</td>
+                      <td>{{ \App\Models\Doctor::where('id', $appointment->doctor_id)->value('name') }}</td>
                       <td>{{ $appointment->appt_date }}</td>
                       <td>{{ $appointment->appt_status }}</td>
                       <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>
                       <td class="text-right">
-                        <div class="btn-group btn-group-sm">
-                          <a href="{{ route('user.appointments.show',$appointment->id) }}/meeting" class="btn btn-info" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone">Görüşmeye Katıl</span></a>
-                          <a href="{{ route('user.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
-                        </div>
+                        <a href="https://metabolizmateletip.ankara.edu.tr/room/{{ $appointment->room_name }}" class="btn btn-info" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>
+                        <a href="{{ route('user.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
                       </td>
                     </tr>@endforeach
 

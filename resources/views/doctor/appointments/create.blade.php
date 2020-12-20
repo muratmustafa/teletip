@@ -1,5 +1,5 @@
 @php $show_date = true; @endphp
-@extends('admin.layouts.master')
+@extends('doctor.layouts.master')
 @section('title','Randevu Ekle')
 @section('content')
   <!-- Content Wrapper. Contains page content -->
@@ -20,7 +20,7 @@
               <div class="card-header">
                 <h3 class="card-title">Randevu Ekle</h3>
               </div>
-              <form action="{{ route('admin.appointments.store') }}" method="post">
+              <form action="{{ route('doctor.appointments.store') }}" method="post">
                 @csrf
                 <div class="card-body">@if ($errors->any())
 
@@ -35,12 +35,8 @@
                   </div>@endif
 
                   <div class="form-group">
-                    <label for="inputDoctorId">Doktor ID</label>
-                    <input type="text" class="form-control @error('doctor_id') is-invalid @enderror" id="inputDoctorId" name="doctor_id" placeholder="Doktorun ID'si" value="{{ old('doctor_id') }}" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="inputPatientId">Hasta ID</label>
-                    <input type="text" class="form-control @error('user_id') is-invalid @enderror" id="inputPatientId" name="user_id" placeholder="Hastanın ID'si" value="{{ old('user_id') }}" required>
+                    <label for="inputPatientTc">Hasta T.C. Kimlik No</label>
+                    <input type="text" class="form-control @error('user_tc') is-invalid @enderror" id="inputPatientTc" name="user_tc" placeholder="Hastanın T.C. Kimlik No'su" value="{{ old('user_tc') }}" required>
                   </div>
                   <div class="form-group">
                     <label for="inputAppointmentDate">Randevu Tarihi</label>

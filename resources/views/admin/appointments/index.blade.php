@@ -45,8 +45,8 @@
 
                     <tr>
                       <td>{{ ++$i }}</td>
-                      <td>{{ $appointment->doctor_id }}</td>
-                      <td>{{ $appointment->user_id }}</td>
+                      <td>{{ \App\Models\Doctor::where('id', $appointment->doctor_id)->value('name') }}</td>
+                      <td>{{ \App\Models\User::where('id', $appointment->user_id)->value('name') }}</td>
                       <td>{{ $appointment->appt_date }}</td>
                       <td>{{ $appointment->appt_status }}</td>
                       <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>

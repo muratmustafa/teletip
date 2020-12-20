@@ -48,7 +48,7 @@
                       <td>{{ $doctor->branch }}</td>
                       <td class="text-right">
                         <div class="btn-group btn-group-sm">
-                          <a href="{{ route('user.udoctors.show',$doctor->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
+                          <a href="{{ route('user.doctors.show',$doctor->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
                         </div>
                       </td>
                     </tr>@endforeach

@@ -12,7 +12,7 @@ Route::get('/logout', 'Auth\UserLoginController@logout')->name('user.logout');
 Route::get('/home', 'Auth\UserController@index')->name('user.home');
 
 Route::middleware('auth:web')->name('user.')->namespace('My')->group(function() {
-    Route::resource('appointments.meeting','MeetingController')->shallow();
+    //Route::resource('appointments.meeting','MeetingController')->shallow();
     Route::resource('appointments','MyAppointmentsController');
     Route::resource('doctors','MyDoctorsController');
 });
@@ -38,7 +38,7 @@ Route::prefix('doctor')->name('doctor.')->namespace('Auth')->group(function() {
 });
 
 Route::middleware('auth:doctor')->prefix('doctor')->name('doctor.')->namespace('My')->group(function() {
-    Route::resource('appointments.meeting','MeetingController')->shallow();
+    //Route::resource('appointments.meeting','MeetingController')->shallow();
     Route::resource('appointments','MyAppointmentsController');
     Route::resource('users','MyUsersController');
 });

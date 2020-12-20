@@ -24,35 +24,16 @@ class AppointmentCrudController extends Controller
 
     public function store(Request $request)
     {
-        if (Auth::guard('admin')->check()) {
+        $request->validate([
+            'doctor_id' => 'required',
+            'user_id'   => 'required',
+            'appt_date' => 'required',
+            'appt_detail',
+        ]);
 
-            $request->validate([
-                'doctor_id' => 'required',
-                'user_id'   => 'required',
-                'appt_date' => 'required',
-                'appt_status',
-                'appt_detail',
-            ]);
-
-            Appointment::create(array_merge($request->all(), ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
-                                                             ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))],
-                                                             ['appt_status'   => 'Normal']));
-
-        } else {
-
-            $request->validate([
-                'user_id'   => 'required',
-                'appt_date' => 'required',
-                'appt_status',
-                'appt_detail',
-            ]);
-
-            Appointment::create(array_merge($request->all(), ['doctor_id'     => Auth::guard('doctor')->user()->id],
-                                                             ['room_name'     => sha1((Auth::guard('doctor')->user()->id).$request->input('user_id').$request->input('appt_date'))],
-                                                             ['room_password' => sha1($request->input('user_id').(Auth::guard('doctor')->user()->id).$request->input('appt_date'))],
-                                                             ['appt_status'   => 'Normal']));
-
-        }
+        Appointment::create(array_merge($request->all(), ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
+                                                         ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))],
+                                                         ['appt_status'   => 'Normal']));
 
         return redirect()->route('admin.appointments.index')->with('success','Randevu başarıyla oluşturuldu.');
     }
@@ -69,32 +50,16 @@ class AppointmentCrudController extends Controller
 
     public function update(Request $request, Appointment $appointment)
     {
-        if (Auth::guard('admin')->check()) {
+        $request->validate([
+            'doctor_id' => 'required',
+            'user_id'   => 'required',
+            'appt_date' => 'required',
+            'appt_status',
+            'appt_detail',
+        ]);
 
-            $request->validate([
-                'doctor_id' => 'required',
-                'user_id'   => 'required',
-                'appt_date' => 'required',
-                'appt_status',
-                'appt_detail',
-            ]);
-
-            $appointment->update(array_merge($request->all(), ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
-                                                              ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))]));
-
-        } else {
-
-            $request->validate([
-                'user_id'   => 'required',
-                'appt_date' => 'required',
-                'appt_status',
-                'appt_detail',
-            ]);
-
-            $appointment->update(array_merge($request->all(), ['room_name'     => sha1((Auth::guard('doctor')->user()->id).$request->input('user_id').$request->input('appt_date'))],
-                                                              ['room_password' => sha1($request->input('user_id').(Auth::guard('doctor')->user()->id).$request->input('appt_date'))]));
-
-        }
+        $appointment->update(array_merge($request->all(), ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
+                                                          ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))]));
 
         return redirect()->route('admin.appointments.index')->with('success','Randevu başarıyla güncellendi.');
     }

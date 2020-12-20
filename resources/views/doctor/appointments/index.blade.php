@@ -44,15 +44,14 @@
 
                     <tr>
                       <td>{{ ++$i }}</td>
-                      <td>{{ $appointment->user_id }}</td>
+                      <td>{{ \App\Models\User::where('id', $appointment->user_id)->value('name') }}</td>
                       <td>{{ $appointment->appt_date }}</td>
                       <td>{{ $appointment->appt_status }}</td>
                       <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>
                       <td class="text-right">
-                        <div class="btn-group btn-group-sm">
-                          <a href="{{ route('doctor.appointments.show',$appointment->id) }}/meeting" class="btn btn-info" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone">Görüşmeye Katıl</span></a>
-                          <a href="{{ route('doctor.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
-                        </div>
+                        <a href="https://metabolizmateletip.ankara.edu.tr/room/{{ $appointment->room_name }}" class="btn btn-info" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>
+                        <a href="{{ route('doctor.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
+                        <a href="{{ route('doctor.appointments.edit',$appointment->id) }}" class="btn btn-info" title="Güncelle" data-toggle="tooltip"><span class="fas fa-pen"></span></a>
                       </td>
                     </tr>@endforeach
 
