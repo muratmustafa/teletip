@@ -7,6 +7,7 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
   <title>@yield('title') | {{ config('app.name', 'TELETIP') }}</title>
+  <link rel="icon" href="{{asset('/')}}favicon.ico">
 
   <link rel="stylesheet" href="{{asset('/')}}plugins/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="{{asset('/')}}dist/css/adminlte.min.css">
@@ -32,18 +33,6 @@
         <a href="#" class="nav-link">İletişim</a>
       </li>
     </ul>
-
-    <!-- SEARCH FORM -->
-    <form class="form-inline ml-3">
-      <div class="input-group input-group-sm">
-        <input class="form-control form-control-navbar" type="search" placeholder="Ara" aria-label="Search">
-        <div class="input-group-append">
-          <button class="btn btn-navbar" type="submit">
-            <i class="fas fa-search"></i>
-          </button>
-        </div>
-      </div>
-    </form>
 
     <!-- Right navbar links -->
     <ul class="navbar-nav ml-auto">

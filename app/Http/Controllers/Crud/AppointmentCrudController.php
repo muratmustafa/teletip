@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Models\Appointment;
+use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Auth;
@@ -26,12 +27,15 @@ class AppointmentCrudController extends Controller
     {
         $request->validate([
             'doctor_id' => 'required',
-            'user_id'   => 'required',
+            'user_tc'   => 'required',
             'appt_date' => 'required',
             'appt_detail',
         ]);
 
-        Appointment::create(array_merge($request->all(), ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
+        $user_id = User::where('tckimlik', $request->input('user_tc'))->value('id');
+
+        Appointment::create(array_merge($request->all(), ['user_id'       => $user_id],
+                                                         ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
                                                          ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))],
                                                          ['appt_status'   => 'Normal']));
 
@@ -52,13 +56,16 @@ class AppointmentCrudController extends Controller
     {
         $request->validate([
             'doctor_id' => 'required',
-            'user_id'   => 'required',
+            'user_tc'   => 'required',
             'appt_date' => 'required',
             'appt_status',
             'appt_detail',
         ]);
 
-        $appointment->update(array_merge($request->all(), ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
+        $user_id = User::where('tckimlik', $request->input('user_tc'))->value('id');
+
+        $appointment->update(array_merge($request->all(), ['user_id'       => $user_id],
+                                                          ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
                                                           ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))]));
 
         return redirect()->route('admin.appointments.index')->with('success','Randevu başarıyla güncellendi.');

@@ -13,7 +13,7 @@
     <div class="content">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-3">
 
             <div class="card card-primary card-outline">
               <div class="card-header">

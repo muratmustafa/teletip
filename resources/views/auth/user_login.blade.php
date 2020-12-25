@@ -6,7 +6,8 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="csrf-token" content="{{ csrf_token() }}">
 
-  <title>{{ config('app.name', 'TELETIP') }} | Log in</title>
+  <title>{{ config('app.name', 'TELETIP') }} | Giriş</title>
+  <link rel="icon" href="{{asset('/')}}favicon.ico">
 
   <link rel="stylesheet" href="{{asset('/')}}plugins/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="{{asset('/')}}dist/css/adminlte.min.css">
@@ -15,7 +16,7 @@
 <body class="hold-transition login-page">
 <div class="login-box">
   <div class="login-logo">
-    <a href="{{ url('/home') }}"><b>TELE</b>TIP</a>
+    <a href="{{ url('/home') }}" style="text-align:center;font-size:3.5rem;">TELE<b>TIP</b></a>
   </div>
   <div class="card">
     <div class="card-body login-card-body">

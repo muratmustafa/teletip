@@ -39,8 +39,8 @@
                     <input type="text" class="form-control @error('doctor_id') is-invalid @enderror" id="inputDoctorId" name="doctor_id" placeholder="Doktorun ID'si" value="{{ old('doctor_id') }}" required>
                   </div>
                   <div class="form-group">
-                    <label for="inputPatientId">Hasta ID</label>
-                    <input type="text" class="form-control @error('user_id') is-invalid @enderror" id="inputPatientId" name="user_id" placeholder="Hastanın ID'si" value="{{ old('user_id') }}" required>
+                    <label for="inputPatientTc">Hasta T.C. Kimlik No</label>
+                    <input type="text" class="form-control @error('user_tc') is-invalid @enderror" id="inputPatientTc" name="user_tc" placeholder="Hastanın T.C. Kimlik No'su" value="{{ old('user_tc') }}" required>
                   </div>
                   <div class="form-group">
                     <label for="inputAppointmentDate">Randevu Tarihi</label>
