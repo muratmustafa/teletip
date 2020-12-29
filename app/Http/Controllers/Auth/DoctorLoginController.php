@@ -23,7 +23,7 @@ class DoctorLoginController extends Controller
     {
         $this->validate($request, [
             'email'    => 'required|string|email',
-            'password' => 'required|string|min:8'
+            'password' => 'required|string'
         ]);
 
         if (Auth::guard('doctor')->attempt(['email' => $request->email, 'password' => $request->password], $request->remember)) {

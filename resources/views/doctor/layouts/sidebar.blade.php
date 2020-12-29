@@ -2,7 +2,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ url('/doctor') }}" class="brand-link" style="text-align:center;font-size:2.5rem;">
-      <span class="brand-text font-weight-light">{{ config('app.name', 'TELETIP') }}</span>
+      <span class="brand-text font-weight-light">TELE<b>TIP</b></span>
     </a>
 
     <!-- Sidebar -->

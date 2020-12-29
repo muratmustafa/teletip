@@ -16,7 +16,7 @@ class MyDoctorsController extends Controller
     {
         $doctors = Doctor::whereIn('id', function($query){
 
-            $query->select('doctor_id')->from('appointments')->where('user_id', Auth::guard('web')->user()->id)->groupBy('doctor_id');
+            $query->select('doctor_id')->from('appointments')->where('user_id', Auth::guard('user')->user()->id)->groupBy('doctor_id');
 
         })->latest('id')->paginate(10);
 

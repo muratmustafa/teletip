@@ -11,7 +11,7 @@ class UserLoginController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('guest:web')->except('logout');
+        $this->middleware('guest:user')->except('logout');
     }
 
     public function showLoginForm()
@@ -23,10 +23,10 @@ class UserLoginController extends Controller
     {
         $this->validate($request, [
             'tckimlik' => 'required|string|max:11',
-            'password' => 'required|string|min:8'
+            'password' => 'required|string'
         ]);
 
-        if (Auth::guard('web')->attempt(['tckimlik' => $request->tckimlik, 'password' => $request->password], $request->remember)) {
+        if (Auth::guard('user')->attempt(['tckimlik' => $request->tckimlik, 'password' => $request->password], $request->remember)) {
             return redirect()->intended(route('user.home'));
         }
 
@@ -35,7 +35,7 @@ class UserLoginController extends Controller
 
     public function logout()
     {
-        Auth::guard('web')->logout();
+        Auth::guard('user')->logout();
 
         return redirect('/login');
     }

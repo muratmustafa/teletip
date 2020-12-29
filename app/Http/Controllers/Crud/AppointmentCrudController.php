@@ -34,6 +34,8 @@ class AppointmentCrudController extends Controller
 
         $user_id = User::where('tckimlik', $request->input('user_tc'))->value('id');
 
+        if(empty($user_id)) return back()->with('error','Randevu oluşturulamadı.');
+
         Appointment::create(array_merge($request->all(), ['user_id'       => $user_id],
                                                          ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
                                                          ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))],
@@ -63,6 +65,8 @@ class AppointmentCrudController extends Controller
         ]);
 
         $user_id = User::where('tckimlik', $request->input('user_tc'))->value('id');
+
+        if(empty($user_id)) return back()->with('error','Randevu oluşturulamadı.');
 
         $appointment->update(array_merge($request->all(), ['user_id'       => $user_id],
                                                           ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],

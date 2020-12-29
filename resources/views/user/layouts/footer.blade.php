@@ -66,5 +66,6 @@
 @if (isset($meeting) && $meeting)
 <script src='https://meet.jit.si/external_api.js'></script>\n";
 @endif
+@yield('end')
 </body>
 </html>

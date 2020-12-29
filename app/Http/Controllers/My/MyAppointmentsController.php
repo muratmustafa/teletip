@@ -21,7 +21,7 @@ class MyAppointmentsController extends Controller
 
         } else {
 
-            $appointments = Appointment::where('user_id', Auth::guard('web')->user()->id)->latest('id')->paginate(10);
+            $appointments = Appointment::where('user_id', Auth::guard('user')->user()->id)->latest('id')->paginate(10);
 
             return view('user.appointments.index',compact('appointments'))->with('i', (request()->input('page', 1) - 1) * 10);
 
@@ -106,5 +106,21 @@ class MyAppointmentsController extends Controller
         $appointment->delete();
 
         return redirect()->route('doctor.appointments.index')->with('success','Randevu başarıyla silindi.');
+    }
+
+    public function loadOnamForm($id)
+    {
+        $doctor_id = Appointment::where('id', $id)->value('doctor_id');
+        $user_id = Appointment::where('id', $id)->value('user_id');
+        $room_name = Appointment::where('id', $id)->value('room_name');
+
+        $birthdate = User::where('id', $user_id)->value('birthdate');
+
+        $age = \Carbon\Carbon::parse($birthdate)->age;
+
+        if($age >= 8)
+            return view('user.appointments.onamform', compact('doctor_id', 'user_id', 'room_name'));
+        else
+            return view('user.appointments.onamparent', compact('doctor_id', 'user_id', 'room_name'));
     }
 }

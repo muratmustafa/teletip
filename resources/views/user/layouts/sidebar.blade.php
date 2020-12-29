@@ -2,7 +2,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="{{ url('/') }}" class="brand-link" style="text-align:center;font-size:2.5rem;">
-      <span class="brand-text font-weight-light">{{ config('app.name', 'TELETIP') }}</span>
+      <span class="brand-text font-weight-light">TELE<b>TIP</b></span>
     </a>
 
     <!-- Sidebar -->
@@ -13,7 +13,7 @@
           <img src="{{asset('/')}}dist/img/blank-profile.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="{{ url('/home') }}" class="d-block">{{ Auth::guard('web')->user()->name }}</a>
+          <a href="{{ url('/home') }}" class="d-block">{{ Auth::guard('user')->user()->name }}</a>
         </div>
       </div>
 
@@ -28,7 +28,7 @@
           </li>
           <li class="nav-item">
             <a href="{{ route('user.doctors.index') }}" class="nav-link">
-              <i class="nav-icon fas fa-user-injured"></i>
+              <i class="nav-icon fas fa-user-md"></i>
               <p>Doktorlarım</p>
             </a>
           </li>

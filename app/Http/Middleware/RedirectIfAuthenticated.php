@@ -31,7 +31,7 @@ class RedirectIfAuthenticated
             }
             break;
 
-          case 'web':
+          case 'user':
             if (Auth::guard($guard)->check()) {
               return redirect()->intended(route('user.home'));
             }
