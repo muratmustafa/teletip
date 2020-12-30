@@ -45,4 +45,5 @@ Route::middleware('auth:doctor')->prefix('doctor')->name('doctor.')->namespace('
     //Route::resource('appointments.meeting','MeetingController')->shallow();
     Route::resource('appointments','MyAppointmentsController');
     Route::resource('users','MyUsersController');
+    Route::view('/survey', 'doctor.appointments.survey');
 });
