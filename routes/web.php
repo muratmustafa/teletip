@@ -15,6 +15,7 @@ Route::middleware('auth:user')->name('user.')->namespace('My')->group(function()
     //Route::resource('appointments.meeting','MeetingController')->shallow();
     Route::resource('appointments','MyAppointmentsController');
     Route::resource('doctors','MyDoctorsController');
+    Route::resource('profile','ProfileController');
     Route::get('modalOnamForm/{id}', [
         'as'   => 'modalOnamForm',
         'uses' => 'MyAppointmentsController@loadOnamForm'
@@ -45,5 +46,6 @@ Route::middleware('auth:doctor')->prefix('doctor')->name('doctor.')->namespace('
     //Route::resource('appointments.meeting','MeetingController')->shallow();
     Route::resource('appointments','MyAppointmentsController');
     Route::resource('users','MyUsersController');
+    Route::resource('profile','ProfileController');
     Route::view('/survey', 'doctor.appointments.survey');
 });

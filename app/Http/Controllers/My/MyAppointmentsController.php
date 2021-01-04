@@ -13,13 +13,13 @@ class MyAppointmentsController extends Controller
 {
     public function index()
     {
-        if (Auth::guard('doctor')->check()) {
+        if (Auth::guard('doctor')->check() && \Request::is('doctor/*')) {
 
             $appointments = Appointment::where('doctor_id', Auth::guard('doctor')->user()->id)->latest('id')->paginate(10);
 
             return view('doctor.appointments.index',compact('appointments'))->with('i', (request()->input('page', 1) - 1) * 10);
 
-        } else {
+        } else if (Auth::guard('user')->check()) {
 
             $appointments = Appointment::where('user_id', Auth::guard('user')->user()->id)->latest('id')->paginate(10);
 
@@ -30,7 +30,7 @@ class MyAppointmentsController extends Controller
 
     public function create()
     {
-        if (Auth::guard('doctor')->check()) {
+        if (Auth::guard('doctor')->check() && \Request::is('doctor/*')) {
 
             return view('doctor.appointments.create');
 
@@ -39,7 +39,7 @@ class MyAppointmentsController extends Controller
 
     public function store(Request $request)
     {
-        if (Auth::guard('doctor')->check()) {
+        if (Auth::guard('doctor')->check() && \Request::is('doctor/*')) {
 
             $request->validate([
                 'user_tc'   => 'required',
@@ -47,7 +47,7 @@ class MyAppointmentsController extends Controller
                 'appt_detail',
             ]);
 
-            $user_id = User::where('tckimlik', $request->input('user_tc'))->value('id');
+            $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
             Appointment::create(array_merge($request->all(), ['user_id'       => $user_id],
                                                              ['doctor_id'     => Auth::guard('doctor')->user()->id],
@@ -62,11 +62,11 @@ class MyAppointmentsController extends Controller
 
     public function show(Appointment $appointment)
     {
-        if (Auth::guard('doctor')->check()) {
+        if (Auth::guard('doctor')->check() && \Request::is('doctor/*')) {
 
             return view('doctor.appointments.show',compact('appointment'));
 
-        } else {
+        } else if (Auth::guard('user')->check()) {
 
             return view('user.appointments.show',compact('appointment'));
 
@@ -75,12 +75,16 @@ class MyAppointmentsController extends Controller
 
     public function edit(Appointment $appointment)
     {
-        return view('doctor.appointments.edit',compact('appointment'));
+        if (Auth::guard('doctor')->check() && \Request::is('doctor/*')) {
+
+            return view('doctor.appointments.edit',compact('appointment'));
+
+        }
     }
 
     public function update(Request $request, Appointment $appointment)
     {
-        if (Auth::guard('doctor')->check()) {
+        if (Auth::guard('doctor')->check() && \Request::is('doctor/*')) {
 
             $request->validate([
                 'user_tc'   => 'required',
@@ -89,7 +93,7 @@ class MyAppointmentsController extends Controller
                 'appt_detail',
             ]);
 
-            $user_id = User::where('tckimlik', $request->input('user_tc'))->value('id');
+            $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
             $appointment->update(array_merge($request->all(), ['user_id'       => $user_id],
                                                               ['doctor_id'     => Auth::guard('doctor')->user()->id],
@@ -103,24 +107,28 @@ class MyAppointmentsController extends Controller
 
     public function destroy(Appointment $appointment)
     {
-        $appointment->delete();
+        if (Auth::guard('doctor')->check() && \Request::is('doctor/*')) {
 
-        return redirect()->route('doctor.appointments.index')->with('success','Randevu başarıyla silindi.');
+            $appointment->delete();
+
+            return redirect()->route('doctor.appointments.index')->with('success','Randevu başarıyla silindi.');
+
+        }
     }
 
     public function loadOnamForm($id)
     {
-        $doctor_id = Appointment::where('id', $id)->value('doctor_id');
-        $user_id = Appointment::where('id', $id)->value('user_id');
         $room_name = Appointment::where('id', $id)->value('room_name');
+        $doctor_id = Appointment::where('id', $id)->value('doctor_id');
+        $user_id   = Appointment::where('id', $id)->value('user_id');
 
         $birthdate = User::where('id', $user_id)->value('birthdate');
 
         $age = \Carbon\Carbon::parse($birthdate)->age;
 
         if($age >= 8)
-            return view('user.appointments.onamform', compact('doctor_id', 'user_id', 'room_name'));
+            return view('user.appointments.onamform',compact('doctor_id','user_id','room_name'));
         else
-            return view('user.appointments.onamparent', compact('doctor_id', 'user_id', 'room_name'));
+            return view('user.appointments.onamparent',compact('doctor_id','user_id','room_name'));
     }
 }

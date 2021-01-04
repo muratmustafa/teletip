@@ -6,7 +6,6 @@ use App\Models\Doctor;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
-use DB;
 use Auth;
 use Route;
 
@@ -14,7 +13,7 @@ class MyDoctorsController extends Controller
 {
     public function index()
     {
-        $doctors = Doctor::whereIn('id', function($query){
+        $doctors = Doctor::whereIn('id', function($query) {
 
             $query->select('doctor_id')->from('appointments')->where('user_id', Auth::guard('user')->user()->id)->groupBy('doctor_id');
 

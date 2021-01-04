@@ -5,9 +5,9 @@
 <link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=https%3A%2F%2Fform.jotform.com%2F203642762196964" title="oEmbed Form">
 <meta property="og:title" content="TELETIP MEMNUNİYET ÖLÇEĞİ" >
 <meta property="og:url" content="https://form.jotform.com/203642762196964" >
-<meta property="og:description" content="Please click the link to complete this form." >
+<meta property="og:description" content="TELETIP MEMNUNİYET ÖLÇEĞİ" >
 <meta name="slack-app-id" content="AHNMASS8M">
-<link rel="shortcut icon" href="https://cdn.jotfor.ms/favicon.ico">
+<link rel="shortcut icon" href="/favicon.ico">
 <link rel="canonical" href="https://form.jotform.com/203642762196964" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
 <meta name="HandheldFriendly" content="true" />
@@ -710,7 +710,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
         <label class="form-label form-label-top" id="label_23" for="input_23"> 7. Hastanın Görüşmeye Katıldığı İl </label>
         <div id="cid_23" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_23" name="q23_7Hastanin23" style="width:310px" data-component="dropdown" aria-labelledby="label_23">
-            <option value=""> Please Select </option>
+            <option value=""> Lütfen seçin </option>
             <option value="Adana"> Adana </option>
             <option value="Adıyaman"> Adıyaman </option>
             <option value="Afyonkarahisar"> Afyonkarahisar </option>

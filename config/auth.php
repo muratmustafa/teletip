@@ -41,8 +41,18 @@ return [
             'provider' => 'users',
         ],
 
+        'api' => [
+            'driver'   => 'token',
+            'provider' => 'users',
+        ],
+
         'admin' => [
             'driver'   => 'session',
+            'provider' => 'admins',
+        ],
+
+        'admin-api' => [
+            'driver'   => 'token',
             'provider' => 'admins',
         ],
 
@@ -51,10 +61,9 @@ return [
             'provider' => 'doctors',
         ],
 
-        'api' => [
+        'doctor-api' => [
             'driver'   => 'token',
-            'provider' => 'users',
-            'hash'     => false,
+            'provider' => 'doctors',
         ],
     ],
 

@@ -6,7 +6,6 @@ use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
-use DB;
 use Auth;
 use Route;
 
@@ -14,7 +13,7 @@ class MyUsersController extends Controller
 {
     public function index()
     {
-        $users = User::whereIn('id', function($query){
+        $users = User::whereIn('id', function($query) {
 
             $query->select('user_id')->from('appointments')->where('doctor_id', Auth::guard('doctor')->user()->id)->groupBy('user_id');
 

@@ -28,9 +28,9 @@
                   Tüm Randevularım
                 </h3>
                 <div class="card-tools">
-                  <ul class="nav nav-pills ml-auto">
+                  <ul class="nav">
                     <li class="nav-item">
-                      <a href="{{ url('/doctor/survey') }}" target="_blank" class="btn btn-success" title="Yeni Anket Oluştur" data-toggle="tooltip"><span class="fas fa-plus"></span> Anket Oluştur</a>
+                      <a href="{{ url('/doctor/survey') }}" target="_blank" class="btn btn-sm btn-success" title="Yeni Anket Oluştur" data-toggle="tooltip"><span class="fas fa-plus"></span> Anket Oluştur</a>
                     </li>
                   </ul>
                 </div>

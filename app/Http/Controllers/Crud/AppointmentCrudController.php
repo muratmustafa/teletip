@@ -32,9 +32,10 @@ class AppointmentCrudController extends Controller
             'appt_detail',
         ]);
 
-        $user_id = User::where('tckimlik', $request->input('user_tc'))->value('id');
+        $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
-        if(empty($user_id)) return back()->with('error','Randevu oluşturulamadı.');
+        if(empty($user_id))
+            return back()->with('error','Randevu oluşturulamadı: Hasta bulunamadı.');
 
         Appointment::create(array_merge($request->all(), ['user_id'       => $user_id],
                                                          ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
@@ -64,9 +65,10 @@ class AppointmentCrudController extends Controller
             'appt_detail',
         ]);
 
-        $user_id = User::where('tckimlik', $request->input('user_tc'))->value('id');
+        $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
-        if(empty($user_id)) return back()->with('error','Randevu oluşturulamadı.');
+        if(empty($user_id))
+            return back()->with('error','Randevu güncellenemedi: Hasta bulunamadı.');
 
         $appointment->update(array_merge($request->all(), ['user_id'       => $user_id],
                                                           ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
