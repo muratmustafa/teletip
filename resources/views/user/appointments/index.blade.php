@@ -48,33 +48,18 @@
                       <td>{{ $appointment->appt_date }}</td>
                       <td>{{ $appointment->appt_status }}</td>
                       <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>
-                      <td class="text-right">@php $today = date("Y-m-d"); $appt_date = \Carbon\Carbon::parse($appointment->appt_date)->format('Y-m-d') @endphp @if ($appt_date === $today && $appointment->appt_status === "Normal")
+                      <td class="text-right">@php
+                        $today = date("Y-m-d");
+                        $appt_date = \Carbon\Carbon::parse($appointment->appt_date)->format('Y-m-d')
+                      @endphp @if ($appt_date === $today && $appointment->appt_status === "Normal")
 
-                        <button type="button" class="btn btn-info" id="onam" data-toggle="modal" data-target="#onam-form" data-url="{{ route('user.modalOnamForm',['id'=>$appointment->id])}}"><span class="fas fa-phone"></span> Görüşmeye Katıl</button>@endif
+                        <a href="{{ route('user.approval.step.one',$appointment->id) }}" class="btn btn-info" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>@endif
                         <a href="{{ route('user.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
                       </td>
                     </tr>@endforeach
 
                   </tbody>
                 </table>
-              </div>
-
-              <div class="modal fade" id="onam-form">
-                <div class="modal-dialog modal-xl">
-                  <div class="modal-content">
-                    <div id="modal-loader" class="overlay d-flex justify-content-center align-items-center">
-                      <i class="fas fa-2x fa-sync fa-spin"></i>
-                    </div>
-                    <div class="modal-header">
-                      <h4 class="modal-title">BİLGİLENDİRİLMİŞ GÖNÜLLÜ OLUR FORMU</h4>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Vazgeç">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div id="onam-body">
-                    </div>
-                  </div>
-                </div>
               </div>
 
               <div class="card-footer clearfix">
@@ -89,35 +74,4 @@
     </div>
   </div>
 
-@endsection
-
-@section('end')
-<script type="text/javascript">
-  $(document).ready(function(){
-      $(document).on('click', '#onam', function(e) {
-          e.preventDefault();
-          var url = $(this).data('url');
-          $('#onam-body').html('');
-          $('#modal-loader').css('visibility', 'visible');
-          $.ajax({
-              url: url,
-              type: 'GET',
-              dataType: 'html'
-          })
-          .done(function(data) {
-              $('#onam-body').html('');
-              setTimeout(function() {
-                $('#onam-body').html(data);
-                $('#modal-loader').css('visibility', 'hidden');
-              }, 800);
-          })
-          .fail(function(){
-            setTimeout(function() {
-              $('#onam-body').html('Bir şey oldu...');
-              $('#modal-loader').css('visibility', 'hidden');
-            }, 1200);
-          });
-      });
-  });
-</script>
 @endsection
