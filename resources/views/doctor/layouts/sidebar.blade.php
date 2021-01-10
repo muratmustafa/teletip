@@ -13,7 +13,7 @@
           <img src="{{asset('/')}}dist/img/blank-profile.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="{{ url('/profile') }}" class="d-block">{{ Auth::guard('doctor')->user()->name }}</a>
+          <a href="{{ url('/doctor/profile') }}" class="d-block">{{ Auth::guard('doctor')->user()->name }}</a>
         </div>
       </div>
 

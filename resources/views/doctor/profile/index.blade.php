@@ -53,7 +53,7 @@
 
                   <div class="form-group">
                     <label for="inputName">İsim</label>
-                    <input type="text" class="form-control @error('name') is-invalid @enderror" id="inputName" name="name" placeholder="Ad Soyad" value="{{ Auth::guard('doctor')->user()->name }}" required>
+                    <input type="text" class="form-control @error('name') is-invalid @enderror" id="inputName" name="name" placeholder="Ad Soyad" value="{{ Auth::guard('doctor')->user()->name }}" disabled>
                   </div>
                   <div class="form-group">
                     <label for="inputBranch">Birim</label>

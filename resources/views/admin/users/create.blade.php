@@ -68,6 +68,10 @@
                     <input type="text" class="form-control" id="inputBirthDate" name="birthdate" value="{{ old('birthdate') }}">
                   </div>
                   <div class="form-group">
+                    <label for="inputDiagnostic">Hastanın Metabolik Hastalık Tanısı</label>
+                    <input type="text" class="form-control" id="inputDiagnostic" name="diagnostic" value="{{ old('diagnostic') }}">
+                  </div>
+                  <div class="form-group">
                     <label for="inputPassword">Parola</label>
                     <div class="input-group">
                       <input type="text" class="form-control @error('password') is-invalid @enderror" id="inputPassword" name="password" placeholder="Parola" required>

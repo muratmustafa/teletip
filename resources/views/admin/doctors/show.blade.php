@@ -39,7 +39,7 @@
                 <h3 class="card-title"><i class="far fa-file-alt mr-1"></i> Notlar</h3>
               </div>
               <div class="card-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+                <p class="text-muted"></p>
               </div>
             </div>
 

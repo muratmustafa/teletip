@@ -34,7 +34,6 @@ class ProfileController extends Controller
         if (Auth::guard('doctor')->check() && \Request::is('doctor/*')) {
 
             $request->validate([
-                'name'   => 'required',
                 'email'  => 'required|email|unique:doctors,email,'.Auth::guard('doctor')->user()->id,
                 'password',
                 'branch',

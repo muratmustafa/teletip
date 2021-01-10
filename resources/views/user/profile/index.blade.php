@@ -1,3 +1,4 @@
+@php $show_birthdate = true; @endphp
 @extends('user.layouts.master')
 @section('title','Profili Güncelle')
 @section('content')

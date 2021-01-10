@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Crud;
 
 use App\Models\Appointment;
+use App\Models\Doctor;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -26,20 +27,22 @@ class AppointmentCrudController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'doctor_id' => 'required',
-            'user_tc'   => 'required',
-            'appt_date' => 'required',
+            'doctor_email' => 'required',
+            'user_tc'      => 'required',
+            'appt_date'    => 'required',
             'appt_detail',
         ]);
 
+        $doctor_id = Doctor::where('email',$request->input('doctor_email'))->value('id');
         $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
-        if(empty($user_id))
-            return back()->with('error','Randevu oluşturulamadı: Hasta bulunamadı.');
+        if(empty($user_id) || empty($doctor_id))
+            return back()->with('error','Randevu oluşturulamadı: Doktor veya hasta bulunamadı.');
 
-        Appointment::create(array_merge($request->all(), ['user_id'       => $user_id],
-                                                         ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
-                                                         ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))],
+        Appointment::create(array_merge($request->all(), ['doctor_id'     => $doctor_id],
+                                                         ['user_id'       => $user_id],
+                                                         ['room_name'     => sha1($doctor_id.$user_id.$request->input('appt_date'))],
+                                                         ['room_password' => sha1($user_id.$doctor_id.$request->input('appt_date'))],
                                                          ['appt_status'   => 'Normal']));
 
         return redirect()->route('admin.appointments.index')->with('success','Randevu başarıyla oluşturuldu.');
@@ -58,21 +61,23 @@ class AppointmentCrudController extends Controller
     public function update(Request $request, Appointment $appointment)
     {
         $request->validate([
-            'doctor_id' => 'required',
+            'doctor_email' => 'required',
             'user_tc'   => 'required',
             'appt_date' => 'required',
             'appt_status',
             'appt_detail',
         ]);
 
+        $doctor_id = Doctor::where('email',$request->input('doctor_email'))->value('id');
         $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
-        if(empty($user_id))
-            return back()->with('error','Randevu güncellenemedi: Hasta bulunamadı.');
+        if(empty($user_id) || empty($doctor_id))
+            return back()->with('error','Randevu oluşturulamadı: Doktor veya hasta bulunamadı.');
 
-        $appointment->update(array_merge($request->all(), ['user_id'       => $user_id],
-                                                          ['room_name'     => sha1($request->input('doctor_id').$request->input('user_id').$request->input('appt_date'))],
-                                                          ['room_password' => sha1($request->input('user_id').$request->input('doctor_id').$request->input('appt_date'))]));
+        $appointment->update(array_merge($request->all(), ['doctor_id'     => $doctor_id],
+                                                          ['user_id'       => $user_id],
+                                                          ['room_name'     => sha1($doctor_id.$user_id.$request->input('appt_date'))],
+                                                          ['room_password' => sha1($user_id.$doctor_id.$request->input('appt_date'))]));
 
         return redirect()->route('admin.appointments.index')->with('success','Randevu başarıyla güncellendi.');
     }

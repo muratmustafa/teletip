@@ -36,8 +36,8 @@
                   </div>@endif
 
                   <div class="form-group">
-                    <label for="inputDoctorId">Doktor ID</label>
-                    <input type="text" class="form-control @error('doctor_id') is-invalid @enderror" id="inputDoctorId" name="doctor_id" placeholder="Doktorun ID'si" value="{{ $appointment->doctor_id }}" required>
+                    <label for="inputDoctorEmail">Doktor E-postası</label>
+                    <input type="email" class="form-control @error('doctor_email') is-invalid @enderror" id="inputDoctorEmail" name="doctor_email" placeholder="Doktorun E-postası" value="{{ \App\Models\Doctor::where('id', $appointment->doctor_id)->value('email') }}" required>
                   </div>
                   <div class="form-group">
                     <label for="inputPatientTc">Hasta T.C. Kimlik No</label>

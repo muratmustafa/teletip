@@ -37,6 +37,7 @@
                       <th style="width: 15%">T.C. Kimlik No</th>
                       <th style="width: 15%">Telefon</th>
                       <th style="width: 15%">Doğum Tarihi</th>
+                      <th style="width: 15%">Metabolik Hastalık Tanısı</th>
                       <th style="width: 15%" class="text-center"></th>
                     </tr>
                   </thead>
@@ -48,6 +49,7 @@
                       <td>{{ $user->tckimlik }}</td>
                       <td>{{ $user->phone }}</td>
                       <td>{{ $user->birthdate }}</td>
+                      <td>{{ $user->diagnostic }}</td>
                       <td class="text-right">
                         <div class="btn-group btn-group-sm">
                           <form action="{{ route('admin.users.destroy',$user->id) }}" method="post">
