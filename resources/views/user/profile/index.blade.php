@@ -53,11 +53,11 @@
 
                   <div class="form-group">
                     <label for="inputName">İsim</label>
-                    <input type="text" class="form-control @error('name') is-invalid @enderror" id="inputName" name="name" placeholder="Ad Soyad" value="{{ Auth::guard('user')->user()->name }}" required>
+                    <input type="text" class="form-control @error('name') is-invalid @enderror" id="inputName" placeholder="Ad Soyad" value="{{ Auth::guard('user')->user()->name }}" disabled>
                   </div>
                   <div class="form-group">
                     <label for="inputTcKimlik">T.C. Kimlik No</label>
-                    <input type="text" class="form-control @error('tckimlik') is-invalid @enderror" id="inputTcKimlik" name="tckimlik" placeholder="T.C. Kimlik Numarası" pattern="[0-9]{11}" value="{{ Auth::guard('user')->user()->tckimlik }}" required>
+                    <input type="text" class="form-control @error('tckimlik') is-invalid @enderror" id="inputTcKimlik" placeholder="T.C. Kimlik Numarası" pattern="[0-9]{11}" value="{{ Auth::guard('user')->user()->tckimlik }}" disabled>
                   </div>
                   <div class="form-group">
                     <label for="inputPhone">Telefon</label>

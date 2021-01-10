@@ -1,29 +1,25 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html class="supernova"><head>
+<html lang="tr" class="supernova"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=https%3A%2F%2Fform.jotform.com%2F203642762196964" title="oEmbed Form">
 <link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=https%3A%2F%2Fform.jotform.com%2F203642762196964" title="oEmbed Form">
 <meta property="og:title" content="TELETIP MEMNUNİYET ÖLÇEĞİ" >
 <meta property="og:url" content="https://form.jotform.com/203642762196964" >
-<meta property="og:description" content="TELETIP MEMNUNİYET ÖLÇEĞİ" >
+<meta property="og:description" content="Please click the link to complete this form." >
 <meta name="slack-app-id" content="AHNMASS8M">
-<link rel="shortcut icon" href="/favicon.ico">
+<link rel="shortcut icon" href="https://cdn.jotfor.ms/favicon.ico">
 <link rel="canonical" href="https://form.jotform.com/203642762196964" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
 <meta name="HandheldFriendly" content="true" />
 <title>TELETIP MEMNUNİYET ÖLÇEĞİ</title>
-<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.22520" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.22616" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5f7ed99c2c2c7240ba580251"/>
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_styles.css?3.3.22520" />
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.22520" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_styles.css?3.3.22616" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.22616" />
 <style type="text/css" id="form-designer-style">
-    /* Injected CSS Code */
-
-  /*PREFERENCES STYLE*/
+/*PREFERENCES STYLE*/
   /* NEW THEME STYLE */
-
   /* colors */
-
   .form-textbox, .form-textarea {
     color: #2c3345;
   }
@@ -132,7 +128,6 @@
   .form-dropdown:hover, .form-textarea:hover, .form-textbox:hover, .signature-wrapper:hover {
     border-color: #2e69ff;
   }
-
   .calendar tr.days td:hover:not(.unselectable):after {
     border-color: #e5eaf4;
   }
@@ -161,7 +156,6 @@
   .calendar.popup table tbody td:after{
     background-color: #FFFFFF;
   }
-
   .appointmentCalendar .calendarDay.isActive .calendarDayEach,
   .appointmentFieldRow.forSelectedDate,
   .calendar.popup tr.days td.selected:after,
@@ -236,7 +230,6 @@
   .calendar.popup table tbody td{
     box-shadow: none;
   }
-
   /* button colors */
   .submit-button {
     background-color: #18BD5B;
@@ -271,9 +264,7 @@
   .rating-item input:hover+label {
     background-color: #96B4FF;
   }
-
   /* payment styles */
-  
   .form-line[data-payment=true] .form-textbox,
   .form-line[data-payment=true] .select-area,
   .form-line[data-payment=true] #coupon-input,
@@ -324,7 +315,6 @@
   .form-line[data-type=control_square] .payment-form-table span.form-sub-label-container iframe {
     border-color: rgba(195, 202, 216, 0.75);
   }
-
   /* icons */
   .appointmentField .timezonePickerName:before {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wIDcuOTYwMkMwIDMuNTY2MTcgMy41NTgyMSAwIDcuOTUyMjQgMEMxMi4zNTQyIDAgMTUuOTIwNCAzLjU2NjE3IDE1LjkyMDQgNy45NjAyQzE1LjkyMDQgMTIuMzU0MiAxMi4zNTQyIDE1LjkyMDQgNy45NTIyNCAxNS45MjA0QzMuNTU4MjEgMTUuOTIwNCAwIDEyLjM1NDIgMCA3Ljk2MDJaTTEuNTkzNzUgNy45NjAyQzEuNTkzNzUgMTEuNDc4NiA0LjQ0MzUgMTQuMzI4NCA3Ljk2MTkxIDE0LjMyODRDMTEuNDgwMyAxNC4zMjg0IDE0LjMzMDEgMTEuNDc4NiAxNC4zMzAxIDcuOTYwMkMxNC4zMzAxIDQuNDQxNzkgMTEuNDgwMyAxLjU5MjA0IDcuOTYxOTEgMS41OTIwNEM0LjQ0MzUgMS41OTIwNCAxLjU5Mzc1IDQuNDQxNzkgMS41OTM3NSA3Ljk2MDJaIiBmaWxsPSIjMTExMTExIi8+CjxwYXRoIGQ9Ik04LjM1ODA5IDMuOTgwNDdINy4xNjQwNlY4Ljc1NjU5TDExLjM0MzIgMTEuMjY0MUwxMS45NDAyIDEwLjI4NDlMOC4zNTgwOSA4LjE1OTU3VjMuOTgwNDdaIiBmaWxsPSIjMTExMTExIi8+Cjwvc3ZnPgo=);
@@ -365,7 +355,6 @@
   .appointmentDayPickerButton {
     background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDggMTQiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik0xIDEzTDcgN0wxIDAuOTk5OTk5IiBzdHJva2U9IiM4Nzk1QUMiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=);
   }
-
   /* NEW THEME STYLE */
   /*PREFERENCES STYLE*/
   /*PREFERENCES STYLE*/
@@ -388,33 +377,20 @@
     .form-label {
       font-family: Inter, sans-serif;
     }
-  
-    .form-label.form-label-auto {
-      
-    display: block;
-    float: none;
-    text-align: left;
-    width: 100%;
-  
-    }
-  
     .form-line {
       margin-top: 12px;
       margin-bottom: 12px;
     }
-  
     .form-all {
       max-width: 1200px;
       width: 100%;
     }
-  
     .form-label.form-label-left,
     .form-label.form-label-right,
     .form-label.form-label-left.form-label-auto,
     .form-label.form-label-right.form-label-auto {
       width: 236px;
     }
-  
     .form-all {
       font-size: 17px
     }
@@ -429,18 +405,15 @@
     .form-all .form-pagebreak-next-container {
       font-size: 17px
     }
-  
     .supernova {
       background-color: #ECEDF3;
     }
     .supernova body {
       background: transparent;
     }
-  
     .supernova .form-all, .form-all {
       background-color: #FFFFFF;
     }
-  
     .form-all {
       color: #2C3345;
     }
@@ -461,7 +434,6 @@
     .form-sub-label {
       color: #464d5f;
     }
-  
     .form-textbox,
     .form-textarea,
     .form-dropdown,
@@ -471,41 +443,34 @@
     .form-spinner input {
       background-color: #FFFFFF;
     }
-  
     .form-line-error {
       overflow: hidden;
       transition: none;
       background-color: #FFD6D6;
     }
-
     .form-line-error .form-error-message {
       background-color: #FF3200;
       clear: both;
       float: none;
     }
-
     .form-line-error .form-error-arrow {
       border-bottom-color: #FF3200;
     }
-
     .form-line-error input:not(#coupon-input),
     .form-line-error textarea,
     .form-line-error .form-validation-error {
       border: 1px solid #FF3200;
       .box-shadow(0 0 3px #FF3200);
     }
-   
     .supernova {
       background-image: none;
     }
     #stage {
       background-image: none;
     }
-  
     .form-all {
       background-image: none;
     }
-  
     .form-all {
       position: relative;
     }
@@ -526,27 +491,29 @@
       top: -80px;
       background-position: top center;
     }
-           
   .ie-8 .form-all:before { display: none; }
   .ie-8 {
     margin-top: auto;
     margin-top: initial;
   }
-  
   /*PREFERENCES STYLE*//*__INSPECT_SEPERATOR__*/
-    /* Injected CSS Code */
+.form-label.form-label-auto {
+      display: block;
+      float: none;
+      text-align: left;
+      width: 100%;
+}
 </style>
-
-<script src="https://cdn.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.22520" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.22520" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.22520" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.22616" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.22616" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.22616" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.22520" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.22616" type="text/javascript"></script>
 <script type="text/javascript">
 	JotForm.init(function(){
+if (window.JotForm && JotForm.accessible) $('input_11').setAttribute('tabindex',0);
 if (window.JotForm && JotForm.accessible) $('input_9').setAttribute('tabindex',0);
 if (window.JotForm && JotForm.accessible) $('input_10').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_11').setAttribute('tabindex',0);
 
  JotForm.calendarMonths = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
  JotForm.calendarDays = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"];
@@ -556,44 +523,54 @@ if (window.JotForm && JotForm.accessible) $('input_11').setAttribute('tabindex',
    languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("13", true, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":false,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
  } 
  JotForm.setCalendar("13", true, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":false,"past":true,"custom":false,"ranges":false,"start":"","end":""});
-if (window.JotForm && JotForm.accessible) $('input_16').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_14').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_24').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_25').setAttribute('tabindex',0);
-
- JotForm.calendarMonths = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
- JotForm.calendarDays = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"];
- JotForm.calendarOther = {"today":"Bugün"};
- var languageOptions = document.querySelectorAll('#langList li'); 
- for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { 
-   languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("28", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });
- } 
- JotForm.setCalendar("28", false, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":true,"past":true,"custom":false,"ranges":false,"start":"","end":""});
-if (window.JotForm && JotForm.accessible) $('input_29').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_30').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_31').setAttribute('tabindex',0);
-JotForm.handleSingleChoiceWithMultiTypeColumns();
+      JotForm.description('input_63', 'sdasd');
+if (window.JotForm && JotForm.accessible) $('input_66').setAttribute('tabindex',0);
+      setTimeout(function() {
+          $('input_72').hint('örn: 4');
+       }, 20);
+      setTimeout(function() {
+          $('input_73').hint('örn: 2');
+       }, 20);
+if (window.JotForm && JotForm.accessible) $('input_78').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_80').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_118').setAttribute('tabindex',0);
 	JotForm.newDefaultTheme = true;
 	JotForm.extendsNewTheme = false;
 	JotForm.newPaymentUIForNewCreatedForms = false;
 	JotForm.newPaymentUI = true;
-      JotForm.alterTexts(undefined);
+      JotForm.alterTexts({"ageVerificationError":"Bu formu göndermek için {minAge} yaşından büyük olmanız gerekiyor.","alphabetic":"Bu alan yalnızca harf kullanılarak doldurulabilir","alphanumeric":"Bu alan yalnızca harf ve sayı içerebilir.","appointmentSelected":"Seçtiğiniz zaman {date} günü saat {time}","ccDonationMinLimitError":"Minimum tutar {minAmount} {currency}","ccInvalidCVC":"CVC numarası geçersiz.","ccInvalidExpireDate":"Son kullanma tarihi geçersiz.","ccInvalidExpireMonth":"Expiration month is invalid.","ccInvalidExpireYear":"Expiration year is invalid.","ccInvalidNumber":"Kredi Kartı Numarası geçersiz.","ccMissingDetails":"Please fill up the credit card details.","ccMissingDonation":"Lütfen bağış tutarı için sayısal değerler girin.","ccMissingProduct":"Lütfen en az bir ürün seçin.","characterLimitError":"Çok fazla karakter girdiniz. Maksimum:","characterMinLimitError":"Çok az karakter girdiniz. Minimum:","confirmClearForm":"Formu temizlemek istediğinize emin misiniz?","confirmEmail":"E-posta eşleşmiyor","currency":"Bu dosya sadece geçerli değerler içerebilir","cyrillic":"Bu alan sadece Kiril karakterleri içerebilir","dateInvalid":"Bu tarih geçerli değil. Tarih biçimi: {format}","dateInvalidSeparate":"Bu tarih geçerli değil. Geçerli bir {element} girin.","dateLimited":"Bu tarih kullanılamaz.","disallowDecimals":"Bir tam sayı girin.","doneButton":"Tamam","doneMessage":"Teşekkürler! Tüm hatalar düzeltildi.","dragAndDropFilesHere_infoMessage":"Dosyaları buraya sürükleyip bırakın","email":"Geçerli bir e-posta adresi girin","fillMask":"Alan değeri maskesi doldurmalıdır.","freeEmailError":"Ücretsiz e-posta hesaplarına izin verilmez","generalError":"Formunuzda hatalar var. Lütfen devam etmeden önce düzeltin.","generalPageError":"Bu sayfada hatalar var. Devam etmeden önce lütfen düzeltin.","geoNotAvailableDesc":"Location provider not available. Please enter the address manually.","geoNotAvailableTitle":"Position Unavailable","geoPermissionDesc":"Check your browser's privacy settings.","geoPermissionTitle":"Permission Denied","geoTimeoutDesc":"Please check your internet connection and try again.","geoTimeoutTitle":"Timeout","gradingScoreError":"Toplam puan şundan az ya da şuna eşit olmalıdır:","incompleteFields":"Bazı zorunlu alanlar doldurulmamış. Lütfen bu alanları doldurun.","inputCarretErrorA":"Girdi minimum değerden az olamaz:","inputCarretErrorB":"Girdi maksimum değerden büyük olamaz:","lessThan":"Puanınız şundan az ya da şuna eşit olmalıdır:","maxDigitsError":"Kabul edilebilen maksimum basamak sayısı","maxFileSize_infoMessage":"Maksimum dosya boyutu","maxSelectionsError":"The maximum number of selections allowed is ","minSelectionsError":"Gerekli minimum seçim sayısı:","multipleError":"Bu sayfada {count} hata var. Devam etmeden önce lütfen bunları düzeltin.","multipleFileUploads_emptyError":"{file} boş, lütfen dosyaları bu dosya olmadan tekrar seçin.","multipleFileUploads_fileLimitError":"Sadece {fileLimit} dosya yüklemesine izin verilmektedir.","multipleFileUploads_minSizeError":"{file} çok küçük, minimum dosya boyutu {minSizeLimit}.","multipleFileUploads_onLeave":"Dosyalar yükleniyor, şimdi çıkarsanız yükleme iptal edilecek.","multipleFileUploads_sizeError":"{file} çok büyük, maksimum dosya boyutu {sizeLimit}.","multipleFileUploads_typeError":"{file} geçersiz dosya uzantısına sahip. Sadece {extensions} dosya uzantılarına izin verilmektedir.","multipleFileUploads_uploadFailed":"File upload failed, please remove it and upload the file again.","nextButtonText":"Next","noSlotsAvailable":"Boş zaman aralığı yok","noUploadExtensions":"File has no extension file type (e.g. .txt, .png, .jpeg)","numeric":"Bu alan sadece sayısal değerler içerebilir","oneError":"Bu sayfada {count} hata var. Devam etmeden önce lütfen düzeltin.","pastDatesDisallowed":"Tarih geçmişte olmamalı.","pleaseWait":"Lütfen bekleyin...","prevButtonText":"Previous","progressMiddleText":"of","required":"Bu alan zorunludur.","requiredLegend":"* ile işaretlenmiş tüm alanların doldurulması gerekmektedir","requireEveryCell":"Bütün hücreler zorunlu.","requireEveryRow":"Bütün satırlar zorunlu.","requireOne":"En az bir alan zorunlu.","restrictedDomain":"This domain is not allowed","reviewBackText":"Back to Form","reviewSubmitText":"Review and Submit","seeAllText":"See All","seeErrorsButton":"Hataları Gör","slotUnavailable":"{time} on {date} has been selected is unavailable. Please select another slot.","submissionLimit":"Sorry! Only one entry is allowed.  Multiple submissions are disabled for this form.","submitButtonText":"Submit","uploadExtensions":"Yalnızca şu dosyaları yükleyebilirsiniz:","uploadFilesize":"Dosya boyutu daha büyük olamaz:","uploadFilesizemin":"Dosya boyutu belirtilenden küçük olamaz:","url":"Bu alan yalnızca geçerli bir URL içerebilir","validateEmail":"You need to validate this e-mail","wordLimitError":"Çok fazla kelime girdiniz. Maksimum:","wordMinLimitError":"Çok az kelime girdiniz. Minimum:"});
+      JotForm.alterTexts({"couponApply":"Uygula","couponBlank":"Lütfen bir kupon girin.","couponChange":"","couponEnter":"Kupon Girin","couponExpired":"Kuponun tarihi geçmiştir. Lütfen yeni bir kupon deneyin.","couponInvalid":"Coupon is invalid.","couponValid":"Kupon geçerlidir.","shippingShipping":"Gönderim","taxTax":"Vergi","totalSubtotal":"Ara Toplam","totalTotal":"Toplam"}, true);
 	JotForm.clearFieldOnHide="disable";
+      FormTranslation.init({"detectUserLanguage":"1","firstPageOnly":"0","options":"Türkçe","originalLanguage":"tr","primaryLanguage":"tr","saveUserLanguage":"1","showStatus":"flag-with-nation","theme":"light-theme","version":"2"});
 	JotForm.submitError="jumpToFirstError";
     /*INIT-END*/
 	});
-
-   JotForm.prepareCalculationsOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","text":"ANKARA UNIVERSITESI TIP FAKULTESI COCUK METABOLIZMA TELETIP MEMNUNIYET OLCEGI","type":"control_head"},{"name":"aHasta","qid":"2","text":"A. Hasta Bilgileri","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"1Hastanin","qid":"9","subLabel":"","text":"1. Hastanin Adi Soyadi","type":"control_textbox"},{"description":"","name":"2Hastanin","qid":"10","subLabel":"","text":"2. Hastanin T.C. Kimlik Numarasi","type":"control_textbox"},{"description":"","name":"3Hastanin","qid":"11","subLabel":"","text":"3. Hastanin Arastirma Numarasi","type":"control_textbox"},null,{"description":"","name":"4Hastanin","qid":"13","text":"4. Hastanin Dogum Tarihi","type":"control_datetime"},{"description":"","name":"6Hastanin","qid":"14","subLabel":"","text":"6. Hastanin AUTF Protokol Numarasi","type":"control_textbox"},null,{"description":"","name":"5Hastanin","qid":"16","subLabel":"","text":"5. Hastanin Yasi","type":"control_textbox"},null,{"name":"sayfaSonu","qid":"18","text":"Sayfa Sonu","type":"control_pagebreak"},null,null,null,null,{"description":"","name":"7Hastanin23","qid":"23","subLabel":"","text":"7. Hastanin Gorusmeye Katildigi Il","type":"control_dropdown"},{"description":"","name":"8Hastanin","qid":"24","subLabel":"","text":"8. Hastanin Tanisi","type":"control_textbox"},{"description":"","name":"9Hastanin25","qid":"25","subLabel":"","text":"9. Hastanin Klinigimizde Takip Suresi","type":"control_textbox"},null,null,{"description":"","name":"10Hastanin","qid":"28","text":"10. Hastanin en son tarafimizca muayene edilme tarihi","type":"control_datetime"},{"description":"","name":"11Hastanin","qid":"29","subLabel":"","text":"11. Hastanin Teletip gorusmesine eslik eden ebeveynin ismi","type":"control_textbox"},{"description":"","name":"12Hastanin","qid":"30","subLabel":"","text":"12. Hastanin Teletip gorusmesine eslik eden ebeveynin yakinligi","type":"control_textbox"},{"description":"","name":"13Katilan","qid":"31","subLabel":"","text":"13. Katilan ebeveynin yasi","type":"control_textbox"},null,{"description":"","name":"14Katilan","qid":"33","text":"14. Katilan ebeveynin egitim durumu","type":"control_radio"},{"name":"bTeletip","qid":"34","text":"B. Teletip Teknik Memnuniyet","type":"control_head"},null,{"description":"","name":"aTeknik","qid":"36","text":"a. Teknik Ozellikler (puanlayiniz)","type":"control_matrix"},null,{"description":"","name":"bTeknik","qid":"38","text":"b. Teknik ozellikler (evet\u002Fhayir seklinde cevaplayiniz)","type":"control_matrix"},{"name":"sayfaSonu39","qid":"39","text":"Sayfa Sonu","type":"control_pagebreak"},{"name":"cTeletip","qid":"40","text":"C. TELETIP SAGLIK HIZMETLERI KONUSUNDA MEMNUNIYET","type":"control_head"},{"description":"","name":"aSaglik","qid":"41","text":"a. Saglik hizmetleri ozellikleri (puanlayiniz)","type":"control_matrix"},{"description":"","name":"bsaglikHizmetleri","qid":"42","text":"b.Saglik hizmetleri ozellikleri (evet\u002Fhayir seklinde cevaplayiniz)","type":"control_matrix"},{"name":"dDiger","qid":"43","text":"D. DIGER MEMNUNIYET DEGERLERI","type":"control_head"},{"name":"sayfaSonu44","qid":"44","text":"Sayfa Sonu","type":"control_pagebreak"},null,{"description":"","name":"birSoru","qid":"46","text":"Bir soru girin","type":"control_matrix"},{"name":"gonder","qid":"47","text":"Gonder","type":"control_button"}]);
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text":"Ankara Universitesi Tip Fakultesi Cocuk Metabolizma Bilim Dali’nda Takipli Hastalarin Teletip Sistemi ile Uzaktan Degerlendirilmesi ve Teletip Memnuniyet Olceginin Uygulanmasi Arastirmasi Arastirma Formu ve Memnuniyet Olcegi","type":"control_head"},{"name":"1Sosyodemografik2","qid":"2","text":"1. Sosyodemografik Ozellikler","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"1Hastanin","qid":"9","subLabel":"","text":"1. Hastanin Adi Soyadi","type":"control_textbox"},{"description":"","name":"2Hastanin","qid":"10","subLabel":"","text":"2. Hastanin T.C. Kimlik Numarasi","type":"control_textbox"},{"description":"","name":"arastirmaHasta","qid":"11","subLabel":"","text":"Arastirma Hasta Kodu","type":"control_textbox"},null,{"description":"","name":"3Hastanin","qid":"13","text":"3. Hastanin Dogum Tarihi","type":"control_datetime"},null,null,null,null,{"name":"sayfaSonu","qid":"18","text":"Sayfa Sonu","type":"control_pagebreak"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"4Teletip","qid":"34","text":"4. Teletip Memnuniyet olcegi","type":"control_head"},null,{"description":"","name":"aTeletip","qid":"36","text":"A. Teletip Teknik Memnuniyet","type":"control_matrix"},null,null,null,null,{"description":"","name":"bTeletip","qid":"41","text":"B. Teletip Saglik Hizmetleri Konusunda Memnuniyet","type":"control_matrix"},null,null,null,null,null,{"name":"gonder","qid":"47","text":"Gonder","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"sdasd","name":"5Teletip","qid":"63","text":"5. Teletip gorusmesine katildigi il","type":"control_radio"},{"description":"","name":"4Hastanin64","qid":"64","subLabel":"","text":"4. Hastanin Cinsiyeti","type":"control_dropdown"},{"description":"","name":"6Teletip","qid":"65","text":"6. Teletip gorusmesine katilan kisi","type":"control_radio"},{"description":"","name":"7Gorusmeye66","qid":"66","subLabel":"","text":"7. Gorusmeye katilan ebeveynin yasi","type":"control_textbox"},{"description":"","name":"8Gorusmeye","qid":"67","text":"8. Gorusmeye katilan ebeveynin egitim durumu","type":"control_radio"},{"description":"","name":"9Gorusmeye","qid":"68","text":"9. Gorusmeye katilan ebeveynin is durumu","type":"control_radio"},{"description":"","name":"10Ailenin69","qid":"69","text":"10. Ailenin maddi geliri","type":"control_radio"},null,null,{"description":"","name":"11Evde","qid":"72","subLabel":"","text":"11. Evde yasayan kisi sayisi","type":"control_number"},{"description":"","name":"12Evde","qid":"73","subLabel":"","text":"12. Evde yasayan kac kardesi var?","type":"control_number"},{"description":"","name":"13Hastanin","qid":"74","text":"13. Hastanin egitim durumu","type":"control_radio"},{"name":"sayfaSonu75","qid":"75","text":"Sayfa Sonu","type":"control_pagebreak"},null,{"name":"2Saglik","qid":"77","text":"2. Saglik hizmetlerine erisim bilgileri","type":"control_head"},{"description":"","name":"1Hastanin78","qid":"78","subLabel":"","text":"1. Hastanin metabolik hastalik tanisi","type":"control_textbox"},{"description":"","name":"2Tani","qid":"79","text":"2. Tani grubu","type":"control_radio"},{"description":"","name":"3Kac","qid":"80","subLabel":"","text":"3. Kac yildir AUTF metabolizmada takiplisiniz?","type":"control_textbox"},null,null,{"description":"","name":"4Hastanin","qid":"83","text":"4. Hastanin aldigi tedavileri lutfen isaretleyiniz (Birden cok secenek isaretleyebilirsiniz)","type":"control_checkbox"},{"description":"","name":"5Kontroller","qid":"84","text":"5. Kontroller icin AUTF metabolizmaya ne kadar siklikta gidiyorsunuz?","type":"control_radio"},{"description":"","name":"6Autf85","qid":"85","text":"6. AUTF metabolizmada ne kadar siklikta kan veriyorsunuz?","type":"control_radio"},{"description":"","name":"7Autf","qid":"86","text":"7. AUTF metabolizmada ne kadar siklikta recete rapor yazdirma ihtiyaciniz olur?","type":"control_radio"},{"description":"","name":"8Autf","qid":"87","subLabel":"","text":"8. AUTF metabolizmada poliklinik randevulariniza duzenli gelebiliyor musunuz?","type":"control_dropdown"},{"description":"","name":"9Autf","qid":"88","text":"9. AUTF metabolizmada poliklinik randevulariniza duzenli gelmemenizin onundeki sebepler nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"10Autfde89","qid":"89","text":"10. AUTF’de diyetisyen ile ne kadar siklikta yuz yuze gorusursunuz?","type":"control_radio"},{"description":"","name":"11Autf90","qid":"90","text":"11. AUTF metabolizma poliklinikte muayene icin yaklasik ne kadar sure beklersiniz?","type":"control_radio"},{"description":"","name":"12Autf91","qid":"91","subLabel":"","text":"12. AUTF metabolizma kontrollerinize gidemediginizde ilac ve diyet tedavisi ile ilgili motivasyon sorunu yasar misiniz?","type":"control_dropdown"},{"description":"","name":"13Ankarada","qid":"92","text":"13. Ankara’da yasiyorsaniz evden AUTF’ye ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"14Ankarada93","qid":"93","text":"14. Ankara’da yasiyorsaniz evden AUTF’ye hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"15Ankarada94","qid":"94","text":"15. Ankara’da yasiyor ve toplu tasima kullaniyorsaniz kac arac degistirirsiniz?","type":"control_radio"},{"description":"","name":"16Ankarada95","qid":"95","text":"16. Ankara’da yasiyorsaniz evden AUTF’ye ulasimda ne kadar yol parasi harcarsiniz?","type":"control_radio"},{"description":"","name":"17Ankara96","qid":"96","text":"17. Ankara disinda yasiyorsaniz sehrinizden Ankara’ya ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"18Ankara97","qid":"97","text":"18. Ankara disinda yasiyorsaniz evden Ankara’ya hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"19Ankara98","qid":"98","text":"19. Ankara disinda yasiyorsaniz evden Ankara’ya ulasimda yaklasik kac kisi yolculuk edersiniz?","type":"control_radio"},{"description":"","name":"20Ankara","qid":"99","text":"20.\tAnkara disinda yasiyorsaniz evden Ankara’ya ulasimda ne kadar yol parasi harcarsiniz? (yolculuk eden tum bireyleri hesap ederek)","type":"control_radio"},{"description":"","name":"21Ankara100","qid":"100","text":"21. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde nerde konaklarsiniz?","type":"control_radio"},{"description":"","name":"22Ankara","qid":"101","text":"22. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama icin ne kadar para harcarsiniz? (konaklayan tum bireyleri hesap ederek)","type":"control_radio"},null,{"description":"","name":"23Ankara","qid":"103","subLabel":"","text":"23. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama durumu sizi zorluyor mu?","type":"control_dropdown"},{"description":"","name":"24Poliklinik","qid":"104","subLabel":"","text":"24. Poliklinik basvurunuz icin is yerinden izin almaniz gerekiyor mu?","type":"control_dropdown"},{"description":"","name":"25Is","qid":"105","subLabel":"","text":"25. Is yerinden izin almakta zorluk ceker misiniz?","type":"control_dropdown"},{"name":"sayfaSonu106","qid":"106","text":"Sayfa Sonu","type":"control_pagebreak"},{"name":"3Saglik107","qid":"107","text":"3. Saglik hizmetlerinin teletip ile karsilanmasi ile ilgili bilgiler","type":"control_head"},{"description":"","name":"1Teletip","qid":"108","text":"1. Teletip gorusmesine ne ile katildiniz?","type":"control_radio"},{"description":"","name":"2Tepetip","qid":"109","text":"2. Tepetip gorusmesinde internet agina nereden ulastiniz?","type":"control_radio"},{"description":"","name":"3Teletip","qid":"110","text":"3. Teletip gorusmesi ne kadar surdu?","type":"control_radio"},null,{"description":"","name":"4Teletipin","qid":"112","text":"4. Teletip’in sizce sagladigi avantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"5Teletipin","qid":"113","text":"5. Teletip’in sizce sagladigi dezavantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"6Teletipin","qid":"114","text":"6. Teletip’in ileride hangi alanda kullanilmasini istersiniz? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"7Teletipi","qid":"115","subLabel":"","text":"7. Teletip’i faydali buldunuz mu?","type":"control_dropdown"},{"description":"","name":"8Teletipi116","qid":"116","subLabel":"","text":"8. Teletip’i sonraki sureclerde de tercih eder misiniz?","type":"control_dropdown"},{"description":"","name":"9Teletipi117","qid":"117","text":"9. Teletip’i hangisi seklinde daha cok tercih edersiniz?","type":"control_radio"},{"description":"","name":"10Genel118","qid":"118","subLabel":"","text":"10. Genel memnuniyetiniz icin 100 uzerinden bir puan verebilir misiniz?","type":"control_textbox"}]);
    setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","text":"ANKARA UNIVERSITESI TIP FAKULTESI COCUK METABOLIZMA TELETIP MEMNUNIYET OLCEGI","type":"control_head"},{"name":"aHasta","qid":"2","text":"A. Hasta Bilgileri","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"1Hastanin","qid":"9","subLabel":"","text":"1. Hastanin Adi Soyadi","type":"control_textbox"},{"description":"","name":"2Hastanin","qid":"10","subLabel":"","text":"2. Hastanin T.C. Kimlik Numarasi","type":"control_textbox"},{"description":"","name":"3Hastanin","qid":"11","subLabel":"","text":"3. Hastanin Arastirma Numarasi","type":"control_textbox"},null,{"description":"","name":"4Hastanin","qid":"13","text":"4. Hastanin Dogum Tarihi","type":"control_datetime"},{"description":"","name":"6Hastanin","qid":"14","subLabel":"","text":"6. Hastanin AUTF Protokol Numarasi","type":"control_textbox"},null,{"description":"","name":"5Hastanin","qid":"16","subLabel":"","text":"5. Hastanin Yasi","type":"control_textbox"},null,{"name":"sayfaSonu","qid":"18","text":"Sayfa Sonu","type":"control_pagebreak"},null,null,null,null,{"description":"","name":"7Hastanin23","qid":"23","subLabel":"","text":"7. Hastanin Gorusmeye Katildigi Il","type":"control_dropdown"},{"description":"","name":"8Hastanin","qid":"24","subLabel":"","text":"8. Hastanin Tanisi","type":"control_textbox"},{"description":"","name":"9Hastanin25","qid":"25","subLabel":"","text":"9. Hastanin Klinigimizde Takip Suresi","type":"control_textbox"},null,null,{"description":"","name":"10Hastanin","qid":"28","text":"10. Hastanin en son tarafimizca muayene edilme tarihi","type":"control_datetime"},{"description":"","name":"11Hastanin","qid":"29","subLabel":"","text":"11. Hastanin Teletip gorusmesine eslik eden ebeveynin ismi","type":"control_textbox"},{"description":"","name":"12Hastanin","qid":"30","subLabel":"","text":"12. Hastanin Teletip gorusmesine eslik eden ebeveynin yakinligi","type":"control_textbox"},{"description":"","name":"13Katilan","qid":"31","subLabel":"","text":"13. Katilan ebeveynin yasi","type":"control_textbox"},null,{"description":"","name":"14Katilan","qid":"33","text":"14. Katilan ebeveynin egitim durumu","type":"control_radio"},{"name":"bTeletip","qid":"34","text":"B. Teletip Teknik Memnuniyet","type":"control_head"},null,{"description":"","name":"aTeknik","qid":"36","text":"a. Teknik Ozellikler (puanlayiniz)","type":"control_matrix"},null,{"description":"","name":"bTeknik","qid":"38","text":"b. Teknik ozellikler (evet\u002Fhayir seklinde cevaplayiniz)","type":"control_matrix"},{"name":"sayfaSonu39","qid":"39","text":"Sayfa Sonu","type":"control_pagebreak"},{"name":"cTeletip","qid":"40","text":"C. TELETIP SAGLIK HIZMETLERI KONUSUNDA MEMNUNIYET","type":"control_head"},{"description":"","name":"aSaglik","qid":"41","text":"a. Saglik hizmetleri ozellikleri (puanlayiniz)","type":"control_matrix"},{"description":"","name":"bsaglikHizmetleri","qid":"42","text":"b.Saglik hizmetleri ozellikleri (evet\u002Fhayir seklinde cevaplayiniz)","type":"control_matrix"},{"name":"dDiger","qid":"43","text":"D. DIGER MEMNUNIYET DEGERLERI","type":"control_head"},{"name":"sayfaSonu44","qid":"44","text":"Sayfa Sonu","type":"control_pagebreak"},null,{"description":"","name":"birSoru","qid":"46","text":"Bir soru girin","type":"control_matrix"},{"name":"gonder","qid":"47","text":"Gonder","type":"control_button"}]);}, 20); 
+JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text":"Ankara Universitesi Tip Fakultesi Cocuk Metabolizma Bilim Dali’nda Takipli Hastalarin Teletip Sistemi ile Uzaktan Degerlendirilmesi ve Teletip Memnuniyet Olceginin Uygulanmasi Arastirmasi Arastirma Formu ve Memnuniyet Olcegi","type":"control_head"},{"name":"1Sosyodemografik2","qid":"2","text":"1. Sosyodemografik Ozellikler","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"1Hastanin","qid":"9","subLabel":"","text":"1. Hastanin Adi Soyadi","type":"control_textbox"},{"description":"","name":"2Hastanin","qid":"10","subLabel":"","text":"2. Hastanin T.C. Kimlik Numarasi","type":"control_textbox"},{"description":"","name":"arastirmaHasta","qid":"11","subLabel":"","text":"Arastirma Hasta Kodu","type":"control_textbox"},null,{"description":"","name":"3Hastanin","qid":"13","text":"3. Hastanin Dogum Tarihi","type":"control_datetime"},null,null,null,null,{"name":"sayfaSonu","qid":"18","text":"Sayfa Sonu","type":"control_pagebreak"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"4Teletip","qid":"34","text":"4. Teletip Memnuniyet olcegi","type":"control_head"},null,{"description":"","name":"aTeletip","qid":"36","text":"A. Teletip Teknik Memnuniyet","type":"control_matrix"},null,null,null,null,{"description":"","name":"bTeletip","qid":"41","text":"B. Teletip Saglik Hizmetleri Konusunda Memnuniyet","type":"control_matrix"},null,null,null,null,null,{"name":"gonder","qid":"47","text":"Gonder","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"sdasd","name":"5Teletip","qid":"63","text":"5. Teletip gorusmesine katildigi il","type":"control_radio"},{"description":"","name":"4Hastanin64","qid":"64","subLabel":"","text":"4. Hastanin Cinsiyeti","type":"control_dropdown"},{"description":"","name":"6Teletip","qid":"65","text":"6. Teletip gorusmesine katilan kisi","type":"control_radio"},{"description":"","name":"7Gorusmeye66","qid":"66","subLabel":"","text":"7. Gorusmeye katilan ebeveynin yasi","type":"control_textbox"},{"description":"","name":"8Gorusmeye","qid":"67","text":"8. Gorusmeye katilan ebeveynin egitim durumu","type":"control_radio"},{"description":"","name":"9Gorusmeye","qid":"68","text":"9. Gorusmeye katilan ebeveynin is durumu","type":"control_radio"},{"description":"","name":"10Ailenin69","qid":"69","text":"10. Ailenin maddi geliri","type":"control_radio"},null,null,{"description":"","name":"11Evde","qid":"72","subLabel":"","text":"11. Evde yasayan kisi sayisi","type":"control_number"},{"description":"","name":"12Evde","qid":"73","subLabel":"","text":"12. Evde yasayan kac kardesi var?","type":"control_number"},{"description":"","name":"13Hastanin","qid":"74","text":"13. Hastanin egitim durumu","type":"control_radio"},{"name":"sayfaSonu75","qid":"75","text":"Sayfa Sonu","type":"control_pagebreak"},null,{"name":"2Saglik","qid":"77","text":"2. Saglik hizmetlerine erisim bilgileri","type":"control_head"},{"description":"","name":"1Hastanin78","qid":"78","subLabel":"","text":"1. Hastanin metabolik hastalik tanisi","type":"control_textbox"},{"description":"","name":"2Tani","qid":"79","text":"2. Tani grubu","type":"control_radio"},{"description":"","name":"3Kac","qid":"80","subLabel":"","text":"3. Kac yildir AUTF metabolizmada takiplisiniz?","type":"control_textbox"},null,null,{"description":"","name":"4Hastanin","qid":"83","text":"4. Hastanin aldigi tedavileri lutfen isaretleyiniz (Birden cok secenek isaretleyebilirsiniz)","type":"control_checkbox"},{"description":"","name":"5Kontroller","qid":"84","text":"5. Kontroller icin AUTF metabolizmaya ne kadar siklikta gidiyorsunuz?","type":"control_radio"},{"description":"","name":"6Autf85","qid":"85","text":"6. AUTF metabolizmada ne kadar siklikta kan veriyorsunuz?","type":"control_radio"},{"description":"","name":"7Autf","qid":"86","text":"7. AUTF metabolizmada ne kadar siklikta recete rapor yazdirma ihtiyaciniz olur?","type":"control_radio"},{"description":"","name":"8Autf","qid":"87","subLabel":"","text":"8. AUTF metabolizmada poliklinik randevulariniza duzenli gelebiliyor musunuz?","type":"control_dropdown"},{"description":"","name":"9Autf","qid":"88","text":"9. AUTF metabolizmada poliklinik randevulariniza duzenli gelmemenizin onundeki sebepler nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"10Autfde89","qid":"89","text":"10. AUTF’de diyetisyen ile ne kadar siklikta yuz yuze gorusursunuz?","type":"control_radio"},{"description":"","name":"11Autf90","qid":"90","text":"11. AUTF metabolizma poliklinikte muayene icin yaklasik ne kadar sure beklersiniz?","type":"control_radio"},{"description":"","name":"12Autf91","qid":"91","subLabel":"","text":"12. AUTF metabolizma kontrollerinize gidemediginizde ilac ve diyet tedavisi ile ilgili motivasyon sorunu yasar misiniz?","type":"control_dropdown"},{"description":"","name":"13Ankarada","qid":"92","text":"13. Ankara’da yasiyorsaniz evden AUTF’ye ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"14Ankarada93","qid":"93","text":"14. Ankara’da yasiyorsaniz evden AUTF’ye hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"15Ankarada94","qid":"94","text":"15. Ankara’da yasiyor ve toplu tasima kullaniyorsaniz kac arac degistirirsiniz?","type":"control_radio"},{"description":"","name":"16Ankarada95","qid":"95","text":"16. Ankara’da yasiyorsaniz evden AUTF’ye ulasimda ne kadar yol parasi harcarsiniz?","type":"control_radio"},{"description":"","name":"17Ankara96","qid":"96","text":"17. Ankara disinda yasiyorsaniz sehrinizden Ankara’ya ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"18Ankara97","qid":"97","text":"18. Ankara disinda yasiyorsaniz evden Ankara’ya hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"19Ankara98","qid":"98","text":"19. Ankara disinda yasiyorsaniz evden Ankara’ya ulasimda yaklasik kac kisi yolculuk edersiniz?","type":"control_radio"},{"description":"","name":"20Ankara","qid":"99","text":"20.\tAnkara disinda yasiyorsaniz evden Ankara’ya ulasimda ne kadar yol parasi harcarsiniz? (yolculuk eden tum bireyleri hesap ederek)","type":"control_radio"},{"description":"","name":"21Ankara100","qid":"100","text":"21. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde nerde konaklarsiniz?","type":"control_radio"},{"description":"","name":"22Ankara","qid":"101","text":"22. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama icin ne kadar para harcarsiniz? (konaklayan tum bireyleri hesap ederek)","type":"control_radio"},null,{"description":"","name":"23Ankara","qid":"103","subLabel":"","text":"23. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama durumu sizi zorluyor mu?","type":"control_dropdown"},{"description":"","name":"24Poliklinik","qid":"104","subLabel":"","text":"24. Poliklinik basvurunuz icin is yerinden izin almaniz gerekiyor mu?","type":"control_dropdown"},{"description":"","name":"25Is","qid":"105","subLabel":"","text":"25. Is yerinden izin almakta zorluk ceker misiniz?","type":"control_dropdown"},{"name":"sayfaSonu106","qid":"106","text":"Sayfa Sonu","type":"control_pagebreak"},{"name":"3Saglik107","qid":"107","text":"3. Saglik hizmetlerinin teletip ile karsilanmasi ile ilgili bilgiler","type":"control_head"},{"description":"","name":"1Teletip","qid":"108","text":"1. Teletip gorusmesine ne ile katildiniz?","type":"control_radio"},{"description":"","name":"2Tepetip","qid":"109","text":"2. Tepetip gorusmesinde internet agina nereden ulastiniz?","type":"control_radio"},{"description":"","name":"3Teletip","qid":"110","text":"3. Teletip gorusmesi ne kadar surdu?","type":"control_radio"},null,{"description":"","name":"4Teletipin","qid":"112","text":"4. Teletip’in sizce sagladigi avantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"5Teletipin","qid":"113","text":"5. Teletip’in sizce sagladigi dezavantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"6Teletipin","qid":"114","text":"6. Teletip’in ileride hangi alanda kullanilmasini istersiniz? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"7Teletipi","qid":"115","subLabel":"","text":"7. Teletip’i faydali buldunuz mu?","type":"control_dropdown"},{"description":"","name":"8Teletipi116","qid":"116","subLabel":"","text":"8. Teletip’i sonraki sureclerde de tercih eder misiniz?","type":"control_dropdown"},{"description":"","name":"9Teletipi117","qid":"117","text":"9. Teletip’i hangisi seklinde daha cok tercih edersiniz?","type":"control_radio"},{"description":"","name":"10Genel118","qid":"118","subLabel":"","text":"10. Genel memnuniyetiniz icin 100 uzerinden bir puan verebilir misiniz?","type":"control_textbox"}]);}, 20); 
 </script>
 </head>
 <body>
-<form class="jotform-form" action="https://submit.jotform.com/submit/203642762196964/" method="post" name="form_203642762196964" id="203642762196964" accept-charset="utf-8" autocomplete="on">
+<form class="jotform-form" action="https://submit.jotform.com/submit/203642762196964/" method="post" name="form_203642762196964" id="203642762196964" accept-charset="utf-8" autocomplete="off">
   <input type="hidden" name="formID" value="203642762196964" />
   <input type="hidden" id="JWTContainer" value="" />
   <input type="hidden" id="cardinalOrderNumber" value="" />
   <div role="main" class="form-all">
+    <link type="text/css" rel="stylesheet" media="all" href="https://cdn.jotfor.ms/wizards/languageWizard/custom-dropdown/css/lang-dd.css?3.3.22616" />
+    <div class="cont">
+      <input type="text" id="input_language" name="input_language" style="display:none" />
+      <div class="language-dd" id="langDd" style="display:none">
+        <div class="dd-placeholder lang-emp">
+          Language
+        </div>
+        <ul class="lang-list dn" id="langList">
+          <li data-lang="tr" class="tr">
+            Türkçe
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jotfor.ms/js/formTranslation.v2.js?3.3.22616"></script>
     <div class="formLogoWrapper Center">
       <img class="formLogoImg" src="https://www.jotform.com/uploads/mus7ika/form_files/logo.5fec75d0440bc8.75845006.png" height="70" width="280">
     </div>
@@ -602,19 +579,30 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
     </style>
     <ul class="form-section page-section">
       <li id="cid_1" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-large">
+        <div class="form-header-group  header-default">
           <div class="header-text httac htvam">
-            <h1 id="header_1" class="form-header" data-component="header">
-              ANKARA ÜNİVERSİTESİ TIP FAKÜLTESİ ÇOCUK METABOLİZMA TELETIP MEMNUNİYET ÖLÇEĞİ
-            </h1>
+            <h2 id="header_1" class="form-header" data-component="header">
+              Ankara Üniversitesi Tıp Fakültesi Çocuk Metabolizma Bilim Dalı’nda Takipli Hastaların Teletıp Sistemi ile Uzaktan Değerlendirilmesi ve Teletıp Memnuniyet Ölçeğinin Uygulanması Araştırması Araştırma Formu ve Memnuniyet Ölçeği
+            </h2>
           </div>
+        </div>
+      </li>
+      <li class="form-line jf-required" data-type="control_textbox" id="id_11">
+        <label class="form-label form-label-top form-label-auto" id="label_11" for="input_11">
+          Araştırma Hasta Kodu
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_11" class="form-input-wide jf-required" data-layout="half">
+          <input type="text" id="input_11" name="q11_arastirmaHasta" data-type="input-textbox" class="form-textbox validate[required]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_11" required="" />
         </div>
       </li>
       <li id="cid_2" class="form-input-wide" data-type="control_head">
         <div class="form-header-group  header-default">
           <div class="header-text httal htvam">
             <h2 id="header_2" class="form-header" data-component="header">
-              A. Hasta Bilgileri
+              1. Sosyodemografik Özellikler
             </h2>
           </div>
         </div>
@@ -641,20 +629,9 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
           <input type="text" id="input_10" name="q10_2Hastanin" data-type="input-textbox" class="form-textbox validate[required]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_10" required="" />
         </div>
       </li>
-      <li class="form-line jf-required" data-type="control_textbox" id="id_11">
-        <label class="form-label form-label-top form-label-auto" id="label_11" for="input_11">
-          3. Hastanın Araştırma Numarası
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_11" class="form-input-wide jf-required" data-layout="half">
-          <input type="text" id="input_11" name="q11_3Hastanin" data-type="input-textbox" class="form-textbox validate[required]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_11" required="" />
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-1 jf-required" data-type="control_datetime" id="id_13">
+      <li class="form-line form-line-column form-col-3 jf-required" data-type="control_datetime" id="id_13">
         <label class="form-label form-label-top" id="label_13" for="lite_mode_13">
-          4. Hastanın Doğum Tarihi
+          3. Hastanın Doğum Tarihi
           <span class="form-required">
             *
           </span>
@@ -663,21 +640,21 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
           <div data-wrapper-react="true">
             <div style="display:none">
               <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="day_13" name="q13_4Hastanin[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_day" />
+                <input type="tel" class="form-textbox validate[required, limitDate]" id="day_13" name="q13_3Hastanin[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_day" />
                 <span class="date-separate" aria-hidden="true">
                    .
                 </span>
                 <label class="form-sub-label" for="day_13" id="sublabel_13_day" style="min-height:13px" aria-hidden="false"> Gün </label>
               </span>
               <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="month_13" name="q13_4Hastanin[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_month" />
+                <input type="tel" class="form-textbox validate[required, limitDate]" id="month_13" name="q13_3Hastanin[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_month" />
                 <span class="date-separate" aria-hidden="true">
                    .
                 </span>
                 <label class="form-sub-label" for="month_13" id="sublabel_13_month" style="min-height:13px" aria-hidden="false"> Ay </label>
               </span>
               <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[required, limitDate]" id="year_13" name="q13_4Hastanin[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_year" />
+                <input type="tel" class="form-textbox validate[required, limitDate]" id="year_13" name="q13_3Hastanin[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_year" />
                 <label class="form-sub-label" for="year_13" id="sublabel_13_year" style="min-height:13px" aria-hidden="false"> Yıl </label>
               </span>
             </div>
@@ -689,203 +666,1237 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_16">
-        <label class="form-label form-label-top" id="label_16" for="input_16"> 5. Hastanın Yaşı </label>
-        <div id="cid_16" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_16" name="q16_5Hastanin" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_16" />
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-3 jf-required" data-type="control_textbox" id="id_14">
-        <label class="form-label form-label-top" id="label_14" for="input_14">
-          6. Hastanın AÜTF Protokol Numarası
-          <span class="form-required">
-            *
-          </span>
-        </label>
-        <div id="cid_14" class="form-input-wide jf-required" data-layout="half">
-          <input type="text" id="input_14" name="q14_6Hastanin" data-type="input-textbox" class="form-textbox validate[required]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_14" required="" />
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-4" data-type="control_dropdown" id="id_23">
-        <label class="form-label form-label-top" id="label_23" for="input_23"> 7. Hastanın Görüşmeye Katıldığı İl </label>
-        <div id="cid_23" class="form-input-wide" data-layout="half">
-          <select class="form-dropdown" id="input_23" name="q23_7Hastanin23" style="width:310px" data-component="dropdown" aria-labelledby="label_23">
-            <option value=""> Lütfen seçin </option>
-            <option value="Adana"> Adana </option>
-            <option value="Adıyaman"> Adıyaman </option>
-            <option value="Afyonkarahisar"> Afyonkarahisar </option>
-            <option value="Ağrı"> Ağrı </option>
-            <option value="Aksaray"> Aksaray </option>
-            <option value="Amasya"> Amasya </option>
-            <option value="Ankara"> Ankara </option>
-            <option value="Antalya"> Antalya </option>
-            <option value="Ardahan"> Ardahan </option>
-            <option value="Artvin"> Artvin </option>
-            <option value="Aydın"> Aydın </option>
-            <option value="Balıkesir"> Balıkesir </option>
-            <option value="Bartın"> Bartın </option>
-            <option value="Batman"> Batman </option>
-            <option value="Bayburt"> Bayburt </option>
-            <option value="Bilecik"> Bilecik </option>
-            <option value="Bingöl"> Bingöl </option>
-            <option value="Bitlis"> Bitlis </option>
-            <option value="Bolu"> Bolu </option>
-            <option value="Burdur"> Burdur </option>
-            <option value="Bursa"> Bursa </option>
-            <option value="Çanakkale"> Çanakkale </option>
-            <option value="Çankırı"> Çankırı </option>
-            <option value="Çorum"> Çorum </option>
-            <option value="Denizli"> Denizli </option>
-            <option value="Diyarbakır"> Diyarbakır </option>
-            <option value="Düzce"> Düzce </option>
-            <option value="Edirne"> Edirne </option>
-            <option value="Elazığ"> Elazığ </option>
-            <option value="Erzincan"> Erzincan </option>
-            <option value="Erzurum"> Erzurum </option>
-            <option value="Eskişehir"> Eskişehir </option>
-            <option value="Gaziantep"> Gaziantep </option>
-            <option value="Giresun"> Giresun </option>
-            <option value="Gümüşhane"> Gümüşhane </option>
-            <option value="Hakkâri"> Hakkâri </option>
-            <option value="Hatay"> Hatay </option>
-            <option value="Iğdır"> Iğdır </option>
-            <option value="Isparta"> Isparta </option>
-            <option value="İstanbul"> İstanbul </option>
-            <option value="İzmir"> İzmir </option>
-            <option value="Kahramanmaraş"> Kahramanmaraş </option>
-            <option value="Karabük"> Karabük </option>
-            <option value="Karaman"> Karaman </option>
-            <option value="Kars"> Kars </option>
-            <option value="Kastamonu"> Kastamonu </option>
-            <option value="Kayseri"> Kayseri </option>
-            <option value="Kilis"> Kilis </option>
-            <option value="Kırıkkale"> Kırıkkale </option>
-            <option value="Kırklareli"> Kırklareli </option>
-            <option value="Kırşehir"> Kırşehir </option>
-            <option value="Kocaeli"> Kocaeli </option>
-            <option value="Konya"> Konya </option>
-            <option value="Kütahya"> Kütahya </option>
-            <option value="Malatya"> Malatya </option>
-            <option value="Manisa"> Manisa </option>
-            <option value="Mardin"> Mardin </option>
-            <option value="Mersin"> Mersin </option>
-            <option value="Muğla"> Muğla </option>
-            <option value="Muş"> Muş </option>
-            <option value="Nevşehir"> Nevşehir </option>
-            <option value="Niğde"> Niğde </option>
-            <option value="Ordu"> Ordu </option>
-            <option value="Osmaniye"> Osmaniye </option>
-            <option value="Rize"> Rize </option>
-            <option value="Sakarya"> Sakarya </option>
-            <option value="Samsun"> Samsun </option>
-            <option value="Şanlıurfa"> Şanlıurfa </option>
-            <option value="Siirt"> Siirt </option>
-            <option value="Sinop"> Sinop </option>
-            <option value="Sivas"> Sivas </option>
-            <option value="Şırnak"> Şırnak </option>
-            <option value="Tekirdağ"> Tekirdağ </option>
-            <option value="Tokat"> Tokat </option>
-            <option value="Trabzon"> Trabzon </option>
-            <option value="Tunceli"> Tunceli </option>
-            <option value="Uşak"> Uşak </option>
-            <option value="Van"> Van </option>
-            <option value="Yalova"> Yalova </option>
-            <option value="Yozgat"> Yozgat </option>
-            <option value="Zonguldak"> Zonguldak </option>
+      <li class="form-line form-line-column form-col-4" data-type="control_dropdown" id="id_64">
+        <label class="form-label form-label-top" id="label_64" for="input_64"> 4. Hastanın Cinsiyeti </label>
+        <div id="cid_64" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_64" name="q64_4Hastanin64" style="width:310px" data-component="dropdown" aria-labelledby="label_64">
+            <option value=""> Lütfen Seçiniz </option>
+            <option value="Erkek"> Erkek </option>
+            <option value="Kadın"> Kadın </option>
           </select>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-5" data-type="control_textbox" id="id_24">
-        <label class="form-label form-label-top" id="label_24" for="input_24"> 8. Hastanın Tanısı </label>
-        <div id="cid_24" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_24" name="q24_8Hastanin" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_24" />
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-6" data-type="control_textbox" id="id_25">
-        <label class="form-label form-label-top" id="label_25" for="input_25"> 9. Hastanın Kliniğimizde Takip Süresi </label>
-        <div id="cid_25" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_25" name="q25_9Hastanin25" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_25" />
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-7" data-type="control_datetime" id="id_28">
-        <label class="form-label form-label-top" id="label_28" for="lite_mode_28"> 10. Hastanın en son tarafımızca muayene edilme tarihi </label>
-        <div id="cid_28" class="form-input-wide" data-layout="half">
-          <div data-wrapper-react="true">
-            <div style="display:none">
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[limitDate]" id="day_28" name="q28_10Hastanin[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" autoComplete="off" aria-labelledby="label_28 sublabel_28_day" />
-                <span class="date-separate" aria-hidden="true">
-                   .
-                </span>
-                <label class="form-sub-label" for="day_28" id="sublabel_28_day" style="min-height:13px" aria-hidden="false"> Gün </label>
+      <li class="form-line form-line-column form-col-5" data-type="control_radio" id="id_63">
+        <label class="form-label form-label-top" id="label_63" for="input_63"> 5. Teletıp görüşmesine katıldığı il </label>
+        <div id="cid_63" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_63" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
               </span>
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[limitDate]" id="month_28" name="q28_10Hastanin[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" autoComplete="off" aria-labelledby="label_28 sublabel_28_month" />
-                <span class="date-separate" aria-hidden="true">
-                   .
-                </span>
-                <label class="form-sub-label" for="month_28" id="sublabel_28_month" style="min-height:13px" aria-hidden="false"> Ay </label>
+              <input type="radio" class="form-radio" id="input_63_0" name="q63_5Teletip" value="a" />
+              <label id="label_input_63_0" for="input_63_0"> a. Ankara </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
               </span>
-              <span class="form-sub-label-container" style="vertical-align:top">
-                <input type="tel" class="form-textbox validate[limitDate]" id="year_28" name="q28_10Hastanin[year]" size="4" data-maxlength="4" data-age="" maxLength="4" value="" autoComplete="off" aria-labelledby="label_28 sublabel_28_year" />
-                <label class="form-sub-label" for="year_28" id="sublabel_28_year" style="min-height:13px" aria-hidden="false"> Yıl </label>
+              <input type="radio" class="form-radio" id="input_63_1" name="q63_5Teletip" value="b" />
+              <label id="label_input_63_1" for="input_63_1"> b. Ankara’dan 0-500 km uzakta </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
               </span>
-            </div>
-            <span class="form-sub-label-container" style="vertical-align:top">
-              <input type="text" class="form-textbox validate[limitDate, validateLiteDate]" id="lite_mode_28" size="12" data-maxlength="12" maxLength="12" data-age="" value="" data-format="ddmmyyyy" data-seperator="." placeholder="DD.MM.YYYY" autoComplete="off" aria-labelledby="label_28" />
-              <img class=" newDefaultTheme-dateIcon icon-liteMode" alt="Pick a Date" id="input_28_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v2" />
-              <label class="form-sub-label is-empty" for="lite_mode_28" id="sublabel_28_litemode" style="min-height:13px" aria-hidden="false">  </label>
+              <input type="radio" class="form-radio" id="input_63_2" name="q63_5Teletip" value="c" />
+              <label id="label_input_63_2" for="input_63_2"> c. Ankara’dan 500-1000 km uzakta </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_63_3" name="q63_5Teletip" value="d" />
+              <label id="label_input_63_3" for="input_63_3">
+                d. Ankara’dan 1000 km
+                < uzakta</label>
             </span>
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-8" data-type="control_textbox" id="id_29">
-        <label class="form-label form-label-top" id="label_29" for="input_29"> 11. Hastanın Teletıp görüşmesine eşlik eden ebeveynin ismi </label>
-        <div id="cid_29" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_29" name="q29_11Hastanin" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_29" />
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-9" data-type="control_textbox" id="id_30">
-        <label class="form-label form-label-top" id="label_30" for="input_30"> 12. Hastanın Teletıp görüşmesine eşlik eden ebeveynin yakınlığı </label>
-        <div id="cid_30" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_30" name="q30_12Hastanin" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_30" />
-        </div>
-      </li>
-      <li class="form-line form-line-column form-col-10" data-type="control_textbox" id="id_31">
-        <label class="form-label form-label-top" id="label_31" for="input_31"> 13. Katılan ebeveynin yaşı </label>
-        <div id="cid_31" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_31" name="q31_13Katilan" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_31" />
-        </div>
-      </li>
-      <li class="form-line" data-type="control_radio" id="id_33">
-        <label class="form-label form-label-top" id="label_33" for="input_33"> 14. Katılan ebeveynin eğitim durumu </label>
-        <div id="cid_33" class="form-input-wide" data-layout="full">
-          <div class="form-multiple-column" data-columncount="4" role="group" aria-labelledby="label_33" data-component="radio">
-            <span class="form-radio-item">
+      <li class="form-line form-line-column form-col-6" data-type="control_radio" id="id_65">
+        <label class="form-label form-label-top" id="label_65" for="input_65"> 6. Teletıp görüşmesine katılan kişi </label>
+        <div id="cid_65" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_65" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_33_0" name="q33_14Katilan" value="a. İlkokul" />
-              <label id="label_input_33_0" for="input_33_0"> a. İlkokul </label>
+              <input type="radio" class="form-radio" id="input_65_0" name="q65_6Teletip" value="a" />
+              <label id="label_input_65_0" for="input_65_0"> a. Anne </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_33_1" name="q33_14Katilan" value="b. Ortaokul" />
-              <label id="label_input_33_1" for="input_33_1"> b. Ortaokul </label>
+              <input type="radio" class="form-radio" id="input_65_1" name="q65_6Teletip" value="b" />
+              <label id="label_input_65_1" for="input_65_1"> b. Baba </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_33_2" name="q33_14Katilan" value="c. Lise" />
-              <label id="label_input_33_2" for="input_33_2"> c. Lise </label>
+              <input type="radio" class="form-radio" id="input_65_2" name="q65_6Teletip" value="c" />
+              <label id="label_input_65_2" for="input_65_2"> c. Anne ve baba </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_33_3" name="q33_14Katilan" value="d. Ünivesite" />
-              <label id="label_input_33_3" for="input_33_3"> d. Ünivesite </label>
+              <input type="radio" class="form-radio" id="input_65_3" name="q65_6Teletip" value="d" />
+              <label id="label_input_65_3" for="input_65_3"> d. Ebeveynler ile hastanın kendisi </label>
             </span>
           </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_66">
+        <label class="form-label form-label-top form-label-auto" id="label_66" for="input_66"> 7. Görüşmeye katılan ebeveynin yaşı </label>
+        <div id="cid_66" class="form-input-wide" data-layout="half">
+          <input type="text" id="input_66" name="q66_7Gorusmeye66" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_66" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_radio" id="id_67">
+        <label class="form-label form-label-top" id="label_67" for="input_67"> 8. Görüşmeye katılan ebeveynin eğitim durumu </label>
+        <div id="cid_67" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_67" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_67_0" name="q67_8Gorusmeye" value="a" />
+              <label id="label_input_67_0" for="input_67_0"> a. Okur-yazar değil </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_67_1" name="q67_8Gorusmeye" value="b" />
+              <label id="label_input_67_1" for="input_67_1"> b. İlkokul mezunu </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_67_2" name="q67_8Gorusmeye" value="c" />
+              <label id="label_input_67_2" for="input_67_2"> c. Ortaokul mezunu </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_67_3" name="q67_8Gorusmeye" value="d" />
+              <label id="label_input_67_3" for="input_67_3"> d. Lise mezunu </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_67_4" name="q67_8Gorusmeye" value="e" />
+              <label id="label_input_67_4" for="input_67_4"> e. Üniversite mezunu </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_67_5" name="q67_8Gorusmeye" value="f" />
+              <label id="label_input_67_5" for="input_67_5"> f. Doktora/Yüksek ihtisas </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_radio" id="id_68">
+        <label class="form-label form-label-top" id="label_68" for="input_68"> 9. Görüşmeye katılan ebeveynin iş durumu </label>
+        <div id="cid_68" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_68" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_68_0" name="q68_9Gorusmeye" value="a" />
+              <label id="label_input_68_0" for="input_68_0"> a. Çalışıyor </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_68_1" name="q68_9Gorusmeye" value="b" />
+              <label id="label_input_68_1" for="input_68_1"> b. Çalışmıyor </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_69">
+        <label class="form-label form-label-top form-label-auto" id="label_69" for="input_69"> 10. Ailenin maddi geliri </label>
+        <div id="cid_69" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_69" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_69_0" name="q69_10Ailenin69" value="a" />
+              <label id="label_input_69_0" for="input_69_0"> a. Geliri yok </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_69_1" name="q69_10Ailenin69" value="b" />
+              <label id="label_input_69_1" for="input_69_1"> b. Geliri yok, sadece engelli maaşı / evde bakım parası ile geçiniyor </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_69_2" name="q69_10Ailenin69" value="c" />
+              <label id="label_input_69_2" for="input_69_2"> c. 2500 TL ve altı </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_69_3" name="q69_10Ailenin69" value="d" />
+              <label id="label_input_69_3" for="input_69_3"> d. 2500-5000 TL </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_69_4" name="q69_10Ailenin69" value="e" />
+              <label id="label_input_69_4" for="input_69_4"> e. 5000-7500 TL </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_69_5" name="q69_10Ailenin69" value="f" />
+              <label id="label_input_69_5" for="input_69_5"> f. 7500 TL ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_number" id="id_72">
+        <label class="form-label form-label-top" id="label_72" for="input_72"> 11. Evde yaşayan kişi sayısı </label>
+        <div id="cid_72" class="form-input-wide" data-layout="half">
+          <input type="number" id="input_72" name="q72_11Evde" data-type="input-number" class=" form-number-input form-textbox" style="width:310px" size="310" value="" placeholder="örn: 4" data-component="number" aria-labelledby="label_72" step="any" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_number" id="id_73">
+        <label class="form-label form-label-top" id="label_73" for="input_73"> 12. Evde yaşayan kaç kardeşi var? </label>
+        <div id="cid_73" class="form-input-wide" data-layout="half">
+          <input type="number" id="input_73" name="q73_12Evde" data-type="input-number" class=" form-number-input form-textbox" style="width:310px" size="310" value="" placeholder="örn: 2" data-component="number" aria-labelledby="label_73" step="any" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_74">
+        <label class="form-label form-label-top form-label-auto" id="label_74" for="input_74"> 13. Hastanın eğitim durumu </label>
+        <div id="cid_74" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="4" role="group" aria-labelledby="label_74" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_74_0" name="q74_13Hastanin" value="a" />
+              <label id="label_input_74_0" for="input_74_0"> a. yaşı küçük eğitim almıyor </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_74_1" name="q74_13Hastanin" value="b" />
+              <label id="label_input_74_1" for="input_74_1"> b. örgün eğitim </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_74_2" name="q74_13Hastanin" value="c" />
+              <label id="label_input_74_2" for="input_74_2"> c. özel eğitim </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_74_3" name="q74_13Hastanin" value="d" />
+              <label id="label_input_74_3" for="input_74_3"> d. örgün eğitim + özel eğitim </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li id="cid_75" class="form-input-wide" data-type="control_pagebreak">
+        <div class="form-pagebreak" data-component="pagebreak">
+          <div class="form-pagebreak-back-container">
+            <button id="form-pagebreak-back_75" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">
+              Geri
+            </button>
+          </div>
+          <div class="form-pagebreak-next-container">
+            <button id="form-pagebreak-next_75" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">
+              İleri
+            </button>
+          </div>
+          <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_75">
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="form-section page-section" style="display:none;">
+      <li id="cid_77" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-default">
+          <div class="header-text httal htvam">
+            <h2 id="header_77" class="form-header" data-component="header">
+              2. Sağlık hizmetlerine erişim bilgileri
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_78">
+        <label class="form-label form-label-top form-label-auto" id="label_78" for="input_78"> 1. Hastanın metabolik hastalık tanısı </label>
+        <div id="cid_78" class="form-input-wide" data-layout="half">
+          <input type="text" id="input_78" name="q78_1Hastanin78" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_78" />
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_79">
+        <label class="form-label form-label-top form-label-auto" id="label_79" for="input_79"> 2. Tanı grubu </label>
+        <div id="cid_79" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_79" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_0" name="q79_2Tani" value="a" />
+              <label id="label_input_79_0" for="input_79_0"> a. Karbonhidrat metabolizma boz </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_1" name="q79_2Tani" value="b" />
+              <label id="label_input_79_1" for="input_79_1"> b. Aminoasidopatiler </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_2" name="q79_2Tani" value="c" />
+              <label id="label_input_79_2" for="input_79_2"> c. Organik asidemiler </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_3" name="q79_2Tani" value="d" />
+              <label id="label_input_79_3" for="input_79_3"> d. Biotinidaz eksikliği </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_4" name="q79_2Tani" value="e" />
+              <label id="label_input_79_4" for="input_79_4"> e. Yağ asidi oks bozukluğu </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_5" name="q79_2Tani" value="f" />
+              <label id="label_input_79_5" for="input_79_5"> f. Mitokondrial hastalık </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_6" name="q79_2Tani" value="g" />
+              <label id="label_input_79_6" for="input_79_6"> g. Lipit metabolizma boz </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_7" name="q79_2Tani" value="h" />
+              <label id="label_input_79_7" for="input_79_7"> h. Lizozomal/Peroksizomal hast </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_8" name="q79_2Tani" value="i" />
+              <label id="label_input_79_8" for="input_79_8"> i. Nörometabolik hastalıklar </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_9" name="q79_2Tani" value="j" />
+              <label id="label_input_79_9" for="input_79_9"> j. Konjenital glikozilasyon boz </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_10" name="q79_2Tani" value="k" />
+              <label id="label_input_79_10" for="input_79_10"> k. Üre siklus bozuklukları </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_11" name="q79_2Tani" value="l" />
+              <label id="label_input_79_11" for="input_79_11"> l. Safra metabolizma boz </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_12" name="q79_2Tani" value="m" />
+              <label id="label_input_79_12" for="input_79_12"> m. Pürin pirimidin boz </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_79_13" name="q79_2Tani" value="n" />
+              <label id="label_input_79_13" for="input_79_13"> n. Diğer </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_textbox" id="id_80">
+        <label class="form-label form-label-top form-label-auto" id="label_80" for="input_80"> 3. Kaç yıldır AÜTF metabolizmada takiplisiniz? </label>
+        <div id="cid_80" class="form-input-wide" data-layout="half">
+          <input type="text" id="input_80" name="q80_3Kac" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_80" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_checkbox" id="id_83">
+        <label class="form-label form-label-top" id="label_83" for="input_83"> 4. Hastanın aldığı tedavileri lütfen işaretleyiniz (Birden çok seçenek işaretleyebilirsiniz) </label>
+        <div id="cid_83" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_83" data-component="checkbox">
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_83_0" name="q83_4Hastanin[]" value="a" />
+              <label id="label_input_83_0" for="input_83_0"> a. Tedavisiz izlem </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_83_1" name="q83_4Hastanin[]" value="b" />
+              <label id="label_input_83_1" for="input_83_1"> b. Evde ilaç tedavisi </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_83_2" name="q83_4Hastanin[]" value="c" />
+              <label id="label_input_83_2" for="input_83_2"> c. Hastanede yatarak enzim tedavisi </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_83_3" name="q83_4Hastanin[]" value="d" />
+              <label id="label_input_83_3" for="input_83_3"> d. Diyet tedavisi </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_radio" id="id_84">
+        <label class="form-label form-label-top" id="label_84" for="input_84"> 5. Kontroller için AÜTF metabolizmaya ne kadar sıklıkta gidiyorsunuz? </label>
+        <div id="cid_84" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_84" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_84_0" name="q84_5Kontroller" value="a" />
+              <label id="label_input_84_0" for="input_84_0"> a. 3 ay altı </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_84_1" name="q84_5Kontroller" value="b" />
+              <label id="label_input_84_1" for="input_84_1"> b. 3-6 ay </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_84_2" name="q84_5Kontroller" value="c" />
+              <label id="label_input_84_2" for="input_84_2"> c. 6-12 ay </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_84_3" name="q84_5Kontroller" value="d" />
+              <label id="label_input_84_3" for="input_84_3"> d. 1 yıl ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_radio" id="id_85">
+        <label class="form-label form-label-top" id="label_85" for="input_85"> 6. AÜTF metabolizmada ne kadar sıklıkta kan veriyorsunuz? </label>
+        <div id="cid_85" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_85" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_85_0" name="q85_6Autf85" value="a" />
+              <label id="label_input_85_0" for="input_85_0"> a. 3 ay altı </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_85_1" name="q85_6Autf85" value="b" />
+              <label id="label_input_85_1" for="input_85_1"> b. 3-6 ay </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_85_2" name="q85_6Autf85" value="c" />
+              <label id="label_input_85_2" for="input_85_2"> c. 6-12 ay </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_85_3" name="q85_6Autf85" value="d" />
+              <label id="label_input_85_3" for="input_85_3"> d. 1 yıl ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-4" data-type="control_radio" id="id_86">
+        <label class="form-label form-label-top" id="label_86" for="input_86"> 7. AÜTF metabolizmada ne kadar sıklıkta reçete rapor yazdırma ihtiyacınız olur? </label>
+        <div id="cid_86" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_86" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_86_0" name="q86_7Autf" value="a" />
+              <label id="label_input_86_0" for="input_86_0"> a. 3 ay altı </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_86_1" name="q86_7Autf" value="b" />
+              <label id="label_input_86_1" for="input_86_1"> b. 3-6 ay </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_86_2" name="q86_7Autf" value="c" />
+              <label id="label_input_86_2" for="input_86_2"> c. 6-12 ay </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_86_3" name="q86_7Autf" value="d" />
+              <label id="label_input_86_3" for="input_86_3"> d. 1 yıl ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_dropdown" id="id_87">
+        <label class="form-label form-label-top form-label-auto" id="label_87" for="input_87"> 8. AÜTF metabolizmada poliklinik randevularınıza düzenli gelebiliyor musunuz? </label>
+        <div id="cid_87" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_87" name="q87_8Autf" style="width:310px" data-component="dropdown" aria-labelledby="label_87">
+            <option value=""> Lütfen Seçiniz </option>
+            <option value="Evet"> Evet </option>
+            <option value="Hayır"> Hayır </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_88">
+        <label class="form-label form-label-top form-label-auto" id="label_88" for="input_88"> 9. AÜTF metabolizmada poliklinik randevularınıza düzenli gelmemenizin önündeki sebepler nelerdir? (Birden çok seçenek seçilebilir) </label>
+        <div id="cid_88" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_88" data-component="checkbox">
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_88_0" name="q88_9Autf[]" value="a" />
+              <label id="label_input_88_0" for="input_88_0"> a. Maddi imkansızlıklar </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_88_1" name="q88_9Autf[]" value="b" />
+              <label id="label_input_88_1" for="input_88_1"> b. Ulaşım sorunları </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_88_2" name="q88_9Autf[]" value="c" />
+              <label id="label_input_88_2" for="input_88_2"> c. İşten izin alamama </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_88_3" name="q88_9Autf[]" value="d" />
+              <label id="label_input_88_3" for="input_88_3"> d. Evde başka bakacaklarımın olması </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_88_4" name="q88_9Autf[]" value="e. Ankara’da kalacak yer olmaması (Ankara dışından gelenler için)" />
+              <label id="label_input_88_4" for="input_88_4"> e. Ankara’da kalacak yer olmaması (Ankara dışından gelenler için) </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_88_5" name="q88_9Autf[]" value="f. COVID-19 olmak endişesi" />
+              <label id="label_input_88_5" for="input_88_5"> f. COVID-19 olmak endişesi </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_88_6" name="q88_9Autf[]" value="g. Randevu tarihini unutmak" />
+              <label id="label_input_88_6" for="input_88_6"> g. Randevu tarihini unutmak </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_88_7" name="q88_9Autf[]" value="h. Diğer" />
+              <label id="label_input_88_7" for="input_88_7"> h. Diğer </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_radio" id="id_89">
+        <label class="form-label form-label-top" id="label_89" for="input_89"> 10. AÜTF’de diyetisyen ile ne kadar sıklıkta yüz yüze görüşürsünüz? </label>
+        <div id="cid_89" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_89" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_89_0" name="q89_10Autfde89" value="a" />
+              <label id="label_input_89_0" for="input_89_0"> a. 3 ay altı </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_89_1" name="q89_10Autfde89" value="b" />
+              <label id="label_input_89_1" for="input_89_1"> b. 3-6 ay </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_89_2" name="q89_10Autfde89" value="c" />
+              <label id="label_input_89_2" for="input_89_2"> c. 6-12 ay </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_89_3" name="q89_10Autfde89" value="d" />
+              <label id="label_input_89_3" for="input_89_3"> d. 1 yıl ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_radio" id="id_90">
+        <label class="form-label form-label-top" id="label_90" for="input_90"> 11. AÜTF metabolizma poliklinikte muayene için yaklaşık ne kadar süre beklersiniz? </label>
+        <div id="cid_90" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_90" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_90_0" name="q90_11Autf90" value="a" />
+              <label id="label_input_90_0" for="input_90_0"> a. 15 dk ve altı </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_90_1" name="q90_11Autf90" value="b" />
+              <label id="label_input_90_1" for="input_90_1"> b. 15-30 dk </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_90_2" name="q90_11Autf90" value="c" />
+              <label id="label_input_90_2" for="input_90_2"> c. 30-45 dk </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_90_3" name="q90_11Autf90" value="d" />
+              <label id="label_input_90_3" for="input_90_3"> d. 45 ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_dropdown" id="id_91">
+        <label class="form-label form-label-top form-label-auto" id="label_91" for="input_91"> 12. AÜTF metabolizma kontrollerinize gidemediğinizde ilaç ve diyet tedavisi ile ilgili motivasyon sorunu yaşar mısınız? </label>
+        <div id="cid_91" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_91" name="q91_12Autf91" style="width:310px" data-component="dropdown" aria-labelledby="label_91">
+            <option value=""> Lütfen Seçiniz </option>
+            <option value="Evet"> Evet </option>
+            <option value="Hayır"> Hayır </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_radio" id="id_92">
+        <label class="form-label form-label-top" id="label_92" for="input_92"> 13. Ankara’da yaşıyorsanız evden AÜTF’ye ne kadar sürede varırsınız? </label>
+        <div id="cid_92" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_92" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_92_0" name="q92_13Ankarada" value="a" />
+              <label id="label_input_92_0" for="input_92_0"> a. 30 dk ve altı </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_92_1" name="q92_13Ankarada" value="b" />
+              <label id="label_input_92_1" for="input_92_1"> b. 30 dk-1 saat </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_92_2" name="q92_13Ankarada" value="c" />
+              <label id="label_input_92_2" for="input_92_2"> c. 1 saat ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_radio" id="id_93">
+        <label class="form-label form-label-top" id="label_93" for="input_93"> 14. Ankara’da yaşıyorsanız evden AÜTF’ye hangi araçla ulaşırsınız? </label>
+        <div id="cid_93" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_93" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_93_0" name="q93_14Ankarada93" value="a" />
+              <label id="label_input_93_0" for="input_93_0"> a. Yaya </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_93_1" name="q93_14Ankarada93" value="b" />
+              <label id="label_input_93_1" for="input_93_1"> b. Toplu taşıma </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_93_2" name="q93_14Ankarada93" value="c" />
+              <label id="label_input_93_2" for="input_93_2"> c. Özel araç veya taksi </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_radio" id="id_94">
+        <label class="form-label form-label-top" id="label_94" for="input_94"> 15. Ankara’da yaşıyor ve toplu taşıma kullanıyorsanız kaç araç değiştirirsiniz? </label>
+        <div id="cid_94" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_94" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_94_0" name="q94_15Ankarada94" value="a" />
+              <label id="label_input_94_0" for="input_94_0"> a. 1 </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_94_1" name="q94_15Ankarada94" value="b" />
+              <label id="label_input_94_1" for="input_94_1"> b. 2 </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_94_2" name="q94_15Ankarada94" value="c" />
+              <label id="label_input_94_2" for="input_94_2"> c. 3 ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-4" data-type="control_radio" id="id_95">
+        <label class="form-label form-label-top" id="label_95" for="input_95"> 16. Ankara’da yaşıyorsanız evden AÜTF’ye ulaşımda ne kadar yol parası harcarsınız? </label>
+        <div id="cid_95" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_95" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_95_0" name="q95_16Ankarada95" value="a" />
+              <label id="label_input_95_0" for="input_95_0"> a. 10-50 </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_95_1" name="q95_16Ankarada95" value="b" />
+              <label id="label_input_95_1" for="input_95_1"> b. 50-100 </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_95_2" name="q95_16Ankarada95" value="c" />
+              <label id="label_input_95_2" for="input_95_2"> c. 100 ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_96">
+        <label class="form-label form-label-top form-label-auto" id="label_96" for="input_96"> 17. Ankara dışında yaşıyorsanız şehrinizden Ankara’ya ne kadar sürede varırsınız? </label>
+        <div id="cid_96" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="4" role="group" aria-labelledby="label_96" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_96_0" name="q96_17Ankara96" value="a" />
+              <label id="label_input_96_0" for="input_96_0"> a. 3 saat ve altı </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_96_1" name="q96_17Ankara96" value="b" />
+              <label id="label_input_96_1" for="input_96_1"> b. 3-6 saat </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_96_2" name="q96_17Ankara96" value="c" />
+              <label id="label_input_96_2" for="input_96_2"> c. 6-12 saat </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_96_3" name="q96_17Ankara96" value="d" />
+              <label id="label_input_96_3" for="input_96_3"> d. 12 saat ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_97">
+        <label class="form-label form-label-top form-label-auto" id="label_97" for="input_97"> 18. Ankara dışında yaşıyorsanız evden Ankara’ya hangi araçla ulaşırsınız? </label>
+        <div id="cid_97" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="3" role="group" aria-labelledby="label_97" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_97_0" name="q97_18Ankara97" value="a" />
+              <label id="label_input_97_0" for="input_97_0"> a. Özel Araç </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_97_1" name="q97_18Ankara97" value="b" />
+              <label id="label_input_97_1" for="input_97_1"> b. Otobüs-tren </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_97_2" name="q97_18Ankara97" value="c" />
+              <label id="label_input_97_2" for="input_97_2"> c. Havayolu </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_98">
+        <label class="form-label form-label-top" id="label_98" for="input_98"> 19. Ankara dışında yaşıyorsanız evden Ankara’ya ulaşımda yaklaşık kaç kişi yolculuk edersiniz? </label>
+        <div id="cid_98" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="4" role="group" aria-labelledby="label_98" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_98_0" name="q98_19Ankara98" value="a" />
+              <label id="label_input_98_0" for="input_98_0"> a. 2 </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_98_1" name="q98_19Ankara98" value="b" />
+              <label id="label_input_98_1" for="input_98_1"> b. 3 </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_98_2" name="q98_19Ankara98" value="c" />
+              <label id="label_input_98_2" for="input_98_2"> c. 4 </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_98_3" name="q98_19Ankara98" value="d" />
+              <label id="label_input_98_3" for="input_98_3"> d. 5 ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_99">
+        <label class="form-label form-label-top" id="label_99" for="input_99"> 20. Ankara dışında yaşıyorsanız evden Ankara’ya ulaşımda ne kadar yol parası harcarsınız? (yolculuk eden tüm bireyleri hesap ederek) </label>
+        <div id="cid_99" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_99" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_99_0" name="q99_20Ankara" value="a" />
+              <label id="label_input_99_0" for="input_99_0"> a. 500 TL altı </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_99_1" name="q99_20Ankara" value="b" />
+              <label id="label_input_99_1" for="input_99_1"> b. 500-1000 </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_99_2" name="q99_20Ankara" value="c" />
+              <label id="label_input_99_2" for="input_99_2"> c. 1000-1500 </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_99_3" name="q99_20Ankara" value="d" />
+              <label id="label_input_99_3" for="input_99_3"> d. 1500-2000 </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_99_4" name="q99_20Ankara" value="e" />
+              <label id="label_input_99_4" for="input_99_4"> e. 2000-3000 </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_99_5" name="q99_20Ankara" value="f" />
+              <label id="label_input_99_5" for="input_99_5"> f. 3000 ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_100">
+        <label class="form-label form-label-top form-label-auto" id="label_100" for="input_100"> 21. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde nerde konaklarsınız? </label>
+        <div id="cid_100" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_100" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_100_0" name="q100_21Ankara100" value="a" />
+              <label id="label_input_100_0" for="input_100_0"> a. Eş-dost-akraba evinde </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_100_1" name="q100_21Ankara100" value="b" />
+              <label id="label_input_100_1" for="input_100_1"> b. Otel veya misafirhanede </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_101">
+        <label class="form-label form-label-top form-label-auto" id="label_101" for="input_101"> 22. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde konaklama için ne kadar para harcarsınız? (konaklayan tüm bireyleri hesap ederek) </label>
+        <div id="cid_101" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_101" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_101_0" name="q101_22Ankara" value="a" />
+              <label id="label_input_101_0" for="input_101_0"> a. 500 TL altı </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_101_1" name="q101_22Ankara" value="b" />
+              <label id="label_input_101_1" for="input_101_1"> b. 500-1000 </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_101_2" name="q101_22Ankara" value="c" />
+              <label id="label_input_101_2" for="input_101_2"> c. 1000-1500 </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_101_3" name="q101_22Ankara" value="d" />
+              <label id="label_input_101_3" for="input_101_3"> d. 1500-2000 </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_101_4" name="q101_22Ankara" value="e" />
+              <label id="label_input_101_4" for="input_101_4"> e. 2000-3000 </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_101_5" name="q101_22Ankara" value="f" />
+              <label id="label_input_101_5" for="input_101_5"> f. 3000 ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_dropdown" id="id_103">
+        <label class="form-label form-label-top form-label-auto" id="label_103" for="input_103"> 23. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde konaklama durumu sizi zorluyor mu? </label>
+        <div id="cid_103" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_103" name="q103_23Ankara" style="width:310px" data-component="dropdown" aria-labelledby="label_103">
+            <option value=""> Lütfen Seçiniz </option>
+            <option value="Evet"> Evet </option>
+            <option value="Hayır"> Hayır </option>
+            <option value="Bazen"> Bazen </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_dropdown" id="id_104">
+        <label class="form-label form-label-top" id="label_104" for="input_104"> 24. Poliklinik başvurunuz için iş yerinden izin almanız gerekiyor mu? </label>
+        <div id="cid_104" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_104" name="q104_24Poliklinik" style="width:310px" data-component="dropdown" aria-labelledby="label_104">
+            <option value=""> Lütfen Seçiniz </option>
+            <option value="Evet"> Evet </option>
+            <option value="Hayır"> Hayır </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_dropdown" id="id_105">
+        <label class="form-label form-label-top" id="label_105" for="input_105"> 25. İş yerinden izin almakta zorluk çeker misiniz? </label>
+        <div id="cid_105" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_105" name="q105_25Is" style="width:310px" data-component="dropdown" aria-labelledby="label_105">
+            <option value=""> Lütfen Seçiniz </option>
+            <option value="Evet"> Evet </option>
+            <option value="Hayır"> Hayır </option>
+            <option value="Bazen"> Bazen </option>
+          </select>
+        </div>
+      </li>
+      <li id="cid_106" class="form-input-wide" data-type="control_pagebreak">
+        <div class="form-pagebreak" data-component="pagebreak">
+          <div class="form-pagebreak-back-container">
+            <button id="form-pagebreak-back_106" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">
+              Geri
+            </button>
+          </div>
+          <div class="form-pagebreak-next-container">
+            <button id="form-pagebreak-next_106" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">
+              İleri
+            </button>
+          </div>
+          <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_106">
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul class="form-section page-section" style="display:none;">
+      <li id="cid_107" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-default">
+          <div class="header-text httal htvam">
+            <h2 id="header_107" class="form-header" data-component="header">
+              3. Sağlık hizmetlerinin teletıp ile karşılanması ile ilgili bilgiler
+            </h2>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_radio" id="id_108">
+        <label class="form-label form-label-top" id="label_108" for="input_108"> 1. Teletıp görüşmesine ne ile katıldınız? </label>
+        <div id="cid_108" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_108" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_108_0" name="q108_1Teletip" value="a" />
+              <label id="label_input_108_0" for="input_108_0"> a. Telefon </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_108_1" name="q108_1Teletip" value="b" />
+              <label id="label_input_108_1" for="input_108_1"> b. Tablet </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_108_2" name="q108_1Teletip" value="c" />
+              <label id="label_input_108_2" for="input_108_2"> c. Dizüstü bilgisayar </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_108_3" name="q108_1Teletip" value="d" />
+              <label id="label_input_108_3" for="input_108_3"> d. Masaüstü bilgisayar </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-4" data-type="control_radio" id="id_109">
+        <label class="form-label form-label-top" id="label_109" for="input_109"> 2. Tepetıp görüşmesinde internet ağına nereden ulaştınız? </label>
+        <div id="cid_109" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_109" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_109_0" name="q109_2Tepetip" value="a" />
+              <label id="label_input_109_0" for="input_109_0"> a. Evinizdeki internet bağlantısı (wi-fi) </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_109_1" name="q109_2Tepetip" value="b" />
+              <label id="label_input_109_1" for="input_109_1"> b. Telefon hattınızdaki internet bağlantısından </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_109_2" name="q109_2Tepetip" value="c" />
+              <label id="label_input_109_2" for="input_109_2"> c. Yakınlarınızın internet bağlantısından </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_109_3" name="q109_2Tepetip" value="d" />
+              <label id="label_input_109_3" for="input_109_3"> d. Diğer </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_radio" id="id_110">
+        <label class="form-label form-label-top form-label-auto" id="label_110" for="input_110"> 3. Teletıp görüşmesi ne kadar sürdü? </label>
+        <div id="cid_110" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_110" data-component="radio">
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_110_0" name="q110_3Teletip" value="a" />
+              <label id="label_input_110_0" for="input_110_0"> a. 15 dk altı </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_110_1" name="q110_3Teletip" value="b" />
+              <label id="label_input_110_1" for="input_110_1"> b. 15-30 dk </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_110_2" name="q110_3Teletip" value="c" />
+              <label id="label_input_110_2" for="input_110_2"> c. 30-45 dk </label>
+            </span>
+            <span class="form-radio-item">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_110_3" name="q110_3Teletip" value="d" />
+              <label id="label_input_110_3" for="input_110_3"> d. 45 dk-1 saat </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_110_4" name="q110_3Teletip" value="e" />
+              <label id="label_input_110_4" for="input_110_4"> e. 1 saat ve üzeri </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_112">
+        <label class="form-label form-label-top form-label-auto" id="label_112" for="input_112"> 4. Teletıp’ın sizce sağladığı avantajlar nelerdir? (Birden çok seçenek seçilebilir) </label>
+        <div id="cid_112" class="form-input-wide" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_112" data-component="checkbox">
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_112_0" name="q112_4Teletipin[]" value="a" />
+              <label id="label_input_112_0" for="input_112_0"> a. Zaman tasarrufu </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_112_1" name="q112_4Teletipin[]" value="b" />
+              <label id="label_input_112_1" for="input_112_1"> b. Yol tararrufu </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_112_2" name="q112_4Teletipin[]" value="c" />
+              <label id="label_input_112_2" for="input_112_2"> c. Maddi tasarruf </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_112_3" name="q112_4Teletipin[]" value="d" />
+              <label id="label_input_112_3" for="input_112_3"> d. İşten izin alma sorununa çözüm </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_112_4" name="q112_4Teletipin[]" value="e" />
+              <label id="label_input_112_4" for="input_112_4"> e. Okuldan izin alma sorununa çözüm </label>
+            </span>
+            <span class="form-checkbox-item">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_112_5" name="q112_4Teletipin[]" value="f" />
+              <label id="label_input_112_5" for="input_112_5"> f. Hastane ortamına girmeden sağlık işlerini halledebilmek </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_112_6" name="q112_4Teletipin[]" value="g" />
+              <label id="label_input_112_6" for="input_112_6"> g. Diyet ve ilaç tedavisi için motivasyonun sağlanması </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_113">
+        <label class="form-label form-label-top form-label-auto" id="label_113" for="input_113"> 5. Teletıp’ın sizce sağladığı dezavantajlar nelerdir? (Birden çok seçenek seçilebilir) </label>
+        <div id="cid_113" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_113" data-component="checkbox">
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_113_0" name="q113_5Teletipin[]" value="a" />
+              <label id="label_input_113_0" for="input_113_0"> a. Muayene olamamak </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_113_1" name="q113_5Teletipin[]" value="b" />
+              <label id="label_input_113_1" for="input_113_1"> b. Kan verememek </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_113_2" name="q113_5Teletipin[]" value="c" />
+              <label id="label_input_113_2" for="input_113_2"> c. Reçete-Rapor yazdıramamak </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_113_3" name="q113_5Teletipin[]" value="d" />
+              <label id="label_input_113_3" for="input_113_3"> d. Resmi hasta girişi olmadığı için hastanın dosyasına not koyulamaması </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line" data-type="control_checkbox" id="id_114">
+        <label class="form-label form-label-top form-label-auto" id="label_114" for="input_114"> 6. Teletıp’ın ileride hangi alanda kullanılmasını istersiniz? (Birden çok seçenek seçilebilir) </label>
+        <div id="cid_114" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_114" data-component="checkbox">
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_114_0" name="q114_6Teletipin[]" value="a" />
+              <label id="label_input_114_0" for="input_114_0"> a. Rapor-Reçete yazdırabilmek </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_114_1" name="q114_6Teletipin[]" value="b" />
+              <label id="label_input_114_1" for="input_114_1"> b. Sonuçları öğrenebilmek </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_114_2" name="q114_6Teletipin[]" value="c" />
+              <label id="label_input_114_2" for="input_114_2"> c. Diyetisyen görüşmesi yapmak </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_114_3" name="q114_6Teletipin[]" value="d" />
+              <label id="label_input_114_3" for="input_114_3"> d. Rutin kontrolleri yaptırmak </label>
+            </span>
+            <span class="form-checkbox-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="checkbox" class="form-checkbox" id="input_114_4" name="q114_6Teletipin[]" value="e" />
+              <label id="label_input_114_4" for="input_114_4"> e. Aktif şikayet olması halinde doktora danışabilmek </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_dropdown" id="id_115">
+        <label class="form-label form-label-top" id="label_115" for="input_115"> 7. Teletıp’ı faydalı buldunuz mu? </label>
+        <div id="cid_115" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_115" name="q115_7Teletipi" style="width:310px" data-component="dropdown" aria-labelledby="label_115">
+            <option value=""> Lütfen Seçiniz </option>
+            <option value="Evet"> Evet </option>
+            <option value="Hayır"> Hayır </option>
+            <option value="Henüz Kararsızım"> Henüz Kararsızım </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-2" data-type="control_dropdown" id="id_116">
+        <label class="form-label form-label-top" id="label_116" for="input_116"> 8. Teletıp’ı sonraki süreçlerde de tercih eder misiniz? </label>
+        <div id="cid_116" class="form-input-wide" data-layout="half">
+          <select class="form-dropdown" id="input_116" name="q116_8Teletipi116" style="width:310px" data-component="dropdown" aria-labelledby="label_116">
+            <option value=""> Lütfen Seçiniz </option>
+            <option value="Evet"> Evet </option>
+            <option value="Hayır"> Hayır </option>
+            <option value="Henüz Kararsızım"> Henüz Kararsızım </option>
+          </select>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-3" data-type="control_radio" id="id_117">
+        <label class="form-label form-label-top" id="label_117" for="input_117"> 9. Teletıp’ı hangisi şeklinde daha çok tercih edersiniz? </label>
+        <div id="cid_117" class="form-input-wide" data-layout="full">
+          <div class="form-single-column" role="group" aria-labelledby="label_117" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_117_0" name="q117_9Teletipi117" value="a" />
+              <label id="label_input_117_0" for="input_117_0"> a. Telefonla görüşme </label>
+            </span>
+            <span class="form-radio-item" style="clear:left">
+              <span class="dragger-item">
+              </span>
+              <input type="radio" class="form-radio" id="input_117_1" name="q117_9Teletipi117" value="b" />
+              <label id="label_input_117_1" for="input_117_1"> b. Videolu görüşme </label>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-4" data-type="control_textbox" id="id_118">
+        <label class="form-label form-label-top" id="label_118" for="input_118"> 10. Genel memnuniyetiniz için 100 üzerinden bir puan verebilir misiniz? </label>
+        <div id="cid_118" class="form-input-wide" data-layout="half">
+          <input type="text" id="input_118" name="q118_10Genel118" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_118" />
         </div>
       </li>
       <li id="cid_18" class="form-input-wide" data-type="control_pagebreak">
@@ -910,16 +1921,16 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
         <div class="form-header-group  header-default">
           <div class="header-text httal htvam">
             <h2 id="header_34" class="form-header" data-component="header">
-              B. Teletıp Teknik Memnuniyet
+              4. Teletıp Memnuniyet ölçeği
             </h2>
             <div id="subHeader_34" class="form-subHeader">
-              Asağıdaki bölümü 1: çok kötü / 2: kötü / 3: orta / 4: iyi / 5: çok iyi şeklinde lütfen puanlayınız
+              Aşağıdaki A ve B bölümlerini 1: çok kötü / 2: kötü / 3: orta / 4: iyi / 5: çok iyi şeklinde lütfen puanlayınız.
             </div>
           </div>
         </div>
       </li>
       <li class="form-line" data-type="control_matrix" id="id_36">
-        <label class="form-label form-label-top form-label-auto" id="label_36" for="input_36"> a. Teknik Özellikler (puanlayınız) </label>
+        <label class="form-label form-label-top form-label-auto" id="label_36" for="input_36"> A. Teletıp Teknik Memnuniyet </label>
         <div id="cid_36" class="form-input-wide" data-layout="full">
           <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix">
             <tr class="form-matrix-tr form-matrix-header-tr">
@@ -947,23 +1958,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_0"> 1. Teletıp sistemine bağlanma kolaylığı sizce nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_0_0" class="form-radio" name="q36_aTeknik[0]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_0_0" class="form-radio" name="q36_aTeletip[0]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_0_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_0_1" class="form-radio" name="q36_aTeknik[0]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_0_1" class="form-radio" name="q36_aTeletip[0]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_0_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_0_2" class="form-radio" name="q36_aTeknik[0]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_0_2" class="form-radio" name="q36_aTeletip[0]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_0_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_0_3" class="form-radio" name="q36_aTeknik[0]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_0_3" class="form-radio" name="q36_aTeletip[0]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_0_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_0_4" class="form-radio" name="q36_aTeknik[0]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_0_4" class="form-radio" name="q36_aTeletip[0]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_0_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -972,23 +1983,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_1"> 2. Bir yardıma ihtiyaç duymadan sisteme bağlanma kolaylığı nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_1_0" class="form-radio" name="q36_aTeknik[1]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_1_0" class="form-radio" name="q36_aTeletip[1]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_1_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_1_1" class="form-radio" name="q36_aTeknik[1]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_1_1" class="form-radio" name="q36_aTeletip[1]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_1_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_1_2" class="form-radio" name="q36_aTeknik[1]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_1_2" class="form-radio" name="q36_aTeletip[1]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_1_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_1_3" class="form-radio" name="q36_aTeknik[1]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_1_3" class="form-radio" name="q36_aTeletip[1]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_1_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_1_4" class="form-radio" name="q36_aTeknik[1]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_1_4" class="form-radio" name="q36_aTeletip[1]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_1_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -997,23 +2008,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_2"> 3. Teletıp ekibinin (uzman doktor, diyetisyen) sistem ile ilgili sorunlarınızda size yardımı nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_2_0" class="form-radio" name="q36_aTeknik[2]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_2_0" class="form-radio" name="q36_aTeletip[2]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_2_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_2_1" class="form-radio" name="q36_aTeknik[2]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_2_1" class="form-radio" name="q36_aTeletip[2]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_2_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_2_2" class="form-radio" name="q36_aTeknik[2]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_2_2" class="form-radio" name="q36_aTeletip[2]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_2_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_2_3" class="form-radio" name="q36_aTeknik[2]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_2_3" class="form-radio" name="q36_aTeletip[2]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_2_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_2_4" class="form-radio" name="q36_aTeknik[2]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_2_4" class="form-radio" name="q36_aTeletip[2]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_2_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1022,23 +2033,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_3"> 4. Teletıp sisteminin ses kalitesi nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_3_0" class="form-radio" name="q36_aTeknik[3]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_3_0" class="form-radio" name="q36_aTeletip[3]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_3_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_3_1" class="form-radio" name="q36_aTeknik[3]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_3_1" class="form-radio" name="q36_aTeletip[3]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_3_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_3_2" class="form-radio" name="q36_aTeknik[3]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_3_2" class="form-radio" name="q36_aTeletip[3]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_3_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_3_3" class="form-radio" name="q36_aTeknik[3]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_3_3" class="form-radio" name="q36_aTeletip[3]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_3_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_3_4" class="form-radio" name="q36_aTeknik[3]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_3_4" class="form-radio" name="q36_aTeletip[3]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_3_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1047,23 +2058,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_4"> 5. Doktorunuzun sesinin netliği nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_4_0" class="form-radio" name="q36_aTeknik[4]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_4_0" class="form-radio" name="q36_aTeletip[4]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_4_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_4_1" class="form-radio" name="q36_aTeknik[4]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_4_1" class="form-radio" name="q36_aTeletip[4]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_4_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_4_2" class="form-radio" name="q36_aTeknik[4]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_4_2" class="form-radio" name="q36_aTeletip[4]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_4_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_4_3" class="form-radio" name="q36_aTeknik[4]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_4_3" class="form-radio" name="q36_aTeletip[4]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_4_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_4_4" class="form-radio" name="q36_aTeknik[4]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_4_4" class="form-radio" name="q36_aTeletip[4]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_4_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1072,23 +2083,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_5"> 6. Doktorunuzun sizin konuşmalarınızı duyması (sizce) nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_5_0" class="form-radio" name="q36_aTeknik[5]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_5_0" class="form-radio" name="q36_aTeletip[5]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_5_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_5_1" class="form-radio" name="q36_aTeknik[5]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_5_1" class="form-radio" name="q36_aTeletip[5]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_5_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_5_2" class="form-radio" name="q36_aTeknik[5]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_5_2" class="form-radio" name="q36_aTeletip[5]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_5_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_5_3" class="form-radio" name="q36_aTeknik[5]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_5_3" class="form-radio" name="q36_aTeletip[5]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_5_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_5_4" class="form-radio" name="q36_aTeknik[5]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_5_4" class="form-radio" name="q36_aTeletip[5]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_5_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1097,23 +2108,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_6"> 7. Teletıp sisteminin görüntü netliği nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_6_0" class="form-radio" name="q36_aTeknik[6]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_6_0" class="form-radio" name="q36_aTeletip[6]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_6_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_6_1" class="form-radio" name="q36_aTeknik[6]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_6_1" class="form-radio" name="q36_aTeletip[6]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_6_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_6_2" class="form-radio" name="q36_aTeknik[6]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_6_2" class="form-radio" name="q36_aTeletip[6]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_6_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_6_3" class="form-radio" name="q36_aTeknik[6]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_6_3" class="form-radio" name="q36_aTeletip[6]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_6_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_6_4" class="form-radio" name="q36_aTeknik[6]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_6_4" class="form-radio" name="q36_aTeletip[6]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_6_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1122,23 +2133,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_7"> 8. Teletıp sisteminin görüntü akışı nasıldı? (Duraksama ve görüntü donmaları açısından değerlendiriniz) </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_7_0" class="form-radio" name="q36_aTeknik[7]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_7_0" class="form-radio" name="q36_aTeletip[7]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_7_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_7_1" class="form-radio" name="q36_aTeknik[7]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_7_1" class="form-radio" name="q36_aTeletip[7]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_7_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_7_2" class="form-radio" name="q36_aTeknik[7]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_7_2" class="form-radio" name="q36_aTeletip[7]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_7_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_7_3" class="form-radio" name="q36_aTeknik[7]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_7_3" class="form-radio" name="q36_aTeletip[7]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_7_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_7_4" class="form-radio" name="q36_aTeknik[7]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_7_4" class="form-radio" name="q36_aTeletip[7]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_7_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1147,23 +2158,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_8"> 9. Teletıp sisteminin sizi gerçekten doktorunuz ile birlikteymişsiniz gibi hissettirmesi nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_8_0" class="form-radio" name="q36_aTeknik[8]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_8_0" class="form-radio" name="q36_aTeletip[8]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_8_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_8_1" class="form-radio" name="q36_aTeknik[8]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_8_1" class="form-radio" name="q36_aTeletip[8]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_8_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_8_2" class="form-radio" name="q36_aTeknik[8]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_8_2" class="form-radio" name="q36_aTeletip[8]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_8_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_8_3" class="form-radio" name="q36_aTeknik[8]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_8_3" class="form-radio" name="q36_aTeletip[8]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_8_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_8_4" class="form-radio" name="q36_aTeknik[8]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_8_4" class="form-radio" name="q36_aTeletip[8]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_8_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1172,131 +2183,31 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_36_row_9"> 10. Teletıp sistemini kapatma (sistemden çıkma) kolaylığı nasıldı? </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_9_0" class="form-radio" name="q36_aTeknik[9]" value="1" aria-labelledby="label_36_col_0" />
+                <input type="radio" id="input_36_9_0" class="form-radio" name="q36_aTeletip[9]" value="1" aria-labelledby="label_36_col_0" />
                 <label for="input_36_9_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_9_1" class="form-radio" name="q36_aTeknik[9]" value="2" aria-labelledby="label_36_col_1" />
+                <input type="radio" id="input_36_9_1" class="form-radio" name="q36_aTeletip[9]" value="2" aria-labelledby="label_36_col_1" />
                 <label for="input_36_9_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_9_2" class="form-radio" name="q36_aTeknik[9]" value="3" aria-labelledby="label_36_col_2" />
+                <input type="radio" id="input_36_9_2" class="form-radio" name="q36_aTeletip[9]" value="3" aria-labelledby="label_36_col_2" />
                 <label for="input_36_9_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_9_3" class="form-radio" name="q36_aTeknik[9]" value="4" aria-labelledby="label_36_col_3" />
+                <input type="radio" id="input_36_9_3" class="form-radio" name="q36_aTeletip[9]" value="4" aria-labelledby="label_36_col_3" />
                 <label for="input_36_9_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_36_9_4" class="form-radio" name="q36_aTeknik[9]" value="5" aria-labelledby="label_36_col_4" />
+                <input type="radio" id="input_36_9_4" class="form-radio" name="q36_aTeletip[9]" value="5" aria-labelledby="label_36_col_4" />
                 <label for="input_36_9_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
           </table>
         </div>
       </li>
-      <li class="form-line" data-type="control_matrix" id="id_38">
-        <label class="form-label form-label-top form-label-auto" id="label_38" for="input_38"> b. Teknik özellikler (evet/hayır şeklinde cevaplayınız) </label>
-        <div id="cid_38" class="form-input-wide" data-layout="full">
-          <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix">
-            <tr class="form-matrix-tr form-matrix-header-tr">
-              <th class="form-matrix-th" style="border:none">
-                 
-              </th>
-              <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_0">
-                <label id="label_38_col_0"> Evet </label>
-              </th>
-              <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_1">
-                <label id="label_38_col_1"> Hayır </label>
-              </th>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_38 label_38_row_0">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_38_row_0"> 1. Teletıp sistemine bağlanırken teknik bir sorun yaşadınız mı? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_38_0_0" class="form-radio" name="q38_bTeknik[0]" value="Evet" aria-labelledby="label_38_col_0" />
-                <label for="input_38_0_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_38_0_1" class="form-radio" name="q38_bTeknik[0]" value="Hayır" aria-labelledby="label_38_col_1" />
-                <label for="input_38_0_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_38 label_38_row_1">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_38_row_1"> 2. Teletıp sistemine bağlanırken başka birinden yardım alma ihtiyacınız oldu mu? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_38_1_0" class="form-radio" name="q38_bTeknik[1]" value="Evet" aria-labelledby="label_38_col_0" />
-                <label for="input_38_1_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_38_1_1" class="form-radio" name="q38_bTeknik[1]" value="Hayır" aria-labelledby="label_38_col_1" />
-                <label for="input_38_1_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_38 label_38_row_2">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_38_row_2"> 3. Görüşme esnasında kesinti olup yeniden bağlanma ihtiyacınız oldu mu? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_38_2_0" class="form-radio" name="q38_bTeknik[2]" value="Evet" aria-labelledby="label_38_col_0" />
-                <label for="input_38_2_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_38_2_1" class="form-radio" name="q38_bTeknik[2]" value="Hayır" aria-labelledby="label_38_col_1" />
-                <label for="input_38_2_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_38 label_38_row_3">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_38_row_3"> 4. Teletıp ile sağlık hizmeti alırken doktorunuz yanınızdaymış gibi hissettiniz mi? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_38_3_0" class="form-radio" name="q38_bTeknik[3]" value="Evet" aria-labelledby="label_38_col_0" />
-                <label for="input_38_3_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_38_3_1" class="form-radio" name="q38_bTeknik[3]" value="Hayır" aria-labelledby="label_38_col_1" />
-                <label for="input_38_3_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </li>
-      <li id="cid_39" class="form-input-wide" data-type="control_pagebreak">
-        <div class="form-pagebreak" data-component="pagebreak">
-          <div class="form-pagebreak-back-container">
-            <button id="form-pagebreak-back_39" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">
-              Geri
-            </button>
-          </div>
-          <div class="form-pagebreak-next-container">
-            <button id="form-pagebreak-next_39" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">
-              İleri
-            </button>
-          </div>
-          <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_39">
-          </div>
-        </div>
-      </li>
-    </ul>
-    <ul class="form-section page-section" style="display:none;">
-      <li id="cid_40" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-default">
-          <div class="header-text httal htvam">
-            <h2 id="header_40" class="form-header" data-component="header">
-              C. TELETIP SAĞLIK HİZMETLERİ KONUSUNDA MEMNUNİYET
-            </h2>
-            <div id="subHeader_40" class="form-subHeader">
-              Asağıdaki bölümü 1: çok kötü / 2: kötü / 3: orta / 4: iyi / 5: çok iyi şeklinde lütfen puanlayınız
-            </div>
-          </div>
-        </div>
-      </li>
       <li class="form-line" data-type="control_matrix" id="id_41">
-        <label class="form-label form-label-top form-label-auto" id="label_41" for="input_41"> a. Sağlık hizmetleri özellikleri (puanlayınız) </label>
+        <label class="form-label form-label-top form-label-auto" id="label_41" for="input_41"> B. Teletıp Sağlık Hizmetleri Konusunda Memnuniyet </label>
         <div id="cid_41" class="form-input-wide" data-layout="full">
           <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix">
             <tr class="form-matrix-tr form-matrix-header-tr">
@@ -1324,23 +2235,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_0"> 1. Doktorunuza sorunlarınızı ne kadar aktarabildiğinizi puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_0_0" class="form-radio" name="q41_aSaglik[0]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_0_0" class="form-radio" name="q41_bTeletip[0]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_0_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_0_1" class="form-radio" name="q41_aSaglik[0]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_0_1" class="form-radio" name="q41_bTeletip[0]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_0_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_0_2" class="form-radio" name="q41_aSaglik[0]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_0_2" class="form-radio" name="q41_bTeletip[0]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_0_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_0_3" class="form-radio" name="q41_aSaglik[0]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_0_3" class="form-radio" name="q41_bTeletip[0]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_0_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_0_4" class="form-radio" name="q41_aSaglik[0]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_0_4" class="form-radio" name="q41_bTeletip[0]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_0_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1349,23 +2260,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_1"> 2. Doktorunuzdan aldığınız cevapların sizi ne kadar tatmin ettiğini puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_1_0" class="form-radio" name="q41_aSaglik[1]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_1_0" class="form-radio" name="q41_bTeletip[1]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_1_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_1_1" class="form-radio" name="q41_aSaglik[1]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_1_1" class="form-radio" name="q41_bTeletip[1]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_1_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_1_2" class="form-radio" name="q41_aSaglik[1]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_1_2" class="form-radio" name="q41_bTeletip[1]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_1_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_1_3" class="form-radio" name="q41_aSaglik[1]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_1_3" class="form-radio" name="q41_bTeletip[1]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_1_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_1_4" class="form-radio" name="q41_aSaglik[1]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_1_4" class="form-radio" name="q41_bTeletip[1]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_1_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1374,23 +2285,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_2"> 3. Teletıp sisteminin sağlık ihtiyacınızı ne kadar karşıladığını puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_2_0" class="form-radio" name="q41_aSaglik[2]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_2_0" class="form-radio" name="q41_bTeletip[2]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_2_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_2_1" class="form-radio" name="q41_aSaglik[2]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_2_1" class="form-radio" name="q41_bTeletip[2]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_2_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_2_2" class="form-radio" name="q41_aSaglik[2]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_2_2" class="form-radio" name="q41_bTeletip[2]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_2_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_2_3" class="form-radio" name="q41_aSaglik[2]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_2_3" class="form-radio" name="q41_bTeletip[2]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_2_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_2_4" class="form-radio" name="q41_aSaglik[2]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_2_4" class="form-radio" name="q41_bTeletip[2]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_2_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1399,23 +2310,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_3"> 4. Görüşme yaptığınız sağlık ekibi ve doktorun nezaket, saygı ve samimiyetini puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_3_0" class="form-radio" name="q41_aSaglik[3]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_3_0" class="form-radio" name="q41_bTeletip[3]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_3_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_3_1" class="form-radio" name="q41_aSaglik[3]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_3_1" class="form-radio" name="q41_bTeletip[3]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_3_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_3_2" class="form-radio" name="q41_aSaglik[3]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_3_2" class="form-radio" name="q41_bTeletip[3]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_3_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_3_3" class="form-radio" name="q41_aSaglik[3]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_3_3" class="form-radio" name="q41_bTeletip[3]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_3_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_3_4" class="form-radio" name="q41_aSaglik[3]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_3_4" class="form-radio" name="q41_bTeletip[3]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_3_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1424,23 +2335,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_4"> 5. Görüşme yaptığınız sağlık ekibi ve doktorun gizliliğinize ve mahremiyetinize karşı gösterdiği titizliğini ve dikkatini puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_4_0" class="form-radio" name="q41_aSaglik[4]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_4_0" class="form-radio" name="q41_bTeletip[4]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_4_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_4_1" class="form-radio" name="q41_aSaglik[4]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_4_1" class="form-radio" name="q41_bTeletip[4]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_4_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_4_2" class="form-radio" name="q41_aSaglik[4]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_4_2" class="form-radio" name="q41_bTeletip[4]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_4_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_4_3" class="form-radio" name="q41_aSaglik[4]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_4_3" class="form-radio" name="q41_bTeletip[4]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_4_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_4_4" class="form-radio" name="q41_aSaglik[4]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_4_4" class="form-radio" name="q41_bTeletip[4]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_4_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1449,23 +2360,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_5"> 6. Teletıp sisteminin doktor ile görüşme için ihtiyaç duyduğunuz süreyi ne kadar karşıladığını puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_5_0" class="form-radio" name="q41_aSaglik[5]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_5_0" class="form-radio" name="q41_bTeletip[5]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_5_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_5_1" class="form-radio" name="q41_aSaglik[5]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_5_1" class="form-radio" name="q41_bTeletip[5]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_5_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_5_2" class="form-radio" name="q41_aSaglik[5]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_5_2" class="form-radio" name="q41_bTeletip[5]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_5_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_5_3" class="form-radio" name="q41_aSaglik[5]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_5_3" class="form-radio" name="q41_bTeletip[5]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_5_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_5_4" class="form-radio" name="q41_aSaglik[5]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_5_4" class="form-radio" name="q41_bTeletip[5]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_5_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1474,23 +2385,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_6"> 7. Görüşme esnasında kendinizi ne kadar rahat hissettiğinizi puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_6_0" class="form-radio" name="q41_aSaglik[6]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_6_0" class="form-radio" name="q41_bTeletip[6]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_6_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_6_1" class="form-radio" name="q41_aSaglik[6]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_6_1" class="form-radio" name="q41_bTeletip[6]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_6_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_6_2" class="form-radio" name="q41_aSaglik[6]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_6_2" class="form-radio" name="q41_bTeletip[6]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_6_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_6_3" class="form-radio" name="q41_aSaglik[6]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_6_3" class="form-radio" name="q41_bTeletip[6]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_6_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_6_4" class="form-radio" name="q41_aSaglik[6]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_6_4" class="form-radio" name="q41_bTeletip[6]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_6_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1499,23 +2410,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_7"> 8. Teletıp sisteminin size sağladığı zamansal kazancı puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_7_0" class="form-radio" name="q41_aSaglik[7]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_7_0" class="form-radio" name="q41_bTeletip[7]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_7_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_7_1" class="form-radio" name="q41_aSaglik[7]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_7_1" class="form-radio" name="q41_bTeletip[7]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_7_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_7_2" class="form-radio" name="q41_aSaglik[7]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_7_2" class="form-radio" name="q41_bTeletip[7]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_7_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_7_3" class="form-radio" name="q41_aSaglik[7]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_7_3" class="form-radio" name="q41_bTeletip[7]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_7_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_7_4" class="form-radio" name="q41_aSaglik[7]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_7_4" class="form-radio" name="q41_bTeletip[7]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_7_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1524,23 +2435,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_8"> 9. Teletıp sisteminin size sağladığı maddi kazancı (yol, konaklama vs) puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_8_0" class="form-radio" name="q41_aSaglik[8]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_8_0" class="form-radio" name="q41_bTeletip[8]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_8_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_8_1" class="form-radio" name="q41_aSaglik[8]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_8_1" class="form-radio" name="q41_bTeletip[8]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_8_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_8_2" class="form-radio" name="q41_aSaglik[8]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_8_2" class="form-radio" name="q41_bTeletip[8]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_8_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_8_3" class="form-radio" name="q41_aSaglik[8]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_8_3" class="form-radio" name="q41_bTeletip[8]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_8_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_8_4" class="form-radio" name="q41_aSaglik[8]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_8_4" class="form-radio" name="q41_bTeletip[8]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_8_4" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
             </tr>
@@ -1549,189 +2460,24 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
                 <label id="label_41_row_9"> 10. Aldığınız sağlık hizmetinden genel memnuniyetinizi puanlayınız. </label>
               </th>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_9_0" class="form-radio" name="q41_aSaglik[9]" value="1" aria-labelledby="label_41_col_0" />
+                <input type="radio" id="input_41_9_0" class="form-radio" name="q41_bTeletip[9]" value="1" aria-labelledby="label_41_col_0" />
                 <label for="input_41_9_0" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_9_1" class="form-radio" name="q41_aSaglik[9]" value="2" aria-labelledby="label_41_col_1" />
+                <input type="radio" id="input_41_9_1" class="form-radio" name="q41_bTeletip[9]" value="2" aria-labelledby="label_41_col_1" />
                 <label for="input_41_9_1" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_9_2" class="form-radio" name="q41_aSaglik[9]" value="3" aria-labelledby="label_41_col_2" />
+                <input type="radio" id="input_41_9_2" class="form-radio" name="q41_bTeletip[9]" value="3" aria-labelledby="label_41_col_2" />
                 <label for="input_41_9_2" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_9_3" class="form-radio" name="q41_aSaglik[9]" value="4" aria-labelledby="label_41_col_3" />
+                <input type="radio" id="input_41_9_3" class="form-radio" name="q41_bTeletip[9]" value="4" aria-labelledby="label_41_col_3" />
                 <label for="input_41_9_3" class="matrix-choice-label matrix-radio-label">  </label>
               </td>
               <td class="form-matrix-values">
-                <input type="radio" id="input_41_9_4" class="form-radio" name="q41_aSaglik[9]" value="5" aria-labelledby="label_41_col_4" />
+                <input type="radio" id="input_41_9_4" class="form-radio" name="q41_bTeletip[9]" value="5" aria-labelledby="label_41_col_4" />
                 <label for="input_41_9_4" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </li>
-      <li class="form-line" data-type="control_matrix" id="id_42">
-        <label class="form-label form-label-top form-label-auto" id="label_42" for="input_42"> b.Sağlık hizmetleri özellikleri (evet/hayır şeklinde cevaplayınız) </label>
-        <div id="cid_42" class="form-input-wide" data-layout="full">
-          <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix">
-            <tr class="form-matrix-tr form-matrix-header-tr">
-              <th class="form-matrix-th" style="border:none">
-                 
-              </th>
-              <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_0">
-                <label id="label_42_col_0"> Evet </label>
-              </th>
-              <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_1">
-                <label id="label_42_col_1"> Hayır </label>
-              </th>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_42 label_42_row_0">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_42_row_0"> 1. Ekran karşısında muayene esnasında herhangi bir rahatsızlık hissettiniz mi? (Çocuğunuz muayene olduysa rahatsızlık hissetti mi?) </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_0_0" class="form-radio" name="q42_bsaglikHizmetleri[0]" value="Evet" aria-labelledby="label_42_col_0" />
-                <label for="input_42_0_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_0_1" class="form-radio" name="q42_bsaglikHizmetleri[0]" value="Hayır" aria-labelledby="label_42_col_1" />
-                <label for="input_42_0_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_42 label_42_row_1">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_42_row_1"> 2. Ekran karşısında muayene olurken utandınız mı? (Çocuğunuz muayene olduysa utandı mı?) </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_1_0" class="form-radio" name="q42_bsaglikHizmetleri[1]" value="Evet" aria-labelledby="label_42_col_0" />
-                <label for="input_42_1_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_1_1" class="form-radio" name="q42_bsaglikHizmetleri[1]" value="Hayır" aria-labelledby="label_42_col_1" />
-                <label for="input_42_1_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_42 label_42_row_2">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_42_row_2"> 3. Bu sistemin kullanılması ile hastanın özel bilgilerinin sızabileceğinden endişe duydunuz mu? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_2_0" class="form-radio" name="q42_bsaglikHizmetleri[2]" value="Evet" aria-labelledby="label_42_col_0" />
-                <label for="input_42_2_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_2_1" class="form-radio" name="q42_bsaglikHizmetleri[2]" value="Hayır" aria-labelledby="label_42_col_1" />
-                <label for="input_42_2_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_42 label_42_row_3">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_42_row_3"> 4. Teletıp kullanırken hastaneye gitmiş gibi yeterli hizmet aldığınızı düşünüyor musunuz? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_3_0" class="form-radio" name="q42_bsaglikHizmetleri[3]" value="Evet" aria-labelledby="label_42_col_0" />
-                <label for="input_42_3_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_3_1" class="form-radio" name="q42_bsaglikHizmetleri[3]" value="Hayır" aria-labelledby="label_42_col_1" />
-                <label for="input_42_3_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_42 label_42_row_4">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_42_row_4"> 5. Teletıp ile sağlık hizmetlerine daha iyi erişim sağladığınızı düşünüyor musunuz? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_4_0" class="form-radio" name="q42_bsaglikHizmetleri[4]" value="Evet" aria-labelledby="label_42_col_0" />
-                <label for="input_42_4_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_4_1" class="form-radio" name="q42_bsaglikHizmetleri[4]" value="Hayır" aria-labelledby="label_42_col_1" />
-                <label for="input_42_4_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_42 label_42_row_5">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_42_row_5"> 6. Hastaneye gitmek ile teletıp görüşmesi yapmak arasında kalsanız Teletıpı öncelikli tercih eder misiniz? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_5_0" class="form-radio" name="q42_bsaglikHizmetleri[5]" value="Evet" aria-labelledby="label_42_col_0" />
-                <label for="input_42_5_0" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-              <td class="form-matrix-values">
-                <input type="radio" id="input_42_5_1" class="form-radio" name="q42_bsaglikHizmetleri[5]" value="Hayır" aria-labelledby="label_42_col_1" />
-                <label for="input_42_5_1" class="matrix-choice-label matrix-radio-label">  </label>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </li>
-      <li id="cid_44" class="form-input-wide" data-type="control_pagebreak">
-        <div class="form-pagebreak" data-component="pagebreak">
-          <div class="form-pagebreak-back-container">
-            <button id="form-pagebreak-back_44" type="button" class="form-pagebreak-back  jf-form-buttons" data-component="pagebreak-back">
-              Geri
-            </button>
-          </div>
-          <div class="form-pagebreak-next-container">
-            <button id="form-pagebreak-next_44" type="button" class="form-pagebreak-next  jf-form-buttons" data-component="pagebreak-next">
-              İleri
-            </button>
-          </div>
-          <div style="clear:both" class="pageInfo form-sub-label" id="pageInfo_44">
-          </div>
-        </div>
-      </li>
-    </ul>
-    <ul class="form-section page-section" style="display:none;">
-      <li id="cid_43" class="form-input-wide" data-type="control_head">
-        <div class="form-header-group  header-default">
-          <div class="header-text httal htvam">
-            <h2 id="header_43" class="form-header" data-component="header">
-              D. DİĞER MEMNUNİYET DEĞERLERİ
-            </h2>
-            <div id="subHeader_43" class="form-subHeader">
-              Aşağıdaki sorular açık uçlu sorulardır, sağdaki kutucuğu doldurunuz.
-            </div>
-          </div>
-        </div>
-      </li>
-      <li class="form-line" data-type="control_matrix" id="id_46">
-        <label class="form-label form-label-top form-label-auto" id="label_46" for="input_46"> Bir soru girin </label>
-        <div id="cid_46" class="form-input-wide" data-layout="full">
-          <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix">
-            <tr class="form-matrix-tr form-matrix-header-tr">
-              <th class="form-matrix-th" style="border:none">
-                 
-              </th>
-              <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_0">
-                <label id="label_46_col_0"> Yorumunuz </label>
-              </th>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_46 label_46_row_0">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_46_row_0"> 1. Teletıp ile ilgili genel memnuniyetinizi lütfen 100 üzerinden puanlayınız. </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="text" id="input_46_0_0" class="form-textbox" size="5" name="q46_birSoru[0][0]" style="width:100%;box-sizing:border-box" value="" aria-labelledby="label_46_col_0" />
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_46 label_46_row_1">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_46_row_1"> 2. Sizce teletıpın avantajları nelerdir? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="text" id="input_46_1_0" class="form-textbox" size="5" name="q46_birSoru[1][0]" style="width:100%;box-sizing:border-box" value="" aria-labelledby="label_46_col_0" />
-              </td>
-            </tr>
-            <tr class="form-matrix-tr form-matrix-value-tr" role="group" aria-labelledby="label_46 label_46_row_2">
-              <th scope="row" class="form-matrix-headers form-matrix-row-headers">
-                <label id="label_46_row_2"> 3. Sizce teletıpın dezavantajları nelerdir? </label>
-              </th>
-              <td class="form-matrix-values">
-                <input type="text" id="input_46_2_0" class="form-textbox" size="5" name="q46_birSoru[2][0]" style="width:100%;box-sizing:border-box" value="" aria-labelledby="label_46_col_0" />
               </td>
             </tr>
           </table>
@@ -1749,21 +2495,14 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi1","qid":"1","tex
       <li style="clear:both">
       </li>
       <li style="display:none">
-        Should be Empty:
         <input type="text" name="website" value="" />
       </li>
     </ul>
   </div>
+  <script>JotForm.showJotFormPowered = "new_footer";</script>
+  <script>JotForm.poweredByText = "TELETIP";</script>
   <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="203642762196964" />
-  <script type="text/javascript">
-  var all_spc = document.querySelectorAll("form[id='203642762196964'] .si" + "mple" + "_spc");
-for (var i = 0; i < all_spc.length; i++)
-{
-  all_spc[i].value = "203642762196964-203642762196964";
-}
-  </script>
+  <script type="text/javascript">var all_spc = document.querySelectorAll("form[id='203642762196964'] .si" + "mple" + "_spc");for (var i = 0; i < all_spc.length; i++){all_spc[i].value = "203642762196964-203642762196964";}</script>
 </form>
 </body>
 </html>
-<script type="text/javascript">JotForm.ownerView=true;</script><script src="https://cdn.jotfor.ms//js/vendor/smoothscroll.min.js?v=3.3.22520"></script>
-<script src="https://cdn.jotfor.ms//js/errorNavigation.js?v=3.3.22520"></script>

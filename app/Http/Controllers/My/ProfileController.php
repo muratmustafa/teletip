@@ -55,8 +55,6 @@ class ProfileController extends Controller
         } else if (Auth::guard('user')->check()) {
 
             $request->validate([
-                'name'     => 'required',
-                'tckimlik' => 'required|max:11|unique:users,tckimlik,'.Auth::guard('user')->user()->id,
                 'password',
                 'phone',
                 'birthdate',
