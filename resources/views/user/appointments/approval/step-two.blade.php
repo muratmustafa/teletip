@@ -71,9 +71,9 @@
                     <input class="custom-control-input" type="checkbox" id="inputPatientApproval" name="user_approval" value="1">
                     <label for="inputPatientApproval" class="custom-control-label">Görüşmeye katılmayı istiyorsan burayı işaretleyebilirsin.</label>
                   </div>@else
-                  <p style="text-align:justify;">
+                  <div class="alert alert-warning alert-dismissible">
                     <b>{{ \App\Models\User::where('id', $user_id)->value('name') }}</b> adlı hasta 8 yaşından küçük olduğu için kendisinden onay alınmayacaktır. Bu adımı geçebilirsiniz.
-                  </p>
+                  </div>
                   <input type="hidden" id="inputPatientApproval" name="user_approval" value="1">@endif
                 </div>
 

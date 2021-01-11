@@ -59,21 +59,34 @@
                     </ul>
                   </div>@endif
 
+                  <div class="alert alert-warning alert-dismissible">
+                    Hastanın anne ve babası halen hayatta olup evlilikleri devam ediyorsa, formu hem anne hem de babanın doldurması <b>zorunludur</b>. Aksi durumlarda görüşmeye yalnız 1 ebeveynin onay verip katılması yeterlidir.
+                  </div>
+
                   <h3>Gönüllü Oluru</h3>
 
                   <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-sm-12" id="parent_check">
+                      <div class="custom-control custom-checkbox">
+                        <input class="custom-control-input" type="checkbox" id="inputParentCheck">
+                        <label for="inputParentCheck" class="custom-control-label">Anne-Baba hayatta ve evlilikleri devam ediyor.</label>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-sm-6" id="parent1">
                       <div class="form-group">
-                        <label for="inputParentDegree">1. Kişinin Hastaya Yakınlık Derecesi</label>
+                        <label for="inputParentDegree">* 1. Kişinin Hastaya Yakınlık Derecesi</label>
                         <select class="form-control custom-select" id="inputParentDegree" name="parent_degree" required>
-                          <option selected>Seçiniz</option>
+                          <option value="" selected>Seçiniz</option>
                           <option value="Anne">Annesi</option>
                           <option value="Baba">Babası</option>
                           <option value="Akraba">2. veya 3. Dereceden Akrabası</option>
                         </select>
                       </div>
                       <div class="form-group">
-                        <label for="inputParentName">1. Kişinin Adı-Soyadı</label>
+                        <label for="inputParentName">* 1. Kişinin Adı-Soyadı</label>
                         <input type="text" class="form-control" id="inputParentName" name="parent_name" required>
                       </div>
                       <div class="custom-control custom-checkbox">
@@ -81,18 +94,18 @@
                         <label for="inputParentApproval" class="custom-control-label">Yukarıdaki bilgileri okudum. Aynı zamanda bana sözlü açıklama da yapıldı. Bu koşullar altında, kendi rızam ile bu çalışmaya katılmayı kabul ediyorum.</label>
                       </div>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-6" id="parent2">
                       <div class="form-group">
-                        <label for="inputOtherParentDegree">2. Kişinin Hastaya Yakınlık Derecesi</label>
+                        <label for="inputOtherParentDegree">* 2. Kişinin Hastaya Yakınlık Derecesi</label>
                         <select class="form-control custom-select" id="inputOtherParentDegree" name="other_parent_degree">
-                          <option selected>Seçiniz</option>
+                          <option value="" selected>Seçiniz</option>
                           <option value="Anne">Annesi</option>
                           <option value="Baba">Babası</option>
                           <option value="Akraba">2. veya 3. Dereceden Akrabası</option>
                         </select>
                       </div>
                       <div class="form-group">
-                        <label for="inputOtherParentName">2. Kişinin Adı-Soyadı</label>
+                        <label for="inputOtherParentName">* 2. Kişinin Adı-Soyadı</label>
                         <input type="text" class="form-control" id="inputOtherParentName" name="other_parent_name">
                       </div>
                       <div class="custom-control custom-checkbox">
@@ -116,4 +129,32 @@
     </div>
   </div>
 
+@endsection
+
+@section('end')
+<script>
+$(document).ready(function() {
+  $('#parent2').hide();
+  $('#inputOtherParentDegree').removeAttr('required');
+  $('#inputOtherParentName').removeAttr('required');
+  $('#inputOtherParentApproval').removeAttr('required');
+});
+$("#inputParentCheck").change(function() {
+  if (this.checked) {
+    $('#parent2').show();
+    $('#inputOtherParentDegree').attr('required', '');
+    $('#inputOtherParentName').attr('required', '');
+    $('#inputOtherParentApproval').attr('required', '');
+  } else {
+    $('#parent2').hide();
+    $('#inputOtherParentDegree').val('');
+    $('#inputOtherParentName').val('');
+    $('#inputOtherParentApproval').prop('checked', false);
+    $('#inputOtherParentDegree').removeAttr('required');
+    $('#inputOtherParentName').removeAttr('required');
+    $('#inputOtherParentApproval').removeAttr('required');
+  }
+});
+$("#inputParentCheck").trigger("change");
+</script>
 @endsection

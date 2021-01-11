@@ -78,8 +78,7 @@ class ApprovalController extends Controller
     public function postStepThree(Request $request, $id)
     {
         $approval = $request->session()->get('approval');
-        $approval->fill(['room_id' => $id]);
-        $approval->save();
+        $approval = Approval::updateOrCreate(['room_id' => $id], $approval->toArray());
 
         $request->session()->forget('approval');
 
