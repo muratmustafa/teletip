@@ -3,15 +3,14 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="alternate" type="application/json+oembed" href="https://www.jotform.com/oembed/?format=json&amp;url=https%3A%2F%2Fform.jotform.com%2F203642762196964" title="oEmbed Form">
 <link rel="alternate" type="text/xml+oembed" href="https://www.jotform.com/oembed/?format=xml&amp;url=https%3A%2F%2Fform.jotform.com%2F203642762196964" title="oEmbed Form">
-<meta name="slack-app-id" content="AHNMASS8M">
 <link rel="shortcut icon" href="/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
 <meta name="HandheldFriendly" content="true" />
 <title>Memnuniyet Ölçeği | TELETIP</title>
-<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.22617" />
+<link type="text/css" media="print" rel="stylesheet" href="https://cdn.jotfor.ms/css/printForm.css?3.3.22714" />
 <link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/themes/CSS/5e6b428acc8c4e222d1beb91.css?themeRevisionID=5f7ed99c2c2c7240ba580251"/>
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_styles.css?3.3.22617" />
-<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.22617" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_styles.css?3.3.22714" />
+<link type="text/css" rel="stylesheet" href="https://cdn.jotfor.ms/css/styles/payment/payment_feature.css?3.3.22714" />
 <style type="text/css" id="form-designer-style">
 .form-textbox,.form-textarea{color:#2c3345}
 .rating-item input:hover+label{color:#2e69ff}
@@ -82,25 +81,22 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
 .form-all .form-pagebreak-back-container,.form-all .form-pagebreak-next-container{font-family:Inter,sans-serif}
 .form-header-group{font-family:Inter,sans-serif}
 .form-label{font-family:Inter,sans-serif}
+.form-label.form-label-auto{display:block;float:none;text-align:left;width:100%}
 .form-line{margin-top:12px;margin-bottom:12px}
 .form-all{max-width:1200px;width:100%}
 .form-label.form-label-left,.form-label.form-label-right,.form-label.form-label-left.form-label-auto,.form-label.form-label-right.form-label-auto{width:236px}
 .form-all{font-size:17px}
 .form-all .qq-upload-button,.form-all .qq-upload-button,.form-all .form-submit-button,.form-all .form-submit-reset,.form-all .form-submit-print{font-size:17px}
 .form-all .form-pagebreak-back-container,.form-all .form-pagebreak-next-container{font-size:17px}
-.supernova{background-color:#ECEDF3}
-.supernova body{background:transparent}
 .supernova .form-all,.form-all{background-color:#FFF}
 .form-all{color:#2C3345}
 .form-header-group .form-header{color:#2C3345}
 .form-header-group .form-subHeader{color:#2C3345}
 .form-label-top,.form-label-left,.form-label-right,.form-html,.form-checkbox-item label,.form-radio-item label{color:#2C3345}
 .form-sub-label{color:#464d5f}
+.supernova{background-color:#ECEDF3}
+.supernova body{background:transparent}
 .form-textbox,.form-textarea,.form-dropdown,.form-radio-other-input,.form-checkbox-other-input,.form-captcha input,.form-spinner input{background-color:#FFF}
-.form-line-error{overflow:hidden;transition:none;background-color:#FFD6D6}
-.form-line-error .form-error-message{background-color:#FF3200;clear:both;float:none}
-.form-line-error .form-error-arrow{border-bottom-color:#FF3200}
-.form-line-error input:not(#coupon-input),.form-line-error textarea,.form-line-error .form-validation-error{border:1px solid #FF3200}
 .supernova{background-image:none}
 #stage{background-image:none}
 .form-all{background-image:none}
@@ -112,40 +108,41 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
 .ie-8{margin-top:auto;margin-top:initial}
 .form-label.form-label-auto{display:block;float:none;text-align:left;width:100%}
 </style>
-<script src="https://cdn.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.22617" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.22617" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.22617" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/jquery-1.8.0.min.js?v=3.3.22714" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/maskedinput.min.js?v=3.3.22714" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/js/vendor/jquery.maskedinput.min.js?v=3.3.22714" type="text/javascript"></script>
 <script src="https://cdn.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
-<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.22617" type="text/javascript"></script>
+<script src="https://cdn.jotfor.ms/static/jotform.forms.js?3.3.22714" type="text/javascript"></script>
 <script type="text/javascript">
-JotForm.init(function(){
-if (window.JotForm && JotForm.accessible) $('input_11').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_9').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_10').setAttribute('tabindex',0);
-JotForm.calendarMonths = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
-JotForm.calendarDays = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"];
-JotForm.calendarOther = {"today":"Bugün"};
-var languageOptions = document.querySelectorAll('#langList li'); 
-for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("13", true, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":false,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); });} 
-JotForm.setCalendar("13", true, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":false,"past":true,"custom":false,"ranges":false,"start":"","end":""});
-if (window.JotForm && JotForm.accessible) $('input_66').setAttribute('tabindex',0);
-setTimeout(function() {$('input_72').hint('örn: 4');}, 20);
-setTimeout(function() {$('input_73').hint('örn: 2');}, 20);
-if (window.JotForm && JotForm.accessible) $('input_78').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_80').setAttribute('tabindex',0);
-if (window.JotForm && JotForm.accessible) $('input_118').setAttribute('tabindex',0);
-JotForm.newDefaultTheme = true;
-JotForm.extendsNewTheme = false;
-JotForm.newPaymentUIForNewCreatedForms = false;
-JotForm.newPaymentUI = true;
-JotForm.alterTexts({"ageVerificationError":"Bu formu göndermek için {minAge} yaşından büyük olmanız gerekiyor.","alphabetic":"Bu alan yalnızca harf kullanılarak doldurulabilir.","alphanumeric":"Bu alan yalnızca harf ve sayı içerebilir.","appointmentSelected":"Seçtiğiniz zaman {date} günü saat {time}","ccDonationMinLimitError":"Minimum tutar {minAmount} {currency}","ccInvalidCVC":"CVC numarası geçersiz.","ccInvalidExpireDate":"Son kullanma tarihi geçersiz.","ccInvalidNumber":"Kredi Kartı Numarası geçersiz.","ccMissingDetails":"Lütfen kredi kartı bilgilerini doldurun.","ccMissingDonation":"Lütfen bağış tutarı için sayısal değerler girin.","ccMissingProduct":"Lütfen en az bir ürün seçin.","characterLimitError":"Çok fazla karakter girdiniz. Maksimum:","characterMinLimitError":"Çok az karakter girdiniz. Minimum:","confirmClearForm":"Formu temizlemek istediğinize emin misiniz?","confirmEmail":"E-posta eşleşmiyor.","currency":"Bu dosya sadece geçerli değerler içerebilir.","cyrillic":"Bu alan sadece Kiril karakterleri içerebilir.","dateInvalid":"Bu tarih geçerli değil. Tarih biçimi: {format}","dateInvalidSeparate":"Bu tarih geçerli değil. Geçerli bir {element} girin.","dateLimited":"Bu tarih kullanılamaz.","disallowDecimals":"Bir tam sayı girin.","doneButton":"Tamam","doneMessage":"Teşekkürler! Tüm hatalar düzeltildi.","dragAndDropFilesHere_infoMessage":"Dosyaları buraya sürükleyip bırakın.","email":"Geçerli bir e-posta adresi girin.","fillMask":"Alan değeri maskesi doldurmalıdır.","freeEmailError":"Ücretsiz e-posta hesaplarına izin verilmez.","generalError":"Formunuzda hatalar var. Lütfen devam etmeden önce düzeltin.","generalPageError":"Bu sayfada hatalar var. Devam etmeden önce lütfen düzeltin.","gradingScoreError":"Toplam puan şundan az ya da şuna eşit olmalıdır:","incompleteFields":"Bazı zorunlu alanlar doldurulmamış. Lütfen bu alanları doldurun.","inputCarretErrorA":"Girdi minimum değerden az olamaz:","inputCarretErrorB":"Girdi maksimum değerden büyük olamaz:","lessThan":"Puanınız şundan az ya da şuna eşit olmalıdır:","maxDigitsError":"Kabul edilebilen maksimum basamak sayısı","maxFileSize_infoMessage":"Maksimum dosya boyutu","maxSelectionsError":"İzin verilen maksimum seçim sayısı ","minSelectionsError":"Gerekli minimum seçim sayısı:","multipleError":"Bu sayfada {count} hata var. Devam etmeden önce lütfen bunları düzeltin.","multipleFileUploads_emptyError":"{file} boş, lütfen dosyaları bu dosya olmadan tekrar seçin.","multipleFileUploads_fileLimitError":"Sadece {fileLimit} dosya yüklemesine izin verilmektedir.","multipleFileUploads_minSizeError":"{file} çok küçük, minimum dosya boyutu {minSizeLimit}.","multipleFileUploads_onLeave":"Dosyalar yükleniyor, şimdi çıkarsanız yükleme iptal edilecek.","multipleFileUploads_sizeError":"{file} çok büyük, maksimum dosya boyutu {sizeLimit}.","multipleFileUploads_typeError":"{file} geçersiz dosya uzantısına sahip. Sadece {extensions} dosya uzantılarına izin verilmektedir.","nextButtonText":"İleri","noSlotsAvailable":"Boş zaman aralığı yok.","numeric":"Bu alan sadece sayısal değerler içerebilir.","oneError":"Bu sayfada {count} hata var. Devam etmeden önce lütfen düzeltin.","pastDatesDisallowed":"Tarih geçmişte olmamalı.","pleaseWait":"Lütfen bekleyin...","prevButtonText":"Geri","progressMiddleText":"/","required":"Bu alan zorunludur.","requiredLegend":"* ile işaretlenmiş tüm alanların doldurulması gerekmektedir.","requireEveryCell":"Bütün hücreler zorunlu.","requireEveryRow":"Bütün satırlar zorunlu.","requireOne":"En az bir alan zorunlu.","reviewBackText":"Forma Dön","reviewSubmitText":"İncele ve Gönder","seeAllText":"Tümünü Gör","seeErrorsButton":"Hataları Gör","slotUnavailable":"{date} günü saat {time} rezerve edilmiş. Lütfen başka aralık seçin.","submissionLimit":"Üzgünüz! Bu form sadece bir kez gönderilebilir. Çoklu form yanıtlama bu formda devre dışı.","submitButtonText":"Gönder","uploadExtensions":"Yalnızca şu dosyaları yükleyebilirsiniz:","uploadFilesize":"Dosya boyutu daha büyük olamaz:","uploadFilesizemin":"Dosya boyutu belirtilenden küçük olamaz:","url":"Bu alan yalnızca geçerli bir URL içerebilir.","wordLimitError":"Çok fazla kelime girdiniz. Maksimum:","wordMinLimitError":"Çok az kelime girdiniz. Minimum:"});
-JotForm.alterTexts(undefined, true);
-JotForm.clearFieldOnHide="disable";
-FormTranslation.init({"detectUserLanguage":"1","firstPageOnly":"0","options":"Türkçe","originalLanguage":"tr","primaryLanguage":"tr","saveUserLanguage":"1","showStatus":"flag-with-nation","theme":"light-theme","version":"2"});
-});
-JotForm.prepareCalculationsOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text":"Ankara Universitesi Tip Fakultesi Cocuk Metabolizma Bilim Dali’nda Takipli Hastalarin Teletip Sistemi ile Uzaktan Degerlendirilmesi ve Teletip Memnuniyet Olceginin Uygulanmasi Arastirmasi Arastirma Formu ve Memnuniyet Olcegi","type":"control_head"},{"name":"1Sosyodemografik2","qid":"2","text":"1. Sosyodemografik Ozellikler","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"1Hastanin","qid":"9","subLabel":"","text":"1. Hastanin Adi Soyadi","type":"control_textbox"},{"description":"","name":"2Hastanin","qid":"10","subLabel":"","text":"2. Hastanin T.C. Kimlik Numarasi","type":"control_textbox"},{"description":"","name":"arastirmaHasta","qid":"11","subLabel":"","text":"Arastirma Hasta Kodu","type":"control_textbox"},null,{"description":"","name":"3Hastanin","qid":"13","text":"3. Hastanin Dogum Tarihi","type":"control_datetime"},null,null,null,null,{"name":"sayfaSonu","qid":"18","text":"Sayfa Sonu","type":"control_pagebreak"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"4Teletip","qid":"34","text":"4. Teletip Memnuniyet olcegi","type":"control_head"},null,{"description":"","name":"aTeletip","qid":"36","text":"A. Teletip Teknik Memnuniyet","type":"control_matrix"},null,null,null,null,{"description":"","name":"bTeletip","qid":"41","text":"B. Teletip Saglik Hizmetleri Konusunda Memnuniyet","type":"control_matrix"},null,null,null,null,null,{"name":"gonder","qid":"47","text":"Gonder","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"5Teletip","qid":"63","text":"5. Teletip gorusmesine katildigi il","type":"control_radio"},{"description":"","name":"4Hastanin64","qid":"64","subLabel":"","text":"4. Hastanin Cinsiyeti","type":"control_dropdown"},{"description":"","name":"6Teletip","qid":"65","text":"6. Teletip gorusmesine katilan kisi","type":"control_radio"},{"description":"","name":"7Gorusmeye66","qid":"66","subLabel":"","text":"7. Gorusmeye katilan ebeveynin yasi","type":"control_textbox"},{"description":"","name":"8Gorusmeye","qid":"67","text":"8. Gorusmeye katilan ebeveynin egitim durumu","type":"control_radio"},{"description":"","name":"9Gorusmeye","qid":"68","text":"9. Gorusmeye katilan ebeveynin is durumu","type":"control_radio"},{"description":"","name":"10Ailenin69","qid":"69","text":"10. Ailenin maddi geliri","type":"control_radio"},null,null,{"description":"","name":"11Evde","qid":"72","subLabel":"","text":"11. Evde yasayan kisi sayisi","type":"control_number"},{"description":"","name":"12Evde","qid":"73","subLabel":"","text":"12. Evde yasayan kac kardesi var?","type":"control_number"},{"description":"","name":"13Hastanin","qid":"74","text":"13. Hastanin egitim durumu","type":"control_radio"},{"name":"sayfaSonu75","qid":"75","text":"Sayfa Sonu","type":"control_pagebreak"},null,{"name":"2Saglik","qid":"77","text":"2. Saglik hizmetlerine erisim bilgileri","type":"control_head"},{"description":"","name":"1Hastanin78","qid":"78","subLabel":"","text":"1. Hastanin metabolik hastalik tanisi","type":"control_textbox"},{"description":"","name":"2Tani","qid":"79","text":"2. Tani grubu","type":"control_radio"},{"description":"","name":"3Kac","qid":"80","subLabel":"","text":"3. Kac yildir AUTF metabolizmada takiplisiniz?","type":"control_textbox"},null,null,{"description":"","name":"4Hastanin","qid":"83","text":"4. Hastanin aldigi tedavileri lutfen isaretleyiniz (Birden cok secenek isaretleyebilirsiniz)","type":"control_checkbox"},{"description":"","name":"5Kontroller","qid":"84","text":"5. Kontroller icin AUTF metabolizmaya ne kadar siklikta gidiyorsunuz?","type":"control_radio"},{"description":"","name":"6Autf85","qid":"85","text":"6. AUTF metabolizmada ne kadar siklikta kan veriyorsunuz?","type":"control_radio"},{"description":"","name":"7Autf","qid":"86","text":"7. AUTF metabolizmada ne kadar siklikta recete rapor yazdirma ihtiyaciniz olur?","type":"control_radio"},{"description":"","name":"8Autf","qid":"87","subLabel":"","text":"8. AUTF metabolizmada poliklinik randevulariniza duzenli gelebiliyor musunuz?","type":"control_dropdown"},{"description":"","name":"9Autf","qid":"88","text":"9. AUTF metabolizmada poliklinik randevulariniza duzenli gelmemenizin onundeki sebepler nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"10Autfde89","qid":"89","text":"10. AUTF’de diyetisyen ile ne kadar siklikta yuz yuze gorusursunuz?","type":"control_radio"},{"description":"","name":"11Autf90","qid":"90","text":"11. AUTF metabolizma poliklinikte muayene icin yaklasik ne kadar sure beklersiniz?","type":"control_radio"},{"description":"","name":"12Autf91","qid":"91","subLabel":"","text":"12. AUTF metabolizma kontrollerinize gidemediginizde ilac ve diyet tedavisi ile ilgili motivasyon sorunu yasar misiniz?","type":"control_dropdown"},{"description":"","name":"13Ankarada","qid":"92","text":"13. Ankara’da yasiyorsaniz evden AUTF’ye ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"14Ankarada93","qid":"93","text":"14. Ankara’da yasiyorsaniz evden AUTF’ye hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"15Ankarada94","qid":"94","text":"15. Ankara’da yasiyor ve toplu tasima kullaniyorsaniz kac arac degistirirsiniz?","type":"control_radio"},{"description":"","name":"16Ankarada95","qid":"95","text":"16. Ankara’da yasiyorsaniz evden AUTF’ye ulasimda ne kadar yol parasi harcarsiniz?","type":"control_radio"},{"description":"","name":"17Ankara96","qid":"96","text":"17. Ankara disinda yasiyorsaniz sehrinizden Ankara’ya ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"18Ankara97","qid":"97","text":"18. Ankara disinda yasiyorsaniz evden Ankara’ya hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"19Ankara98","qid":"98","text":"19. Ankara disinda yasiyorsaniz evden Ankara’ya ulasimda yaklasik kac kisi yolculuk edersiniz?","type":"control_radio"},{"description":"","name":"20Ankara","qid":"99","text":"20.\tAnkara disinda yasiyorsaniz evden Ankara’ya ulasimda ne kadar yol parasi harcarsiniz? (yolculuk eden tum bireyleri hesap ederek)","type":"control_radio"},{"description":"","name":"21Ankara100","qid":"100","text":"21. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde nerde konaklarsiniz?","type":"control_radio"},{"description":"","name":"22Ankara","qid":"101","text":"22. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama icin ne kadar para harcarsiniz? (konaklayan tum bireyleri hesap ederek)","type":"control_radio"},null,{"description":"","name":"23Ankara","qid":"103","subLabel":"","text":"23. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama durumu sizi zorluyor mu?","type":"control_dropdown"},{"description":"","name":"24Poliklinik","qid":"104","subLabel":"","text":"24. Poliklinik basvurunuz icin is yerinden izin almaniz gerekiyor mu?","type":"control_dropdown"},{"description":"","name":"25Is","qid":"105","subLabel":"","text":"25. Is yerinden izin almakta zorluk ceker misiniz?","type":"control_dropdown"},{"name":"sayfaSonu106","qid":"106","text":"Sayfa Sonu","type":"control_pagebreak"},{"name":"3Saglik107","qid":"107","text":"3. Saglik hizmetlerinin teletip ile karsilanmasi ile ilgili bilgiler","type":"control_head"},{"description":"","name":"1Teletip","qid":"108","text":"1. Teletip gorusmesine ne ile katildiniz?","type":"control_radio"},{"description":"","name":"2Tepetip","qid":"109","text":"2. Tepetip gorusmesinde internet agina nereden ulastiniz?","type":"control_radio"},{"description":"","name":"3Teletip","qid":"110","text":"3. Teletip gorusmesi ne kadar surdu?","type":"control_radio"},null,{"description":"","name":"4Teletipin","qid":"112","text":"4. Teletip’in sizce sagladigi avantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"5Teletipin","qid":"113","text":"5. Teletip’in sizce sagladigi dezavantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"6Teletipin","qid":"114","text":"6. Teletip’in ileride hangi alanda kullanilmasini istersiniz? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"7Teletipi","qid":"115","subLabel":"","text":"7. Teletip’i faydali buldunuz mu?","type":"control_dropdown"},{"description":"","name":"8Teletipi116","qid":"116","subLabel":"","text":"8. Teletip’i sonraki sureclerde de tercih eder misiniz?","type":"control_dropdown"},{"description":"","name":"9Teletipi117","qid":"117","text":"9. Teletip’i hangisi seklinde daha cok tercih edersiniz?","type":"control_radio"},{"description":"","name":"10Genel118","qid":"118","subLabel":"","text":"10. Genel memnuniyetiniz icin 100 uzerinden bir puan verebilir misiniz?","type":"control_textbox"}]);
-setTimeout(function() {
-JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text":"Ankara Universitesi Tip Fakultesi Cocuk Metabolizma Bilim Dali’nda Takipli Hastalarin Teletip Sistemi ile Uzaktan Degerlendirilmesi ve Teletip Memnuniyet Olceginin Uygulanmasi Arastirmasi Arastirma Formu ve Memnuniyet Olcegi","type":"control_head"},{"name":"1Sosyodemografik2","qid":"2","text":"1. Sosyodemografik Ozellikler","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"1Hastanin","qid":"9","subLabel":"","text":"1. Hastanin Adi Soyadi","type":"control_textbox"},{"description":"","name":"2Hastanin","qid":"10","subLabel":"","text":"2. Hastanin T.C. Kimlik Numarasi","type":"control_textbox"},{"description":"","name":"arastirmaHasta","qid":"11","subLabel":"","text":"Arastirma Hasta Kodu","type":"control_textbox"},null,{"description":"","name":"3Hastanin","qid":"13","text":"3. Hastanin Dogum Tarihi","type":"control_datetime"},null,null,null,null,{"name":"sayfaSonu","qid":"18","text":"Sayfa Sonu","type":"control_pagebreak"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"4Teletip","qid":"34","text":"4. Teletip Memnuniyet olcegi","type":"control_head"},null,{"description":"","name":"aTeletip","qid":"36","text":"A. Teletip Teknik Memnuniyet","type":"control_matrix"},null,null,null,null,{"description":"","name":"bTeletip","qid":"41","text":"B. Teletip Saglik Hizmetleri Konusunda Memnuniyet","type":"control_matrix"},null,null,null,null,null,{"name":"gonder","qid":"47","text":"Gonder","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"5Teletip","qid":"63","text":"5. Teletip gorusmesine katildigi il","type":"control_radio"},{"description":"","name":"4Hastanin64","qid":"64","subLabel":"","text":"4. Hastanin Cinsiyeti","type":"control_dropdown"},{"description":"","name":"6Teletip","qid":"65","text":"6. Teletip gorusmesine katilan kisi","type":"control_radio"},{"description":"","name":"7Gorusmeye66","qid":"66","subLabel":"","text":"7. Gorusmeye katilan ebeveynin yasi","type":"control_textbox"},{"description":"","name":"8Gorusmeye","qid":"67","text":"8. Gorusmeye katilan ebeveynin egitim durumu","type":"control_radio"},{"description":"","name":"9Gorusmeye","qid":"68","text":"9. Gorusmeye katilan ebeveynin is durumu","type":"control_radio"},{"description":"","name":"10Ailenin69","qid":"69","text":"10. Ailenin maddi geliri","type":"control_radio"},null,null,{"description":"","name":"11Evde","qid":"72","subLabel":"","text":"11. Evde yasayan kisi sayisi","type":"control_number"},{"description":"","name":"12Evde","qid":"73","subLabel":"","text":"12. Evde yasayan kac kardesi var?","type":"control_number"},{"description":"","name":"13Hastanin","qid":"74","text":"13. Hastanin egitim durumu","type":"control_radio"},{"name":"sayfaSonu75","qid":"75","text":"Sayfa Sonu","type":"control_pagebreak"},null,{"name":"2Saglik","qid":"77","text":"2. Saglik hizmetlerine erisim bilgileri","type":"control_head"},{"description":"","name":"1Hastanin78","qid":"78","subLabel":"","text":"1. Hastanin metabolik hastalik tanisi","type":"control_textbox"},{"description":"","name":"2Tani","qid":"79","text":"2. Tani grubu","type":"control_radio"},{"description":"","name":"3Kac","qid":"80","subLabel":"","text":"3. Kac yildir AUTF metabolizmada takiplisiniz?","type":"control_textbox"},null,null,{"description":"","name":"4Hastanin","qid":"83","text":"4. Hastanin aldigi tedavileri lutfen isaretleyiniz (Birden cok secenek isaretleyebilirsiniz)","type":"control_checkbox"},{"description":"","name":"5Kontroller","qid":"84","text":"5. Kontroller icin AUTF metabolizmaya ne kadar siklikta gidiyorsunuz?","type":"control_radio"},{"description":"","name":"6Autf85","qid":"85","text":"6. AUTF metabolizmada ne kadar siklikta kan veriyorsunuz?","type":"control_radio"},{"description":"","name":"7Autf","qid":"86","text":"7. AUTF metabolizmada ne kadar siklikta recete rapor yazdirma ihtiyaciniz olur?","type":"control_radio"},{"description":"","name":"8Autf","qid":"87","subLabel":"","text":"8. AUTF metabolizmada poliklinik randevulariniza duzenli gelebiliyor musunuz?","type":"control_dropdown"},{"description":"","name":"9Autf","qid":"88","text":"9. AUTF metabolizmada poliklinik randevulariniza duzenli gelmemenizin onundeki sebepler nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"10Autfde89","qid":"89","text":"10. AUTF’de diyetisyen ile ne kadar siklikta yuz yuze gorusursunuz?","type":"control_radio"},{"description":"","name":"11Autf90","qid":"90","text":"11. AUTF metabolizma poliklinikte muayene icin yaklasik ne kadar sure beklersiniz?","type":"control_radio"},{"description":"","name":"12Autf91","qid":"91","subLabel":"","text":"12. AUTF metabolizma kontrollerinize gidemediginizde ilac ve diyet tedavisi ile ilgili motivasyon sorunu yasar misiniz?","type":"control_dropdown"},{"description":"","name":"13Ankarada","qid":"92","text":"13. Ankara’da yasiyorsaniz evden AUTF’ye ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"14Ankarada93","qid":"93","text":"14. Ankara’da yasiyorsaniz evden AUTF’ye hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"15Ankarada94","qid":"94","text":"15. Ankara’da yasiyor ve toplu tasima kullaniyorsaniz kac arac degistirirsiniz?","type":"control_radio"},{"description":"","name":"16Ankarada95","qid":"95","text":"16. Ankara’da yasiyorsaniz evden AUTF’ye ulasimda ne kadar yol parasi harcarsiniz?","type":"control_radio"},{"description":"","name":"17Ankara96","qid":"96","text":"17. Ankara disinda yasiyorsaniz sehrinizden Ankara’ya ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"18Ankara97","qid":"97","text":"18. Ankara disinda yasiyorsaniz evden Ankara’ya hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"19Ankara98","qid":"98","text":"19. Ankara disinda yasiyorsaniz evden Ankara’ya ulasimda yaklasik kac kisi yolculuk edersiniz?","type":"control_radio"},{"description":"","name":"20Ankara","qid":"99","text":"20.\tAnkara disinda yasiyorsaniz evden Ankara’ya ulasimda ne kadar yol parasi harcarsiniz? (yolculuk eden tum bireyleri hesap ederek)","type":"control_radio"},{"description":"","name":"21Ankara100","qid":"100","text":"21. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde nerde konaklarsiniz?","type":"control_radio"},{"description":"","name":"22Ankara","qid":"101","text":"22. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama icin ne kadar para harcarsiniz? (konaklayan tum bireyleri hesap ederek)","type":"control_radio"},null,{"description":"","name":"23Ankara","qid":"103","subLabel":"","text":"23. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama durumu sizi zorluyor mu?","type":"control_dropdown"},{"description":"","name":"24Poliklinik","qid":"104","subLabel":"","text":"24. Poliklinik basvurunuz icin is yerinden izin almaniz gerekiyor mu?","type":"control_dropdown"},{"description":"","name":"25Is","qid":"105","subLabel":"","text":"25. Is yerinden izin almakta zorluk ceker misiniz?","type":"control_dropdown"},{"name":"sayfaSonu106","qid":"106","text":"Sayfa Sonu","type":"control_pagebreak"},{"name":"3Saglik107","qid":"107","text":"3. Saglik hizmetlerinin teletip ile karsilanmasi ile ilgili bilgiler","type":"control_head"},{"description":"","name":"1Teletip","qid":"108","text":"1. Teletip gorusmesine ne ile katildiniz?","type":"control_radio"},{"description":"","name":"2Tepetip","qid":"109","text":"2. Tepetip gorusmesinde internet agina nereden ulastiniz?","type":"control_radio"},{"description":"","name":"3Teletip","qid":"110","text":"3. Teletip gorusmesi ne kadar surdu?","type":"control_radio"},null,{"description":"","name":"4Teletipin","qid":"112","text":"4. Teletip’in sizce sagladigi avantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"5Teletipin","qid":"113","text":"5. Teletip’in sizce sagladigi dezavantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"6Teletipin","qid":"114","text":"6. Teletip’in ileride hangi alanda kullanilmasini istersiniz? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"7Teletipi","qid":"115","subLabel":"","text":"7. Teletip’i faydali buldunuz mu?","type":"control_dropdown"},{"description":"","name":"8Teletipi116","qid":"116","subLabel":"","text":"8. Teletip’i sonraki sureclerde de tercih eder misiniz?","type":"control_dropdown"},{"description":"","name":"9Teletipi117","qid":"117","text":"9. Teletip’i hangisi seklinde daha cok tercih edersiniz?","type":"control_radio"},{"description":"","name":"10Genel118","qid":"118","subLabel":"","text":"10. Genel memnuniyetiniz icin 100 uzerinden bir puan verebilir misiniz?","type":"control_textbox"}]);}, 20); 
+   JotForm.setConditions([{"action":[{"id":"action_1610913857607","visibility":"HideMultiple","isError":false,"fields":["92","93","94","95"]},{"id":"action_1610913825868","visibility":"ShowMultiple","isError":false,"fields":["123","96","97","98","99","100","101","103"]}],"id":"1610913874370","index":"0","link":"Any","priority":"0","terms":[{"id":"term_1610913825868","field":"63","operator":"notEquals","value":"a. Ankara","isError":false}],"type":"field"},{"action":[{"id":"action_1610913792512","visibility":"HideMultiple","isError":false,"fields":["123","96","97","98","99","100","101","103"]},{"id":"action_1610913758453","visibility":"ShowMultiple","isError":false,"fields":["92","93","94","95"]}],"id":"1610913808298","index":"1","link":"Any","priority":"1","terms":[{"id":"term_1610913758453","field":"63","operator":"equals","value":"a. Ankara","isError":false}],"type":"field"}]);
+   JotForm.init(function(){
+      if (window.JotForm && JotForm.accessible) $('input_11').setAttribute('tabindex',0);
+      if (window.JotForm && JotForm.accessible) $('input_9').setAttribute('tabindex',0);
+      if (window.JotForm && JotForm.accessible) $('input_10').setAttribute('tabindex',0);
+      JotForm.calendarMonths = ["Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık"];
+      JotForm.calendarDays = ["Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"];
+      JotForm.calendarOther = {"today":"Bugün"};
+      var languageOptions = document.querySelectorAll('#langList li'); 
+      for(var langIndex = 0; langIndex < languageOptions.length; langIndex++) { languageOptions[langIndex].on('click', function(e) { setTimeout(function(){ JotForm.setCalendar("13", true, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":false,"past":true,"custom":false,"ranges":false,"start":"","end":""}); }, 0); }); }
+      JotForm.setCalendar("13", true, {"days":{"monday":true,"tuesday":true,"wednesday":true,"thursday":true,"friday":true,"saturday":true,"sunday":true},"future":false,"past":true,"custom":false,"ranges":false,"start":"","end":""});
+      if (window.JotForm && JotForm.accessible) $('input_123').setAttribute('tabindex',0);
+      if (window.JotForm && JotForm.accessible) $('input_66').setAttribute('tabindex',0);
+      setTimeout(function() { $('input_72').hint('örn: 4'); }, 20);
+      setTimeout(function() { $('input_73').hint('örn: 2'); }, 20);
+      if (window.JotForm && JotForm.accessible) $('input_78').setAttribute('tabindex',0);
+      if (window.JotForm && JotForm.accessible) $('input_80').setAttribute('tabindex',0);
+      if (window.JotForm && JotForm.accessible) $('input_118').setAttribute('tabindex',0);
+      JotForm.newDefaultTheme = true;
+      JotForm.extendsNewTheme = false;
+      JotForm.newPaymentUIForNewCreatedForms = false;
+      JotForm.newPaymentUI = true;
+      JotForm.alterTexts({"ageVerificationError":"Bu formu göndermek için {minAge} yaşından büyük olmanız gerekiyor.","alphabetic":"Bu alan yalnızca harf kullanılarak doldurulabilir.","alphanumeric":"Bu alan yalnızca harf ve sayı içerebilir.","appointmentSelected":"Seçtiğiniz zaman {date} günü saat {time}","ccDonationMinLimitError":"Minimum tutar {minAmount} {currency}","ccInvalidCVC":"CVC numarası geçersiz.","ccInvalidExpireDate":"Son kullanma tarihi geçersiz.","ccInvalidNumber":"Kredi Kartı Numarası geçersiz.","ccMissingDetails":"Lütfen kredi kartı bilgilerini doldurun.","ccMissingDonation":"Lütfen bağış tutarı için sayısal değerler girin.","ccMissingProduct":"Lütfen en az bir ürün seçin.","characterLimitError":"Çok fazla karakter girdiniz. Maksimum:","characterMinLimitError":"Çok az karakter girdiniz. Minimum:","confirmClearForm":"Formu temizlemek istediğinize emin misiniz?","confirmEmail":"E-posta eşleşmiyor.","currency":"Bu dosya sadece geçerli değerler içerebilir.","cyrillic":"Bu alan sadece Kiril karakterleri içerebilir.","dateInvalid":"Bu tarih geçerli değil. Tarih biçimi: {format}","dateInvalidSeparate":"Bu tarih geçerli değil. Geçerli bir {element} girin.","dateLimited":"Bu tarih kullanılamaz.","disallowDecimals":"Bir tam sayı girin.","doneButton":"Tamam","doneMessage":"Teşekkürler! Tüm hatalar düzeltildi.","dragAndDropFilesHere_infoMessage":"Dosyaları buraya sürükleyip bırakın.","email":"Geçerli bir e-posta adresi girin.","fillMask":"Alan değeri maskesi doldurmalıdır.","freeEmailError":"Ücretsiz e-posta hesaplarına izin verilmez.","generalError":"Formunuzda hatalar var. Lütfen devam etmeden önce düzeltin.","generalPageError":"Bu sayfada hatalar var. Devam etmeden önce lütfen düzeltin.","gradingScoreError":"Toplam puan şundan az ya da şuna eşit olmalıdır:","incompleteFields":"Bazı zorunlu alanlar doldurulmamış. Lütfen bu alanları doldurun.","inputCarretErrorA":"Girdi minimum değerden az olamaz:","inputCarretErrorB":"Girdi maksimum değerden büyük olamaz:","lessThan":"Puanınız şundan az ya da şuna eşit olmalıdır:","maxDigitsError":"Kabul edilebilen maksimum basamak sayısı","maxFileSize_infoMessage":"Maksimum dosya boyutu","maxSelectionsError":"İzin verilen maksimum seçim sayısı ","minSelectionsError":"Gerekli minimum seçim sayısı:","multipleError":"Bu sayfada {count} hata var. Devam etmeden önce lütfen bunları düzeltin.","multipleFileUploads_emptyError":"{file} boş, lütfen dosyaları bu dosya olmadan tekrar seçin.","multipleFileUploads_fileLimitError":"Sadece {fileLimit} dosya yüklemesine izin verilmektedir.","multipleFileUploads_minSizeError":"{file} çok küçük, minimum dosya boyutu {minSizeLimit}.","multipleFileUploads_onLeave":"Dosyalar yükleniyor, şimdi çıkarsanız yükleme iptal edilecek.","multipleFileUploads_sizeError":"{file} çok büyük, maksimum dosya boyutu {sizeLimit}.","multipleFileUploads_typeError":"{file} geçersiz dosya uzantısına sahip. Sadece {extensions} dosya uzantılarına izin verilmektedir.","nextButtonText":"İleri","noSlotsAvailable":"Boş zaman aralığı yok.","numeric":"Bu alan sadece sayısal değerler içerebilir.","oneError":"Bu sayfada {count} hata var. Devam etmeden önce lütfen düzeltin.","pastDatesDisallowed":"Tarih geçmişte olmamalı.","pleaseWait":"Lütfen bekleyin...","prevButtonText":"Geri","progressMiddleText":"/","required":"Bu alan zorunludur.","requiredLegend":"* ile işaretlenmiş tüm alanların doldurulması gerekmektedir.","requireEveryCell":"Bütün hücreler zorunlu.","requireEveryRow":"Bütün satırlar zorunlu.","requireOne":"En az bir alan zorunlu.","reviewBackText":"Forma Dön","reviewSubmitText":"İncele ve Gönder","seeAllText":"Tümünü Gör","seeErrorsButton":"Hataları Gör","slotUnavailable":"{date} günü saat {time} rezerve edilmiş. Lütfen başka aralık seçin.","submissionLimit":"Üzgünüz! Bu form sadece bir kez gönderilebilir. Çoklu form yanıtlama bu formda devre dışı.","submitButtonText":"Gönder","uploadExtensions":"Yalnızca şu dosyaları yükleyebilirsiniz:","uploadFilesize":"Dosya boyutu daha büyük olamaz:","uploadFilesizemin":"Dosya boyutu belirtilenden küçük olamaz:","url":"Bu alan yalnızca geçerli bir URL içerebilir.","wordLimitError":"Çok fazla kelime girdiniz. Maksimum:","wordMinLimitError":"Çok az kelime girdiniz. Minimum:"});
+      JotForm.alterTexts(undefined, true);
+      JotForm.clearFieldOnHide="enable";
+      FormTranslation.init({"detectUserLanguage":"1","firstPageOnly":"0","options":"Türkçe","originalLanguage":"tr","primaryLanguage":"tr","saveUserLanguage":"1","showStatus":"flag-with-nation","theme":"light-theme","version":"2"});
+   });
+   JotForm.prepareCalculationsOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text":"Ankara Universitesi Tip Fakultesi Cocuk Metabolizma Bilim Dali’nda Takipli Hastalarin Teletip Sistemi ile Uzaktan Degerlendirilmesi ve Teletip Memnuniyet Olceginin Uygulanmasi Arastirmasi Arastirma Formu ve Memnuniyet Olcegi","type":"control_head"},{"name":"1Sosyodemografik2","qid":"2","text":"1. Sosyodemografik Ozellikler","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"1Hastanin","qid":"9","subLabel":"","text":"1. Hastanin Adi Soyadi","type":"control_textbox"},{"description":"","name":"2Hastanin","qid":"10","subLabel":"","text":"2. Hastanin T.C. Kimlik Numarasi","type":"control_textbox"},{"description":"","name":"arastirmaHasta","qid":"11","subLabel":"","text":"Arastirma Hasta Kodu","type":"control_textbox"},null,{"description":"","name":"3Hastanin","qid":"13","text":"3. Hastanin Dogum Tarihi","type":"control_datetime"},null,null,null,null,{"name":"sayfaSonu","qid":"18","text":"Sayfa Sonu","type":"control_pagebreak"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"4Teletip","qid":"34","text":"4. Teletip Memnuniyet olcegi","type":"control_head"},null,{"description":"","name":"aTeletip","qid":"36","text":"A. Teletip Teknik Memnuniyet","type":"control_matrix"},null,null,null,null,{"description":"","name":"bTeletip","qid":"41","text":"B. Teletip Saglik Hizmetleri Konusunda Memnuniyet","type":"control_matrix"},null,null,null,null,null,{"name":"gonder","qid":"47","text":"Gonder","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"5Teletip","qid":"63","text":"5. Teletip gorusmesine katildigi il","type":"control_radio"},{"description":"","name":"4Hastanin","qid":"64","subLabel":"","text":"4. Hastanin Cinsiyeti","type":"control_dropdown"},{"description":"","name":"6Teletip","qid":"65","text":"6. Teletip gorusmesine katilan kisi","type":"control_radio"},{"description":"","name":"7Gorusmeye","qid":"66","subLabel":"","text":"7. Gorusmeye katilan ebeveynin yasi","type":"control_textbox"},{"description":"","name":"8Gorusmeye","qid":"67","text":"8. Gorusmeye katilan ebeveynin egitim durumu","type":"control_radio"},{"description":"","name":"9Gorusmeye","qid":"68","text":"9. Gorusmeye katilan ebeveynin is durumu","type":"control_radio"},{"description":"","name":"10Ailenin","qid":"69","text":"10. Ailenin maddi geliri","type":"control_radio"},null,null,{"description":"","name":"11Evde","qid":"72","subLabel":"","text":"11. Evde yasayan kisi sayisi","type":"control_number"},{"description":"","name":"12Evde","qid":"73","subLabel":"","text":"12. Evde yasayan kac kardesi var?","type":"control_number"},{"description":"","name":"13Hastanin","qid":"74","text":"13. Hastanin egitim durumu","type":"control_radio"},{"name":"sayfaSonu75","qid":"75","text":"Sayfa Sonu","type":"control_pagebreak"},null,{"name":"2Saglik","qid":"77","text":"2. Saglik hizmetlerine erisim bilgileri","type":"control_head"},{"description":"","name":"1Hastanin78","qid":"78","subLabel":"","text":"1. Hastanin metabolik hastalik tanisi","type":"control_textbox"},{"description":"","name":"2Tani","qid":"79","text":"2. Tani grubu","type":"control_radio"},{"description":"","name":"3Kac","qid":"80","subLabel":"","text":"3. Kac yildir AUTF metabolizmada takiplisiniz?","type":"control_textbox"},null,null,{"description":"","name":"4Hastanin83","qid":"83","text":"4. Hastanin aldigi tedavileri lutfen isaretleyiniz (Birden cok secenek isaretleyebilirsiniz)","type":"control_checkbox"},{"description":"","name":"5Kontroller","qid":"84","text":"5. Kontroller icin AUTF metabolizmaya ne kadar siklikta gidiyorsunuz?","type":"control_radio"},{"description":"","name":"6Autf","qid":"85","text":"6. AUTF metabolizmada ne kadar siklikta kan veriyorsunuz?","type":"control_radio"},{"description":"","name":"7Autf","qid":"86","text":"7. AUTF metabolizmada ne kadar siklikta recete rapor yazdirma ihtiyaciniz olur?","type":"control_radio"},{"description":"","name":"8Autf","qid":"87","subLabel":"","text":"8. AUTF metabolizmada poliklinik randevulariniza duzenli gelebiliyor musunuz?","type":"control_dropdown"},{"description":"","name":"9Autf","qid":"88","text":"9. AUTF metabolizmada poliklinik randevulariniza duzenli gelmemenizin onundeki sebepler nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"10Autfde89","qid":"89","text":"10. AUTF’de diyetisyen ile ne kadar siklikta yuz yuze gorusursunuz?","type":"control_radio"},{"description":"","name":"11Autf90","qid":"90","text":"11. AUTF metabolizma poliklinikte muayene icin yaklasik ne kadar sure beklersiniz?","type":"control_radio"},{"description":"","name":"12Autf91","qid":"91","subLabel":"","text":"12. AUTF metabolizma kontrollerinize gidemediginizde ilac ve diyet tedavisi ile ilgili motivasyon sorunu yasar misiniz?","type":"control_dropdown"},{"description":"","name":"13Ankarada92","qid":"92","text":"13. Ankara’da yasiyorsaniz evden AUTF’ye ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"14Ankarada93","qid":"93","text":"14. Ankara’da yasiyorsaniz evden AUTF’ye hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"15Ankarada94","qid":"94","text":"15. Ankara’da yasiyor ve toplu tasima kullaniyorsaniz kac arac degistirirsiniz?","type":"control_radio"},{"description":"","name":"16Ankarada95","qid":"95","text":"16. Ankara’da yasiyorsaniz evden AUTF’ye ulasimda ne kadar yol parasi harcarsiniz?","type":"control_radio"},{"description":"","name":"17Ankara96","qid":"96","text":"17. Ankara disinda yasiyorsaniz sehrinizden Ankara’ya ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"18Ankara97","qid":"97","text":"18. Ankara disinda yasiyorsaniz evden Ankara’ya hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"19Ankara98","qid":"98","text":"19. Ankara disinda yasiyorsaniz evden Ankara’ya ulasimda yaklasik kac kisi yolculuk edersiniz?","type":"control_radio"},{"description":"","name":"20Ankara","qid":"99","text":"20. Ankara disinda yasiyorsaniz evden Ankara’ya ulasimda ne kadar yol parasi harcarsiniz? (Yolculuk eden tum bireyleri hesap ederek)","type":"control_radio"},{"description":"","name":"21Ankara100","qid":"100","text":"21. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde nerde konaklarsiniz?","type":"control_radio"},{"description":"","name":"22Ankara","qid":"101","text":"22. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama icin ne kadar para harcarsiniz? (Konaklayan tum bireyleri hesap ederek)","type":"control_radio"},null,{"description":"","name":"23Ankara","qid":"103","subLabel":"","text":"23. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama durumu sizi zorluyor mu?","type":"control_dropdown"},{"description":"","name":"24Poliklinik","qid":"104","subLabel":"","text":"24. Poliklinik basvurunuz icin is yerinden izin almaniz gerekiyor mu?","type":"control_dropdown"},{"description":"","name":"25Is","qid":"105","subLabel":"","text":"25. Is yerinden izin almakta zorluk ceker misiniz?","type":"control_dropdown"},{"name":"sayfaSonu106","qid":"106","text":"Sayfa Sonu","type":"control_pagebreak"},{"name":"3Saglik107","qid":"107","text":"3. Saglik hizmetlerinin teletip ile karsilanmasi ile ilgili bilgiler","type":"control_head"},{"description":"","name":"1Teletip","qid":"108","text":"1. Teletip gorusmesine ne ile katildiniz?","type":"control_radio"},{"description":"","name":"2Teletip","qid":"109","text":"2. Teletip gorusmesinde internet agina nereden ulastiniz?","type":"control_radio"},{"description":"","name":"3Teletip","qid":"110","text":"3. Teletip gorusmesi ne kadar surdu?","type":"control_radio"},null,{"description":"","name":"4Teletipin","qid":"112","text":"4. Teletip’in sizce sagladigi avantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"5Teletipin","qid":"113","text":"5. Teletip’in sizce sagladigi dezavantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"6Teletipin","qid":"114","text":"6. Teletip’in ileride hangi alanda kullanilmasini istersiniz? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"7Teletipi","qid":"115","subLabel":"","text":"7. Teletip’i faydali buldunuz mu?","type":"control_dropdown"},{"description":"","name":"8Teletipi","qid":"116","subLabel":"","text":"8. Teletip’i sonraki sureclerde de tercih eder misiniz?","type":"control_dropdown"},{"description":"","name":"9Teletipi","qid":"117","text":"9. Teletip’i hangisi seklinde daha cok tercih edersiniz?","type":"control_radio"},{"description":"","name":"10Genel","qid":"118","subLabel":"","text":"10. Genel memnuniyetiniz icin 100 uzerinden bir puan verebilir misiniz?","type":"control_textbox"},null,null,null,null,{"description":"","name":"51Hangi","qid":"123","subLabel":"","text":"5.1. Hangi ildesiniz?","type":"control_textbox"}]);
+   setTimeout(function() {JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text":"Ankara Universitesi Tip Fakultesi Cocuk Metabolizma Bilim Dali’nda Takipli Hastalarin Teletip Sistemi ile Uzaktan Degerlendirilmesi ve Teletip Memnuniyet Olceginin Uygulanmasi Arastirmasi Arastirma Formu ve Memnuniyet Olcegi","type":"control_head"},{"name":"1Sosyodemografik2","qid":"2","text":"1. Sosyodemografik Ozellikler","type":"control_head"},null,null,null,null,null,null,{"description":"","name":"1Hastanin","qid":"9","subLabel":"","text":"1. Hastanin Adi Soyadi","type":"control_textbox"},{"description":"","name":"2Hastanin","qid":"10","subLabel":"","text":"2. Hastanin T.C. Kimlik Numarasi","type":"control_textbox"},{"description":"","name":"arastirmaHasta","qid":"11","subLabel":"","text":"Arastirma Hasta Kodu","type":"control_textbox"},null,{"description":"","name":"3Hastanin","qid":"13","text":"3. Hastanin Dogum Tarihi","type":"control_datetime"},null,null,null,null,{"name":"sayfaSonu","qid":"18","text":"Sayfa Sonu","type":"control_pagebreak"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"name":"4Teletip","qid":"34","text":"4. Teletip Memnuniyet olcegi","type":"control_head"},null,{"description":"","name":"aTeletip","qid":"36","text":"A. Teletip Teknik Memnuniyet","type":"control_matrix"},null,null,null,null,{"description":"","name":"bTeletip","qid":"41","text":"B. Teletip Saglik Hizmetleri Konusunda Memnuniyet","type":"control_matrix"},null,null,null,null,null,{"name":"gonder","qid":"47","text":"Gonder","type":"control_button"},null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,{"description":"","name":"5Teletip","qid":"63","text":"5. Teletip gorusmesine katildigi il","type":"control_radio"},{"description":"","name":"4Hastanin","qid":"64","subLabel":"","text":"4. Hastanin Cinsiyeti","type":"control_dropdown"},{"description":"","name":"6Teletip","qid":"65","text":"6. Teletip gorusmesine katilan kisi","type":"control_radio"},{"description":"","name":"7Gorusmeye","qid":"66","subLabel":"","text":"7. Gorusmeye katilan ebeveynin yasi","type":"control_textbox"},{"description":"","name":"8Gorusmeye","qid":"67","text":"8. Gorusmeye katilan ebeveynin egitim durumu","type":"control_radio"},{"description":"","name":"9Gorusmeye","qid":"68","text":"9. Gorusmeye katilan ebeveynin is durumu","type":"control_radio"},{"description":"","name":"10Ailenin","qid":"69","text":"10. Ailenin maddi geliri","type":"control_radio"},null,null,{"description":"","name":"11Evde","qid":"72","subLabel":"","text":"11. Evde yasayan kisi sayisi","type":"control_number"},{"description":"","name":"12Evde","qid":"73","subLabel":"","text":"12. Evde yasayan kac kardesi var?","type":"control_number"},{"description":"","name":"13Hastanin","qid":"74","text":"13. Hastanin egitim durumu","type":"control_radio"},{"name":"sayfaSonu75","qid":"75","text":"Sayfa Sonu","type":"control_pagebreak"},null,{"name":"2Saglik","qid":"77","text":"2. Saglik hizmetlerine erisim bilgileri","type":"control_head"},{"description":"","name":"1Hastanin78","qid":"78","subLabel":"","text":"1. Hastanin metabolik hastalik tanisi","type":"control_textbox"},{"description":"","name":"2Tani","qid":"79","text":"2. Tani grubu","type":"control_radio"},{"description":"","name":"3Kac","qid":"80","subLabel":"","text":"3. Kac yildir AUTF metabolizmada takiplisiniz?","type":"control_textbox"},null,null,{"description":"","name":"4Hastanin83","qid":"83","text":"4. Hastanin aldigi tedavileri lutfen isaretleyiniz (Birden cok secenek isaretleyebilirsiniz)","type":"control_checkbox"},{"description":"","name":"5Kontroller","qid":"84","text":"5. Kontroller icin AUTF metabolizmaya ne kadar siklikta gidiyorsunuz?","type":"control_radio"},{"description":"","name":"6Autf","qid":"85","text":"6. AUTF metabolizmada ne kadar siklikta kan veriyorsunuz?","type":"control_radio"},{"description":"","name":"7Autf","qid":"86","text":"7. AUTF metabolizmada ne kadar siklikta recete rapor yazdirma ihtiyaciniz olur?","type":"control_radio"},{"description":"","name":"8Autf","qid":"87","subLabel":"","text":"8. AUTF metabolizmada poliklinik randevulariniza duzenli gelebiliyor musunuz?","type":"control_dropdown"},{"description":"","name":"9Autf","qid":"88","text":"9. AUTF metabolizmada poliklinik randevulariniza duzenli gelmemenizin onundeki sebepler nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"10Autfde89","qid":"89","text":"10. AUTF’de diyetisyen ile ne kadar siklikta yuz yuze gorusursunuz?","type":"control_radio"},{"description":"","name":"11Autf90","qid":"90","text":"11. AUTF metabolizma poliklinikte muayene icin yaklasik ne kadar sure beklersiniz?","type":"control_radio"},{"description":"","name":"12Autf91","qid":"91","subLabel":"","text":"12. AUTF metabolizma kontrollerinize gidemediginizde ilac ve diyet tedavisi ile ilgili motivasyon sorunu yasar misiniz?","type":"control_dropdown"},{"description":"","name":"13Ankarada92","qid":"92","text":"13. Ankara’da yasiyorsaniz evden AUTF’ye ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"14Ankarada93","qid":"93","text":"14. Ankara’da yasiyorsaniz evden AUTF’ye hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"15Ankarada94","qid":"94","text":"15. Ankara’da yasiyor ve toplu tasima kullaniyorsaniz kac arac degistirirsiniz?","type":"control_radio"},{"description":"","name":"16Ankarada95","qid":"95","text":"16. Ankara’da yasiyorsaniz evden AUTF’ye ulasimda ne kadar yol parasi harcarsiniz?","type":"control_radio"},{"description":"","name":"17Ankara96","qid":"96","text":"17. Ankara disinda yasiyorsaniz sehrinizden Ankara’ya ne kadar surede varirsiniz?","type":"control_radio"},{"description":"","name":"18Ankara97","qid":"97","text":"18. Ankara disinda yasiyorsaniz evden Ankara’ya hangi aracla ulasirsiniz?","type":"control_radio"},{"description":"","name":"19Ankara98","qid":"98","text":"19. Ankara disinda yasiyorsaniz evden Ankara’ya ulasimda yaklasik kac kisi yolculuk edersiniz?","type":"control_radio"},{"description":"","name":"20Ankara","qid":"99","text":"20. Ankara disinda yasiyorsaniz evden Ankara’ya ulasimda ne kadar yol parasi harcarsiniz? (Yolculuk eden tum bireyleri hesap ederek)","type":"control_radio"},{"description":"","name":"21Ankara100","qid":"100","text":"21. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde nerde konaklarsiniz?","type":"control_radio"},{"description":"","name":"22Ankara","qid":"101","text":"22. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama icin ne kadar para harcarsiniz? (Konaklayan tum bireyleri hesap ederek)","type":"control_radio"},null,{"description":"","name":"23Ankara","qid":"103","subLabel":"","text":"23. Ankara disinda yasiyorsaniz Ankara’ya geldiginizde konaklama durumu sizi zorluyor mu?","type":"control_dropdown"},{"description":"","name":"24Poliklinik","qid":"104","subLabel":"","text":"24. Poliklinik basvurunuz icin is yerinden izin almaniz gerekiyor mu?","type":"control_dropdown"},{"description":"","name":"25Is","qid":"105","subLabel":"","text":"25. Is yerinden izin almakta zorluk ceker misiniz?","type":"control_dropdown"},{"name":"sayfaSonu106","qid":"106","text":"Sayfa Sonu","type":"control_pagebreak"},{"name":"3Saglik107","qid":"107","text":"3. Saglik hizmetlerinin teletip ile karsilanmasi ile ilgili bilgiler","type":"control_head"},{"description":"","name":"1Teletip","qid":"108","text":"1. Teletip gorusmesine ne ile katildiniz?","type":"control_radio"},{"description":"","name":"2Teletip","qid":"109","text":"2. Teletip gorusmesinde internet agina nereden ulastiniz?","type":"control_radio"},{"description":"","name":"3Teletip","qid":"110","text":"3. Teletip gorusmesi ne kadar surdu?","type":"control_radio"},null,{"description":"","name":"4Teletipin","qid":"112","text":"4. Teletip’in sizce sagladigi avantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"5Teletipin","qid":"113","text":"5. Teletip’in sizce sagladigi dezavantajlar nelerdir? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"6Teletipin","qid":"114","text":"6. Teletip’in ileride hangi alanda kullanilmasini istersiniz? (Birden cok secenek secilebilir)","type":"control_checkbox"},{"description":"","name":"7Teletipi","qid":"115","subLabel":"","text":"7. Teletip’i faydali buldunuz mu?","type":"control_dropdown"},{"description":"","name":"8Teletipi","qid":"116","subLabel":"","text":"8. Teletip’i sonraki sureclerde de tercih eder misiniz?","type":"control_dropdown"},{"description":"","name":"9Teletipi","qid":"117","text":"9. Teletip’i hangisi seklinde daha cok tercih edersiniz?","type":"control_radio"},{"description":"","name":"10Genel","qid":"118","subLabel":"","text":"10. Genel memnuniyetiniz icin 100 uzerinden bir puan verebilir misiniz?","type":"control_textbox"},null,null,null,null,{"description":"","name":"51Hangi","qid":"123","subLabel":"","text":"5.1. Hangi ildesiniz?","type":"control_textbox"}]);}, 20); 
 </script>
 </head>
 <body>
@@ -154,7 +151,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
   <input type="hidden" id="JWTContainer" value="" />
   <input type="hidden" id="cardinalOrderNumber" value="" />
   <div role="main" class="form-all">
-    <link type="text/css" rel="stylesheet" media="all" href="https://cdn.jotfor.ms/wizards/languageWizard/custom-dropdown/css/lang-dd.css?3.3.22617" />
+    <link type="text/css" rel="stylesheet" media="all" href="https://cdn.jotfor.ms/wizards/languageWizard/custom-dropdown/css/lang-dd.css?3.3.22714" />
     <div class="cont">
       <input type="text" id="input_language" name="input_language" style="display:none" />
       <div class="language-dd" id="langDd" style="display:none">
@@ -168,11 +165,13 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
         </ul>
       </div>
     </div>
-    <script type="text/javascript" src="https://cdn.jotfor.ms/js/formTranslation.v2.js?3.3.22617"></script>
+    <script type="text/javascript" src="https://cdn.jotfor.ms/js/formTranslation.v2.js?3.3.22714"></script>
     <div class="formLogoWrapper Center">
       <img class="formLogoImg" src="/logo.png" height="70" width="280">
     </div>
-    <style>.formLogoWrapper { display:inline-block; position: absolute; width: 100%;} .form-all:before { background: none !important;} .formLogoWrapper.Center { top: -80px; text-align: center;}</style>
+    <style>
+      .formLogoWrapper { display:inline-block; position: absolute; width: 100%;} .form-all:before { background: none !important;} .formLogoWrapper.Center { top: -80px; text-align: center;}
+    </style>
     <ul class="form-section page-section">
       <li id="cid_1" class="form-input-wide" data-type="control_head">
         <div class="form-header-group  header-default">
@@ -211,7 +210,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </span>
         </label>
         <div id="cid_9" class="form-input-wide jf-required" data-layout="half">
-          <input type="text" id="input_9" name="q9_1Hastanin" data-type="input-textbox" class="form-textbox validate[required, Fill Mask]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_9" required="" />
+          <input type="text" id="input_9" name="q9_1Hastanin" data-type="input-textbox" class="form-textbox validate[required, Alphabetic]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_9" required="" />
         </div>
       </li>
       <li class="form-line form-line-column form-col-2 jf-required" data-type="control_textbox" id="id_10">
@@ -222,7 +221,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </span>
         </label>
         <div id="cid_10" class="form-input-wide jf-required" data-layout="half">
-          <input type="text" id="input_10" name="q10_2Hastanin" data-type="input-textbox" class="form-textbox validate[required]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_10" required="" />
+          <input type="text" id="input_10" name="q10_2Hastanin" data-type="input-textbox" class="form-textbox validate[required, Numeric]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_10" required="" />
         </div>
       </li>
       <li class="form-line form-line-column form-col-3 jf-required" data-type="control_datetime" id="id_13">
@@ -262,50 +261,64 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-4" data-type="control_dropdown" id="id_64">
-        <label class="form-label form-label-top" id="label_64" for="input_64"> 4. Hastanın Cinsiyeti </label>
-        <div id="cid_64" class="form-input-wide" data-layout="half">
-          <select class="form-dropdown" id="input_64" name="q64_4Hastanin64" style="width:310px" data-component="dropdown" aria-labelledby="label_64">
-            <option value=""> Lütfen Seçiniz </option>
+      <li class="form-line form-line-column form-col-4 jf-required" data-type="control_dropdown" id="id_64">
+        <label class="form-label form-label-top" id="label_64" for="input_64">
+          4. Hastanın Cinsiyeti
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_64" class="form-input-wide jf-required" data-layout="half">
+          <select class="form-dropdown validate[required]" id="input_64" name="q64_4Hastanin" style="width:310px" data-component="dropdown" required="" aria-labelledby="label_64">
+            <option value=""> Lütfen Seçin </option>
             <option value="Erkek"> Erkek </option>
             <option value="Kadın"> Kadın </option>
           </select>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-5" data-type="control_radio" id="id_63">
-        <label class="form-label form-label-top" id="label_63" for="input_63"> 5. Teletıp görüşmesine katıldığı il </label>
-        <div id="cid_63" class="form-input-wide" data-layout="full">
-          <div class="form-single-column" role="group" aria-labelledby="label_63" data-component="radio">
-            <span class="form-radio-item" style="clear:left">
+      <li class="form-line jf-required" data-type="control_radio" id="id_63">
+        <label class="form-label form-label-top" id="label_63" for="input_63">
+          5. Teletıp görüşmesine katıldığı il
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_63" class="form-input-wide jf-required" data-layout="full">
+          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_63" data-component="radio">
+            <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_63_0" name="q63_5Teletip" value="a" />
+              <input type="radio" class="form-radio validate[required]" id="input_63_0" name="q63_5Teletip" value="a" required="" />
               <label id="label_input_63_0" for="input_63_0"> a. Ankara </label>
             </span>
-            <span class="form-radio-item" style="clear:left">
+            <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_63_1" name="q63_5Teletip" value="b" />
+              <input type="radio" class="form-radio validate[required]" id="input_63_1" name="q63_5Teletip" value="b" required="" />
               <label id="label_input_63_1" for="input_63_1"> b. Ankara’dan 0-500 km uzakta </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_63_2" name="q63_5Teletip" value="c" />
+              <input type="radio" class="form-radio validate[required]" id="input_63_2" name="q63_5Teletip" value="c" required="" />
               <label id="label_input_63_2" for="input_63_2"> c. Ankara’dan 500-1000 km uzakta </label>
             </span>
-            <span class="form-radio-item" style="clear:left">
+            <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_63_3" name="q63_5Teletip" value="d" />
-              <label id="label_input_63_3" for="input_63_3">
-                d. Ankara’dan 1000 km
-                < uzakta</label>
+              <input type="radio" class="form-radio validate[required]" id="input_63_3" name="q63_5Teletip" value="d" required="" />
+              <label id="label_input_63_3" for="input_63_3"> d. Ankara’dan 1000 km < uzakta</label>
             </span>
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-6" data-type="control_radio" id="id_65">
+      <li class="form-line form-field-hidden" style="display:none;" data-type="control_textbox" id="id_123">
+        <label class="form-label form-label-left" id="label_123" for="input_123"> 5.1. Hangi ildesiniz? </label>
+        <div id="cid_123" class="form-input" data-layout="half">
+          <input type="text" id="input_123" name="q123_51Hangi" data-type="input-textbox" class="form-textbox validate[Alphabetic]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_123" />
+        </div>
+      </li>
+      <li class="form-line form-line-column form-col-1" data-type="control_radio" id="id_65">
         <label class="form-label form-label-top" id="label_65" for="input_65"> 6. Teletıp görüşmesine katılan kişi </label>
         <div id="cid_65" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_65" data-component="radio">
@@ -336,13 +349,13 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_textbox" id="id_66">
-        <label class="form-label form-label-top form-label-auto" id="label_66" for="input_66"> 7. Görüşmeye katılan ebeveynin yaşı </label>
+      <li class="form-line form-line-column form-col-2" data-type="control_textbox" id="id_66">
+        <label class="form-label form-label-top" id="label_66" for="input_66"> 7. Görüşmeye katılan ebeveynin yaşı </label>
         <div id="cid_66" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_66" name="q66_7Gorusmeye66" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_66" />
+          <input type="text" id="input_66" name="q66_7Gorusmeye" data-type="input-textbox" class="form-textbox validate[Numeric]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_66" />
         </div>
       </li>
-      <li class="form-line form-line-column form-col-1" data-type="control_radio" id="id_67">
+      <li class="form-line form-line-column form-col-3" data-type="control_radio" id="id_67">
         <label class="form-label form-label-top" id="label_67" for="input_67"> 8. Görüşmeye katılan ebeveynin eğitim durumu </label>
         <div id="cid_67" class="form-input-wide" data-layout="full">
           <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_67" data-component="radio">
@@ -385,7 +398,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-2" data-type="control_radio" id="id_68">
+      <li class="form-line form-line-column form-col-4" data-type="control_radio" id="id_68">
         <label class="form-label form-label-top" id="label_68" for="input_68"> 9. Görüşmeye katılan ebeveynin iş durumu </label>
         <div id="cid_68" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_68" data-component="radio">
@@ -411,37 +424,37 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_0" name="q69_10Ailenin69" value="a" />
+              <input type="radio" class="form-radio" id="input_69_0" name="q69_10Ailenin" value="a" />
               <label id="label_input_69_0" for="input_69_0"> a. Geliri yok </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_1" name="q69_10Ailenin69" value="b" />
-              <label id="label_input_69_1" for="input_69_1"> b. Geliri yok, sadece engelli maaşı / evde bakım parası ile geçiniyor </label>
+              <input type="radio" class="form-radio" id="input_69_1" name="q69_10Ailenin" value="b" />
+              <label id="label_input_69_1" for="input_69_1"> b. Geliri yok, sadece engelli maaşı / bakım parası ile geçiniyor </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_2" name="q69_10Ailenin69" value="c" />
+              <input type="radio" class="form-radio" id="input_69_2" name="q69_10Ailenin" value="c" />
               <label id="label_input_69_2" for="input_69_2"> c. 2500 TL ve altı </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_3" name="q69_10Ailenin69" value="d" />
+              <input type="radio" class="form-radio" id="input_69_3" name="q69_10Ailenin" value="d" />
               <label id="label_input_69_3" for="input_69_3"> d. 2500-5000 TL </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_4" name="q69_10Ailenin69" value="e" />
+              <input type="radio" class="form-radio" id="input_69_4" name="q69_10Ailenin" value="e" />
               <label id="label_input_69_4" for="input_69_4"> e. 5000-7500 TL </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_5" name="q69_10Ailenin69" value="f" />
+              <input type="radio" class="form-radio" id="input_69_5" name="q69_10Ailenin" value="f" />
               <label id="label_input_69_5" for="input_69_5"> f. 7500 TL ve üzeri </label>
             </span>
           </div>
@@ -467,25 +480,25 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_74_0" name="q74_13Hastanin" value="a" />
-              <label id="label_input_74_0" for="input_74_0"> a. yaşı küçük eğitim almıyor </label>
+              <label id="label_input_74_0" for="input_74_0"> a. Yaşı küçük, eğitim almıyor </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_74_1" name="q74_13Hastanin" value="b" />
-              <label id="label_input_74_1" for="input_74_1"> b. örgün eğitim </label>
+              <label id="label_input_74_1" for="input_74_1"> b. Örgün eğitim </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_74_2" name="q74_13Hastanin" value="c" />
-              <label id="label_input_74_2" for="input_74_2"> c. özel eğitim </label>
+              <label id="label_input_74_2" for="input_74_2"> c. Özel eğitim </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_74_3" name="q74_13Hastanin" value="d" />
-              <label id="label_input_74_3" for="input_74_3"> d. örgün eğitim + özel eğitim </label>
+              <label id="label_input_74_3" for="input_74_3"> d. Örgün eğitim + özel eğitim </label>
             </span>
           </div>
         </div>
@@ -627,25 +640,25 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_83_0" name="q83_4Hastanin[]" value="a" />
+              <input type="checkbox" class="form-checkbox" id="input_83_0" name="q83_4Hastanin83[]" value="a" />
               <label id="label_input_83_0" for="input_83_0"> a. Tedavisiz izlem </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_83_1" name="q83_4Hastanin[]" value="b" />
+              <input type="checkbox" class="form-checkbox" id="input_83_1" name="q83_4Hastanin83[]" value="b" />
               <label id="label_input_83_1" for="input_83_1"> b. Evde ilaç tedavisi </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_83_2" name="q83_4Hastanin[]" value="c" />
+              <input type="checkbox" class="form-checkbox" id="input_83_2" name="q83_4Hastanin83[]" value="c" />
               <label id="label_input_83_2" for="input_83_2"> c. Hastanede yatarak enzim tedavisi </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_83_3" name="q83_4Hastanin[]" value="d" />
+              <input type="checkbox" class="form-checkbox" id="input_83_3" name="q83_4Hastanin83[]" value="d" />
               <label id="label_input_83_3" for="input_83_3"> d. Diyet tedavisi </label>
             </span>
           </div>
@@ -689,25 +702,25 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_85_0" name="q85_6Autf85" value="a" />
+              <input type="radio" class="form-radio" id="input_85_0" name="q85_6Autf" value="a" />
               <label id="label_input_85_0" for="input_85_0"> a. 3 ay altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_85_1" name="q85_6Autf85" value="b" />
+              <input type="radio" class="form-radio" id="input_85_1" name="q85_6Autf" value="b" />
               <label id="label_input_85_1" for="input_85_1"> b. 3-6 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_85_2" name="q85_6Autf85" value="c" />
+              <input type="radio" class="form-radio" id="input_85_2" name="q85_6Autf" value="c" />
               <label id="label_input_85_2" for="input_85_2"> c. 6-12 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_85_3" name="q85_6Autf85" value="d" />
+              <input type="radio" class="form-radio" id="input_85_3" name="q85_6Autf" value="d" />
               <label id="label_input_85_3" for="input_85_3"> d. 1 yıl ve üzeri </label>
             </span>
           </div>
@@ -745,17 +758,17 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
         </div>
       </li>
       <li class="form-line" data-type="control_dropdown" id="id_87">
-        <label class="form-label form-label-top form-label-auto" id="label_87" for="input_87"> 8. AÜTF metabolizmada poliklinik randevularınıza düzenli gelebiliyor musunuz? </label>
+        <label class="form-label form-label-top" id="label_87" for="input_87"> 8. AÜTF metabolizmada poliklinik randevularınıza düzenli gelebiliyor musunuz? </label>
         <div id="cid_87" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_87" name="q87_8Autf" style="width:310px" data-component="dropdown" aria-labelledby="label_87">
-            <option value=""> Lütfen Seçiniz </option>
+            <option value=""> Lütfen Seçin </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
         </div>
       </li>
       <li class="form-line" data-type="control_checkbox" id="id_88">
-        <label class="form-label form-label-top form-label-auto" id="label_88" for="input_88"> 9. AÜTF metabolizmada poliklinik randevularınıza düzenli gelmemenizin önündeki sebepler nelerdir? (Birden çok seçenek seçilebilir) </label>
+        <label class="form-label form-label-top" id="label_88" for="input_88"> 9. AÜTF metabolizmada poliklinik randevularınıza düzenli gelmemenizin önündeki sebepler nelerdir? (Birden çok seçenek seçilebilir) </label>
         <div id="cid_88" class="form-input-wide" data-layout="full">
           <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_88" data-component="checkbox">
             <span class="form-checkbox-item">
@@ -872,41 +885,41 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
         </div>
       </li>
       <li class="form-line" data-type="control_dropdown" id="id_91">
-        <label class="form-label form-label-top form-label-auto" id="label_91" for="input_91"> 12. AÜTF metabolizma kontrollerinize gidemediğinizde ilaç ve diyet tedavisi ile ilgili motivasyon sorunu yaşar mısınız? </label>
+        <label class="form-label form-label-top" id="label_91" for="input_91"> 12. AÜTF metabolizma kontrollerinize gidemediğinizde ilaç ve diyet tedavisi ile ilgili motivasyon sorunu yaşar mısınız? </label>
         <div id="cid_91" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_91" name="q91_12Autf91" style="width:310px" data-component="dropdown" aria-labelledby="label_91">
-            <option value=""> Lütfen Seçiniz </option>
+            <option value=""> Lütfen Seçin </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-1" data-type="control_radio" id="id_92">
+      <li class="form-line form-line-column form-col-1 form-field-hidden" style="display:none;" data-type="control_radio" id="id_92">
         <label class="form-label form-label-top" id="label_92" for="input_92"> 13. Ankara’da yaşıyorsanız evden AÜTF’ye ne kadar sürede varırsınız? </label>
         <div id="cid_92" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_92" data-component="radio">
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_92_0" name="q92_13Ankarada" value="a" />
+              <input type="radio" class="form-radio" id="input_92_0" name="q92_13Ankarada92" value="a" />
               <label id="label_input_92_0" for="input_92_0"> a. 30 dk ve altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_92_1" name="q92_13Ankarada" value="b" />
+              <input type="radio" class="form-radio" id="input_92_1" name="q92_13Ankarada92" value="b" />
               <label id="label_input_92_1" for="input_92_1"> b. 30 dk-1 saat </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_92_2" name="q92_13Ankarada" value="c" />
+              <input type="radio" class="form-radio" id="input_92_2" name="q92_13Ankarada92" value="c" />
               <label id="label_input_92_2" for="input_92_2"> c. 1 saat ve üzeri </label>
             </span>
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-2" data-type="control_radio" id="id_93">
+      <li class="form-line form-line-column form-col-2 form-field-hidden" style="display:none;" data-type="control_radio" id="id_93">
         <label class="form-label form-label-top" id="label_93" for="input_93"> 14. Ankara’da yaşıyorsanız evden AÜTF’ye hangi araçla ulaşırsınız? </label>
         <div id="cid_93" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_93" data-component="radio">
@@ -931,7 +944,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-3" data-type="control_radio" id="id_94">
+      <li class="form-line form-line-column form-col-3 form-field-hidden" style="display:none;" data-type="control_radio" id="id_94">
         <label class="form-label form-label-top" id="label_94" for="input_94"> 15. Ankara’da yaşıyor ve toplu taşıma kullanıyorsanız kaç araç değiştirirsiniz? </label>
         <div id="cid_94" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_94" data-component="radio">
@@ -956,7 +969,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-4" data-type="control_radio" id="id_95">
+      <li class="form-line form-line-column form-col-4 form-field-hidden" style="display:none;" data-type="control_radio" id="id_95">
         <label class="form-label form-label-top" id="label_95" for="input_95"> 16. Ankara’da yaşıyorsanız evden AÜTF’ye ulaşımda ne kadar yol parası harcarsınız? </label>
         <div id="cid_95" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_95" data-component="radio">
@@ -981,29 +994,29 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_radio" id="id_96">
-        <label class="form-label form-label-top form-label-auto" id="label_96" for="input_96"> 17. Ankara dışında yaşıyorsanız şehrinizden Ankara’ya ne kadar sürede varırsınız? </label>
+      <li class="form-line form-line-column form-col-5 form-field-hidden" style="display:none;" data-type="control_radio" id="id_96">
+        <label class="form-label form-label-top" id="label_96" for="input_96"> 17. Ankara dışında yaşıyorsanız şehrinizden Ankara’ya ne kadar sürede varırsınız? </label>
         <div id="cid_96" class="form-input-wide" data-layout="full">
-          <div class="form-multiple-column" data-columncount="4" role="group" aria-labelledby="label_96" data-component="radio">
-            <span class="form-radio-item">
+          <div class="form-single-column" role="group" aria-labelledby="label_96" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_96_0" name="q96_17Ankara96" value="a" />
               <label id="label_input_96_0" for="input_96_0"> a. 3 saat ve altı </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_96_1" name="q96_17Ankara96" value="b" />
               <label id="label_input_96_1" for="input_96_1"> b. 3-6 saat </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_96_2" name="q96_17Ankara96" value="c" />
               <label id="label_input_96_2" for="input_96_2"> c. 6-12 saat </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_96_3" name="q96_17Ankara96" value="d" />
@@ -1012,23 +1025,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_radio" id="id_97">
-        <label class="form-label form-label-top form-label-auto" id="label_97" for="input_97"> 18. Ankara dışında yaşıyorsanız evden Ankara’ya hangi araçla ulaşırsınız? </label>
+      <li class="form-line form-line-column form-col-6 form-field-hidden" style="display:none;" data-type="control_radio" id="id_97">
+        <label class="form-label form-label-top" id="label_97" for="input_97"> 18. Ankara dışında yaşıyorsanız evden Ankara’ya hangi araçla ulaşırsınız? </label>
         <div id="cid_97" class="form-input-wide" data-layout="full">
-          <div class="form-multiple-column" data-columncount="3" role="group" aria-labelledby="label_97" data-component="radio">
-            <span class="form-radio-item">
+          <div class="form-single-column" role="group" aria-labelledby="label_97" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_97_0" name="q97_18Ankara97" value="a" />
-              <label id="label_input_97_0" for="input_97_0"> a. Özel Araç </label>
+              <label id="label_input_97_0" for="input_97_0"> a. Özel araç </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_97_1" name="q97_18Ankara97" value="b" />
               <label id="label_input_97_1" for="input_97_1"> b. Otobüs-tren </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_97_2" name="q97_18Ankara97" value="c" />
@@ -1037,29 +1050,29 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_radio" id="id_98">
+      <li class="form-line form-line-column form-col-7 form-field-hidden" style="display:none;" data-type="control_radio" id="id_98">
         <label class="form-label form-label-top" id="label_98" for="input_98"> 19. Ankara dışında yaşıyorsanız evden Ankara’ya ulaşımda yaklaşık kaç kişi yolculuk edersiniz? </label>
         <div id="cid_98" class="form-input-wide" data-layout="full">
-          <div class="form-multiple-column" data-columncount="4" role="group" aria-labelledby="label_98" data-component="radio">
-            <span class="form-radio-item">
+          <div class="form-single-column" role="group" aria-labelledby="label_98" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_98_0" name="q98_19Ankara98" value="a" />
               <label id="label_input_98_0" for="input_98_0"> a. 2 </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_98_1" name="q98_19Ankara98" value="b" />
               <label id="label_input_98_1" for="input_98_1"> b. 3 </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_98_2" name="q98_19Ankara98" value="c" />
               <label id="label_input_98_2" for="input_98_2"> c. 4 </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_98_3" name="q98_19Ankara98" value="d" />
@@ -1068,8 +1081,8 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_radio" id="id_99">
-        <label class="form-label form-label-top" id="label_99" for="input_99"> 20. Ankara dışında yaşıyorsanız evden Ankara’ya ulaşımda ne kadar yol parası harcarsınız? (yolculuk eden tüm bireyleri hesap ederek) </label>
+      <li class="form-line form-line-column form-col-8 form-field-hidden" style="display:none;" data-type="control_radio" id="id_99">
+        <label class="form-label form-label-top" id="label_99" for="input_99"> 20. Ankara dışında yaşıyorsanız evden Ankara’ya ulaşımda ne kadar yol parası harcarsınız? (Yolculuk eden tüm bireyleri hesap ederek) </label>
         <div id="cid_99" class="form-input-wide" data-layout="full">
           <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_99" data-component="radio">
             <span class="form-radio-item">
@@ -1111,17 +1124,17 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_radio" id="id_100">
-        <label class="form-label form-label-top form-label-auto" id="label_100" for="input_100"> 21. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde nerde konaklarsınız? </label>
+      <li class="form-line form-line-column form-col-9 form-field-hidden" style="display:none;" data-type="control_radio" id="id_100">
+        <label class="form-label form-label-top" id="label_100" for="input_100"> 21. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde nerde konaklarsınız? </label>
         <div id="cid_100" class="form-input-wide" data-layout="full">
-          <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_100" data-component="radio">
-            <span class="form-radio-item">
+          <div class="form-single-column" role="group" aria-labelledby="label_100" data-component="radio">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_100_0" name="q100_21Ankara100" value="a" />
               <label id="label_input_100_0" for="input_100_0"> a. Eş-dost-akraba evinde </label>
             </span>
-            <span class="form-radio-item">
+            <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
               <input type="radio" class="form-radio" id="input_100_1" name="q100_21Ankara100" value="b" />
@@ -1130,8 +1143,8 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_radio" id="id_101">
-        <label class="form-label form-label-top form-label-auto" id="label_101" for="input_101"> 22. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde konaklama için ne kadar para harcarsınız? (konaklayan tüm bireyleri hesap ederek) </label>
+      <li class="form-line form-line-column form-col-10 form-field-hidden" style="display:none;" data-type="control_radio" id="id_101">
+        <label class="form-label form-label-top" id="label_101" for="input_101"> 22. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde konaklama için ne kadar para harcarsınız? (Konaklayan tüm bireyleri hesap ederek) </label>
         <div id="cid_101" class="form-input-wide" data-layout="full">
           <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_101" data-component="radio">
             <span class="form-radio-item">
@@ -1173,11 +1186,11 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_dropdown" id="id_103">
-        <label class="form-label form-label-top form-label-auto" id="label_103" for="input_103"> 23. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde konaklama durumu sizi zorluyor mu? </label>
+      <li class="form-line form-field-hidden" style="display:none;" data-type="control_dropdown" id="id_103">
+        <label class="form-label form-label-top" id="label_103" for="input_103"> 23. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde konaklama durumu sizi zorluyor mu? </label>
         <div id="cid_103" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_103" name="q103_23Ankara" style="width:310px" data-component="dropdown" aria-labelledby="label_103">
-            <option value=""> Lütfen Seçiniz </option>
+            <option value=""> Lütfen Seçin </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Bazen"> Bazen </option>
@@ -1188,7 +1201,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
         <label class="form-label form-label-top" id="label_104" for="input_104"> 24. Poliklinik başvurunuz için iş yerinden izin almanız gerekiyor mu? </label>
         <div id="cid_104" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_104" name="q104_24Poliklinik" style="width:310px" data-component="dropdown" aria-labelledby="label_104">
-            <option value=""> Lütfen Seçiniz </option>
+            <option value=""> Lütfen Seçin </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
@@ -1198,7 +1211,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
         <label class="form-label form-label-top" id="label_105" for="input_105"> 25. İş yerinden izin almakta zorluk çeker misiniz? </label>
         <div id="cid_105" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_105" name="q105_25Is" style="width:310px" data-component="dropdown" aria-labelledby="label_105">
-            <option value=""> Lütfen Seçiniz </option>
+            <option value=""> Lütfen Seçin </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Bazen"> Bazen </option>
@@ -1264,38 +1277,38 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
         </div>
       </li>
       <li class="form-line form-line-column form-col-4" data-type="control_radio" id="id_109">
-        <label class="form-label form-label-top" id="label_109" for="input_109"> 2. Tepetıp görüşmesinde internet ağına nereden ulaştınız? </label>
+        <label class="form-label form-label-top" id="label_109" for="input_109"> 2. Teletıp görüşmesinde internet ağına nereden ulaştınız? </label>
         <div id="cid_109" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_109" data-component="radio">
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_109_0" name="q109_2Tepetip" value="a" />
+              <input type="radio" class="form-radio" id="input_109_0" name="q109_2Teletip" value="a" />
               <label id="label_input_109_0" for="input_109_0"> a. Evinizdeki internet bağlantısı (wi-fi) </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_109_1" name="q109_2Tepetip" value="b" />
+              <input type="radio" class="form-radio" id="input_109_1" name="q109_2Teletip" value="b" />
               <label id="label_input_109_1" for="input_109_1"> b. Telefon hattınızdaki internet bağlantısından </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_109_2" name="q109_2Tepetip" value="c" />
+              <input type="radio" class="form-radio" id="input_109_2" name="q109_2Teletip" value="c" />
               <label id="label_input_109_2" for="input_109_2"> c. Yakınlarınızın internet bağlantısından </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_109_3" name="q109_2Tepetip" value="d" />
+              <input type="radio" class="form-radio" id="input_109_3" name="q109_2Teletip" value="d" />
               <label id="label_input_109_3" for="input_109_3"> d. Diğer </label>
             </span>
           </div>
         </div>
       </li>
       <li class="form-line" data-type="control_radio" id="id_110">
-        <label class="form-label form-label-top form-label-auto" id="label_110" for="input_110"> 3. Teletıp görüşmesi ne kadar sürdü? </label>
+        <label class="form-label form-label-top" id="label_110" for="input_110"> 3. Teletıp görüşmesi ne kadar sürdü? </label>
         <div id="cid_110" class="form-input-wide" data-layout="full">
           <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_110" data-component="radio">
             <span class="form-radio-item">
@@ -1332,7 +1345,7 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
         </div>
       </li>
       <li class="form-line" data-type="control_checkbox" id="id_112">
-        <label class="form-label form-label-top form-label-auto" id="label_112" for="input_112"> 4. Teletıp’ın sizce sağladığı avantajlar nelerdir? (Birden çok seçenek seçilebilir) </label>
+        <label class="form-label form-label-top" id="label_112" for="input_112"> 4. Teletıp’ın sizce sağladığı avantajlar nelerdir? (Birden çok seçenek seçilebilir) </label>
         <div id="cid_112" class="form-input-wide" data-layout="full">
           <div class="form-multiple-column" data-columncount="2" role="group" aria-labelledby="label_112" data-component="checkbox">
             <span class="form-checkbox-item">
@@ -1380,8 +1393,8 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_checkbox" id="id_113">
-        <label class="form-label form-label-top form-label-auto" id="label_113" for="input_113"> 5. Teletıp’ın sizce sağladığı dezavantajlar nelerdir? (Birden çok seçenek seçilebilir) </label>
+      <li class="form-line form-line-column form-col-1" data-type="control_checkbox" id="id_113">
+        <label class="form-label form-label-top" id="label_113" for="input_113"> 5. Teletıp’ın sizce sağladığı dezavantajlar nelerdir? (Birden çok seçenek seçilebilir) </label>
         <div id="cid_113" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_113" data-component="checkbox">
             <span class="form-checkbox-item" style="clear:left">
@@ -1411,8 +1424,8 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line" data-type="control_checkbox" id="id_114">
-        <label class="form-label form-label-top form-label-auto" id="label_114" for="input_114"> 6. Teletıp’ın ileride hangi alanda kullanılmasını istersiniz? (Birden çok seçenek seçilebilir) </label>
+      <li class="form-line form-line-column form-col-2" data-type="control_checkbox" id="id_114">
+        <label class="form-label form-label-top" id="label_114" for="input_114"> 6. Teletıp’ın ileride hangi alanda kullanılmasını istersiniz? (Birden çok seçenek seçilebilir) </label>
         <div id="cid_114" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_114" data-component="checkbox">
             <span class="form-checkbox-item" style="clear:left">
@@ -1448,51 +1461,51 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-1" data-type="control_dropdown" id="id_115">
+      <li class="form-line form-line-column form-col-3" data-type="control_dropdown" id="id_115">
         <label class="form-label form-label-top" id="label_115" for="input_115"> 7. Teletıp’ı faydalı buldunuz mu? </label>
         <div id="cid_115" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_115" name="q115_7Teletipi" style="width:310px" data-component="dropdown" aria-labelledby="label_115">
-            <option value=""> Lütfen Seçiniz </option>
+            <option value=""> Lütfen Seçin </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Henüz Kararsızım"> Henüz Kararsızım </option>
           </select>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-2" data-type="control_dropdown" id="id_116">
+      <li class="form-line form-line-column form-col-4" data-type="control_dropdown" id="id_116">
         <label class="form-label form-label-top" id="label_116" for="input_116"> 8. Teletıp’ı sonraki süreçlerde de tercih eder misiniz? </label>
         <div id="cid_116" class="form-input-wide" data-layout="half">
-          <select class="form-dropdown" id="input_116" name="q116_8Teletipi116" style="width:310px" data-component="dropdown" aria-labelledby="label_116">
-            <option value=""> Lütfen Seçiniz </option>
+          <select class="form-dropdown" id="input_116" name="q116_8Teletipi" style="width:310px" data-component="dropdown" aria-labelledby="label_116">
+            <option value=""> Lütfen Seçin </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Henüz Kararsızım"> Henüz Kararsızım </option>
           </select>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-3" data-type="control_radio" id="id_117">
+      <li class="form-line form-line-column form-col-5" data-type="control_radio" id="id_117">
         <label class="form-label form-label-top" id="label_117" for="input_117"> 9. Teletıp’ı hangisi şeklinde daha çok tercih edersiniz? </label>
         <div id="cid_117" class="form-input-wide" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_117" data-component="radio">
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_117_0" name="q117_9Teletipi117" value="a" />
+              <input type="radio" class="form-radio" id="input_117_0" name="q117_9Teletipi" value="a" />
               <label id="label_input_117_0" for="input_117_0"> a. Telefonla görüşme </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_117_1" name="q117_9Teletipi117" value="b" />
+              <input type="radio" class="form-radio" id="input_117_1" name="q117_9Teletipi" value="b" />
               <label id="label_input_117_1" for="input_117_1"> b. Videolu görüşme </label>
             </span>
           </div>
         </div>
       </li>
-      <li class="form-line form-line-column form-col-4" data-type="control_textbox" id="id_118">
+      <li class="form-line form-line-column form-col-6" data-type="control_textbox" id="id_118">
         <label class="form-label form-label-top" id="label_118" for="input_118"> 10. Genel memnuniyetiniz için 100 üzerinden bir puan verebilir misiniz? </label>
         <div id="cid_118" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_118" name="q118_10Genel118" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_118" />
+          <input type="text" id="input_118" name="q118_10Genel" data-type="input-textbox" class="form-textbox validate[Numeric]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_118" />
         </div>
       </li>
       <li id="cid_18" class="form-input-wide" data-type="control_pagebreak">
@@ -2081,24 +2094,23 @@ JotForm.paymentExtrasOnTheFly([null,{"name":"ankaraUniversitesi","qid":"1","text
       </li>
       <li class="form-line" data-type="control_button" id="id_47">
         <div id="cid_47" class="form-input-wide" data-layout="full">
-          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto   jsTest-button-wrapperField">
+          <div data-align="auto" class="form-buttons-wrapper form-buttons-auto jsTest-button-wrapperField">
             <button id="input_47" type="submit" class="form-submit-button submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
               Gönder
             </button>
           </div>
         </div>
       </li>
-      <li style="clear:both">
-      </li>
       <li style="display:none">
         <input type="text" name="website" value="" />
       </li>
     </ul>
   </div>
-  <script>JotForm.showJotFormPowered = "new_footer";</script>
-  <script>JotForm.poweredByText = "TELETIP";</script>
   <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="203642762196964" />
-  <script type="text/javascript">var all_spc = document.querySelectorAll("form[id='203642762196964'] .simple_spc"); for (var i = 0; i < all_spc.length; i++){ all_spc[i].value = "203642762196964-203642762196964"; }</script>
+  <script type="text/javascript">
+  var all_spc = document.querySelectorAll("form[id='203642762196964'] .simple_spc");
+  for (var i = 0; i < all_spc.length; i++) { all_spc[i].value = "203642762196964-203642762196964"; }
+  </script>
 </form>
 </body>
 </html>

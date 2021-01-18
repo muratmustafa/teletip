@@ -49,6 +49,29 @@
               <p>Hastalarım</p>
             </a>
           </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-calendar-check"></i>
+              <p>
+                Anketler
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="https://www.jotform.com/inbox/203642762196964" target="_blank" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Tüm Anketler</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ url('/doctor/survey') }}" target="_blank" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Anket Oluştur</p>
+                </a>
+              </li>
+            </ul>
+          </li>
           <li class="nav-item">
             <a href="records" class="nav-link">
               <i class="nav-icon fas fa-list"></i>

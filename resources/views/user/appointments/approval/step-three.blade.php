@@ -32,27 +32,27 @@
                     <table class="table">
                         <tr>
                             <td>1. Kişinin Hastaya Yakınlık Derecesi:</td>
-                            <td><strong>{{$approval->parent_degree}}</strong></td>
+                            <td><strong>{{ !empty($approval->parent_degree) ? $approval->parent_degree : '' }}</strong></td>
                         </tr>
                         <tr>
                             <td>1. Kişinin Adı-Soyadı:</td>
-                            <td><strong>{{$approval->parent_name}}</strong></td>
+                            <td><strong>{{ !empty($approval->parent_name) ? $approval->parent_name : '' }}</strong></td>
                         </tr>
                         <tr>
                             <td>1. Kişinin Onamı:</td>
-                            <td><strong>{{$approval->parent_approval ? 'Evet' : 'Hayır'}}</strong></td>
+                            <td><strong>{{ (!empty($approval->parent_approval) && $approval->parent_approval == 1) ? 'Evet' : '' }}</strong></td>
                         </tr>
                         <tr>
                             <td>2. Kişinin Hastaya Yakınlık Derecesi:</td>
-                            <td><strong>{{$approval->other_parent_degree}}</strong></td>
+                            <td><strong>{{ !empty($approval->other_parent_degree) ? $approval->other_parent_degree : '' }}</strong></td>
                         </tr>
                         <tr>
                             <td>2. Kişinin Adı-Soyadı:</td>
-                            <td><strong>{{$approval->other_parent_name}}</strong></td>
+                            <td><strong>{{ !empty($approval->other_parent_name) ? $approval->other_parent_name : '' }}</strong></td>
                         </tr>
                         <tr>
                             <td>2. Kişinin Onamı:</td>
-                            <td><strong>{{$approval->other_parent_approval ? 'Evet' : 'Hayır'}}</strong></td>
+                            <td><strong>{{ (!empty($approval->other_parent_approval) && $approval->other_parent_approval == 1) ? 'Evet' : '' }}</strong></td>
                         </tr>
                         <tr>
                             <td>Hastanın Adı-Soyadı:</td>
@@ -60,12 +60,13 @@
                         </tr>
                         <tr>
                             <td>Hastanın Onamı:</td>
-                            <td><strong>{{$approval->user_approval ? 'Evet' : 'Hayır'}}</strong></td>
+                            <td><strong>{{ (!empty($approval->user_approval) && $approval->user_approval == 1) ? 'Evet' : 'Hayır' }}</strong></td>
                         </tr>
                     </table>
                 </div>
 
                 <div class="card-footer text-right clearfix">
+                  <a href="{{ route('user.approval.step.two',$id) }}" class="btn btn-outline-secondary">Geri</a>
                   <button type="submit" class="btn btn-primary">Görüşmeye Katıl</button>
                 </div>
               </div>

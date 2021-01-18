@@ -68,7 +68,7 @@
                   <div class="row">
                     <div class="col-sm-12" id="parent_check">
                       <div class="custom-control custom-checkbox">
-                        <input class="custom-control-input" type="checkbox" id="inputParentCheck">
+                        <input class="custom-control-input" type="checkbox" id="inputParentCheck" {{ !empty($approval->other_parent_name) ? 'checked' : '' }}>
                         <label for="inputParentCheck" class="custom-control-label">Anne-Baba hayatta ve evlilikleri devam ediyor.</label>
                       </div>
                     </div>
@@ -79,15 +79,15 @@
                       <div class="form-group">
                         <label for="inputParentDegree">* 1. Kişinin Hastaya Yakınlık Derecesi</label>
                         <select class="form-control custom-select" id="inputParentDegree" name="parent_degree" required>
-                          <option value="" selected>Seçiniz</option>
-                          <option value="Anne">Annesi</option>
-                          <option value="Baba">Babası</option>
-                          <option value="Akraba">2. veya 3. Dereceden Akrabası</option>
+                          <option value="" {{ empty($approval->parent_degree) ? 'selected' : '' }}>Seçiniz</option>
+                          <option value="Anne" {{ (!empty($approval->parent_degree) && $approval->parent_degree == 'Anne') ? 'selected' : '' }}>Annesi</option>
+                          <option value="Baba" {{ (!empty($approval->parent_degree) && $approval->parent_degree == 'Baba') ? 'selected' : '' }}>Babası</option>
+                          <option value="Akraba" {{ (!empty($approval->parent_degree) && $approval->parent_degree == 'Akraba') ? 'selected' : '' }}>2. veya 3. Dereceden Akrabası</option>
                         </select>
                       </div>
                       <div class="form-group">
                         <label for="inputParentName">* 1. Kişinin Adı-Soyadı</label>
-                        <input type="text" class="form-control" id="inputParentName" name="parent_name" required>
+                        <input type="text" class="form-control" id="inputParentName" name="parent_name" value="{{ !empty($approval->parent_name) ? $approval->parent_name : '' }}" required>
                       </div>
                       <div class="custom-control custom-checkbox">
                         <input class="custom-control-input" type="checkbox" id="inputParentApproval" name="parent_approval" value="1" required>
@@ -98,15 +98,15 @@
                       <div class="form-group">
                         <label for="inputOtherParentDegree">* 2. Kişinin Hastaya Yakınlık Derecesi</label>
                         <select class="form-control custom-select" id="inputOtherParentDegree" name="other_parent_degree">
-                          <option value="" selected>Seçiniz</option>
-                          <option value="Anne">Annesi</option>
-                          <option value="Baba">Babası</option>
-                          <option value="Akraba">2. veya 3. Dereceden Akrabası</option>
+                          <option value="" {{ empty($approval->other_parent_degree) ? 'selected' : '' }}>Seçiniz</option>
+                          <option value="Anne" {{ (!empty($approval->other_parent_degree) && $approval->other_parent_degree == 'Anne') ? 'selected' : '' }}>Annesi</option>
+                          <option value="Baba" {{ (!empty($approval->other_parent_degree) && $approval->other_parent_degree == 'Baba') ? 'selected' : '' }}>Babası</option>
+                          <option value="Akraba" {{ (!empty($approval->other_parent_degree) && $approval->other_parent_degree == 'Akraba') ? 'selected' : '' }}>2. veya 3. Dereceden Akrabası</option>
                         </select>
                       </div>
                       <div class="form-group">
                         <label for="inputOtherParentName">* 2. Kişinin Adı-Soyadı</label>
-                        <input type="text" class="form-control" id="inputOtherParentName" name="other_parent_name">
+                        <input type="text" class="form-control" id="inputOtherParentName" name="other_parent_name" value="{{ !empty($approval->other_parent_name) ? $approval->other_parent_name : '' }}">
                       </div>
                       <div class="custom-control custom-checkbox">
                         <input class="custom-control-input" type="checkbox" id="inputOtherParentApproval" name="other_parent_approval" value="1">
@@ -134,10 +134,12 @@
 @section('end')
 <script>
 $(document).ready(function() {
-  $('#parent2').hide();
-  $('#inputOtherParentDegree').removeAttr('required');
-  $('#inputOtherParentName').removeAttr('required');
-  $('#inputOtherParentApproval').removeAttr('required');
+  if (!$('#inputParentCheck').is(":checked")) {
+    $('#parent2').hide();
+    $('#inputOtherParentDegree').removeAttr('required');
+    $('#inputOtherParentName').removeAttr('required');
+    $('#inputOtherParentApproval').removeAttr('required');
+  }
 });
 $("#inputParentCheck").change(function() {
   if (this.checked) {
@@ -155,6 +157,34 @@ $("#inputParentCheck").change(function() {
     $('#inputOtherParentApproval').removeAttr('required');
   }
 });
+$("#inputParentDegree").change(function() {
+  var value = $("#inputParentDegree option:selected").val();
+  if (value == 'Anne') {
+    $("#inputOtherParentDegree option[value='Anne']").attr('disabled','');
+    $("#inputOtherParentDegree option[value='Baba']").removeAttr('disabled');
+  } else if (value == 'Baba') {
+    $("#inputOtherParentDegree option[value='Anne']").removeAttr('disabled');
+    $("#inputOtherParentDegree option[value='Baba']").attr('disabled','');
+  } else {
+    $("#inputOtherParentDegree option[value='Anne']").removeAttr('disabled');
+    $("#inputOtherParentDegree option[value='Baba']").removeAttr('disabled');
+  }
+});
+$("#inputOtherParentDegree").change(function() {
+  var value = $("#inputOtherParentDegree option:selected").val();
+  if (value == 'Anne') {
+    $("#inputParentDegree option[value='Anne']").attr('disabled','');
+    $("#inputParentDegree option[value='Baba']").removeAttr('disabled');
+  } else if (value == 'Baba') {
+    $("#inputParentDegree option[value='Anne']").removeAttr('disabled');
+    $("#inputParentDegree option[value='Baba']").attr('disabled','');
+  } else {
+    $("#inputParentDegree option[value='Anne']").removeAttr('disabled');
+    $("#inputParentDegree option[value='Baba']").removeAttr('disabled');
+  }
+});
 $("#inputParentCheck").trigger("change");
+$("#inputParentDegree").trigger("change");
+$("#inputOtherParentDegree").trigger("change");
 </script>
 @endsection

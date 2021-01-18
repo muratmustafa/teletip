@@ -78,6 +78,7 @@
                 </div>
 
                 <div class="card-footer text-right clearfix">
+                  <a href="{{ route('user.approval.step.one',$id) }}" class="btn btn-outline-secondary">Geri</a>
                   <button type="submit" class="btn btn-primary">İleri</button>
                 </div>
               </div>

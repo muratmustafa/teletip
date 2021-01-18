@@ -115,20 +115,4 @@ class MyAppointmentsController extends Controller
 
         }
     }
-
-    public function loadOnamForm($id)
-    {
-        $room_name = Appointment::where('id', $id)->value('room_name');
-        $doctor_id = Appointment::where('id', $id)->value('doctor_id');
-        $user_id   = Appointment::where('id', $id)->value('user_id');
-
-        $birthdate = User::where('id', $user_id)->value('birthdate');
-
-        $age = \Carbon\Carbon::parse($birthdate)->age;
-
-        if($age >= 8)
-            return view('user.appointments.onamform',compact('doctor_id','user_id','room_name'));
-        else
-            return view('user.appointments.onamparent',compact('doctor_id','user_id','room_name'));
-    }
 }

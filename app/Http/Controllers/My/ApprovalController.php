@@ -19,6 +19,14 @@ class ApprovalController extends Controller
 
     public function stepOne(Request $request, $id)
     {
+        $today = date("Y-m-d");
+        $appt_date = \App\Models\Appointment::where('id', $id)->value('appt_date');
+        $appt_status = \App\Models\Appointment::where('id', $id)->value('appt_status');
+        $appt_date = \Carbon\Carbon::parse($appt_date)->format('Y-m-d');
+
+        if (!($appt_date === $today) || !($appt_status === "Normal"))
+            return redirect()->route('user.appointments.index');
+
         $approval = $request->session()->get('approval');
 
         return view('user.appointments.approval.step-one',compact('approval','id'));
@@ -35,6 +43,9 @@ class ApprovalController extends Controller
             'other_parent_approval'  => 'nullable|boolean',
         ]);
 
+        if(empty($validatedData['other_parent_approval']))
+            $validatedData['other_parent_approval'] = '0';
+
         if(empty($request->session()->get('approval'))){
             $approval = new Approval();
             $approval->fill($validatedData);
@@ -50,6 +61,9 @@ class ApprovalController extends Controller
 
     public function stepTwo(Request $request, $id)
     {
+        if(empty($request->session()->get('approval')))
+            return redirect()->route('user.approval.step.one',$id);
+
         $approval = $request->session()->get('approval');
 
         return view('user.appointments.approval.step-two',compact('approval','id'));
@@ -61,6 +75,9 @@ class ApprovalController extends Controller
             'user_approval'   => 'nullable|boolean',
         ]);
 
+        if(empty($validatedData['user_approval']))
+            $validatedData['user_approval'] = '0';
+
         $approval = $request->session()->get('approval');
         $approval->fill($validatedData);
         $request->session()->put('approval', $approval);
@@ -70,6 +87,9 @@ class ApprovalController extends Controller
 
     public function stepThree(Request $request, $id)
     {
+        if(empty($request->session()->get('approval')))
+            return redirect()->route('user.approval.step.one',$id);
+
         $approval = $request->session()->get('approval');
 
         return view('user.appointments.approval.step-three',compact('approval','id'));
@@ -84,6 +104,6 @@ class ApprovalController extends Controller
 
         $room_name = \App\Models\Appointment::where('id', $id)->value('room_name');
 
-        return redirect()->away('https://metabolizmateletip.ankara.edu.tr:90/'.$room_name);
+        return redirect()->away('https://metabolizmateletip.ankara.edu.tr:44444/'.$room_name);
     }
 }
