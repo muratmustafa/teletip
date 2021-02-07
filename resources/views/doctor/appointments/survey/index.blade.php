@@ -210,7 +210,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
           </span>
         </label>
         <div id="cid_9" class="form-input-wide jf-required" data-layout="half">
-          <input type="text" id="input_9" name="q9_1Hastanin" data-type="input-textbox" class="form-textbox validate[required, Alphabetic]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_9" required="" />
+          <input type="text" id="input_9" name="q9_1Hastanin" data-type="input-textbox" class="form-textbox validate[required, Alphabetic]" style="width:310px" size="310" value="{{ \App\Models\User::where('id', $user_id)->value('name') }}" data-component="textbox" aria-labelledby="label_9" required="" />
         </div>
       </li>
       <li class="form-line form-line-column form-col-2 jf-required" data-type="control_textbox" id="id_10">
@@ -221,7 +221,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
           </span>
         </label>
         <div id="cid_10" class="form-input-wide jf-required" data-layout="half">
-          <input type="text" id="input_10" name="q10_2Hastanin" data-type="input-textbox" class="form-textbox validate[required, Numeric]" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_10" required="" />
+          <input type="text" id="input_10" name="q10_2Hastanin" data-type="input-textbox" class="form-textbox validate[required, Numeric]" style="width:310px" size="310" value="{{ \App\Models\User::where('id', $user_id)->value('tckimlik') }}" data-component="textbox" aria-labelledby="label_10" required="" />
         </div>
       </li>
       <li class="form-line form-line-column form-col-3 jf-required" data-type="control_datetime" id="id_13">
@@ -234,7 +234,11 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <div id="cid_13" class="form-input-wide jf-required" data-layout="half">
           <div data-wrapper-react="true">
             <div style="display:none">
-              <span class="form-sub-label-container" style="vertical-align:top">
+              <span class="form-sub-label-container" style="vertical-align:top">@php
+                $birthdate = \App\Models\User::where('id', $user_id)->value('birthdate');
+                $birthdate = \Carbon\Carbon::parse($birthdate)->format('d.m.Y');
+              @endphp
+
                 <input type="tel" class="form-textbox validate[required, limitDate]" id="day_13" name="q13_3Hastanin[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_day" />
                 <span class="date-separate" aria-hidden="true">
                    .
@@ -254,7 +258,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
               </span>
             </div>
             <span class="form-sub-label-container" style="vertical-align:top">
-              <input type="text" class="form-textbox validate[required, limitDate, validateLiteDate]" id="lite_mode_13" size="12" data-maxlength="12" maxLength="12" data-age="" value="" required="" data-format="ddmmyyyy" data-seperator="." placeholder="DD.MM.YYYY" autoComplete="off" aria-labelledby="label_13" />
+              <input type="text" class="form-textbox validate[required, limitDate, validateLiteDate]" id="lite_mode_13" size="12" data-maxlength="12" maxLength="12" data-age="" value="{{ $birthdate }}" required="" data-format="ddmmyyyy" data-seperator="." placeholder="DD.MM.YYYY" autoComplete="off" aria-labelledby="label_13" />
               <img class="showAutoCalendar newDefaultTheme-dateIcon icon-liteMode" alt="Pick a Date" id="input_13_pick" src="https://cdn.jotfor.ms/images/calendar.png" data-component="datetime" aria-hidden="true" data-allow-time="No" data-version="v2" />
               <label class="form-sub-label is-empty" for="lite_mode_13" id="sublabel_13_litemode" style="min-height:13px" aria-hidden="false">  </label>
             </span>
@@ -270,7 +274,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         </label>
         <div id="cid_64" class="form-input-wide jf-required" data-layout="half">
           <select class="form-dropdown validate[required]" id="input_64" name="q64_4Hastanin" style="width:310px" data-component="dropdown" required="" aria-labelledby="label_64">
-            <option value=""> Please Select </option>
+            <option value=""> Seçiniz </option>
             <option value="Erkek"> Erkek </option>
             <option value="Kadın"> Kadın </option>
           </select>
@@ -535,7 +539,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
       <li class="form-line" data-type="control_textbox" id="id_78">
         <label class="form-label form-label-top form-label-auto" id="label_78" for="input_78"> 1. Hastanın metabolik hastalık tanısı </label>
         <div id="cid_78" class="form-input-wide" data-layout="half">
-          <input type="text" id="input_78" name="q78_1Hastanin78" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="" data-component="textbox" aria-labelledby="label_78" />
+          <input type="text" id="input_78" name="q78_1Hastanin78" data-type="input-textbox" class="form-textbox" style="width:310px" size="310" value="{{ \App\Models\User::where('id', $user_id)->value('diagnostic') }}" data-component="textbox" aria-labelledby="label_78" />
         </div>
       </li>
       <li class="form-line" data-type="control_radio" id="id_79">
@@ -763,7 +767,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_87" for="input_87"> 8. AÜTF metabolizmada poliklinik randevularınıza düzenli gelebiliyor musunuz? </label>
         <div id="cid_87" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_87" name="q87_8Autf" style="width:310px" data-component="dropdown" aria-labelledby="label_87">
-            <option value=""> Please Select </option>
+            <option value=""> Seçiniz </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
@@ -890,7 +894,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_91" for="input_91"> 12. AÜTF metabolizma kontrollerinize gidemediğinizde ilaç ve diyet tedavisi ile ilgili motivasyon sorunu yaşar mısınız? </label>
         <div id="cid_91" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_91" name="q91_12Autf91" style="width:310px" data-component="dropdown" aria-labelledby="label_91">
-            <option value=""> Please Select </option>
+            <option value=""> Seçiniz </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
@@ -1192,7 +1196,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_103" for="input_103"> 23. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde konaklama durumu sizi zorluyor mu? </label>
         <div id="cid_103" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_103" name="q103_23Ankara" style="width:310px" data-component="dropdown" aria-labelledby="label_103">
-            <option value=""> Please Select </option>
+            <option value=""> Seçiniz </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Bazen"> Bazen </option>
@@ -1203,7 +1207,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_104" for="input_104"> 24. Poliklinik başvurunuz için iş yerinden izin almanız gerekiyor mu? </label>
         <div id="cid_104" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_104" name="q104_24Poliklinik" style="width:310px" data-component="dropdown" aria-labelledby="label_104">
-            <option value=""> Please Select </option>
+            <option value=""> Seçiniz </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
@@ -1213,7 +1217,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_105" for="input_105"> 25. İş yerinden izin almakta zorluk çeker misiniz? </label>
         <div id="cid_105" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_105" name="q105_25Is" style="width:310px" data-component="dropdown" aria-labelledby="label_105">
-            <option value=""> Please Select </option>
+            <option value=""> Seçiniz </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Bazen"> Bazen </option>
@@ -1467,7 +1471,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_115" for="input_115"> 7. Teletıp’ı faydalı buldunuz mu? </label>
         <div id="cid_115" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_115" name="q115_7Teletipi" style="width:310px" data-component="dropdown" aria-labelledby="label_115">
-            <option value=""> Please Select </option>
+            <option value=""> Seçiniz </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Henüz Kararsızım"> Henüz Kararsızım </option>
@@ -1478,7 +1482,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_116" for="input_116"> 8. Teletıp’ı sonraki süreçlerde de tercih eder misiniz? </label>
         <div id="cid_116" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_116" name="q116_8Teletipi" style="width:310px" data-component="dropdown" aria-labelledby="label_116">
-            <option value=""> Please Select </option>
+            <option value=""> Seçiniz </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Henüz Kararsızım"> Henüz Kararsızım </option>

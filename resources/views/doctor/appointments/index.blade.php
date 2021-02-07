@@ -50,7 +50,8 @@
                       <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>
                       <td class="text-right">@php $today = date("Y-m-d"); $appt_date = \Carbon\Carbon::parse($appointment->appt_date)->format('Y-m-d') @endphp @if ($appt_date === $today && $appointment->appt_status === "Normal")
 
-                        <a href="https://metabolizmateletip.ankara.edu.tr:44444/{{ $appointment->room_name }}" target="_blank" class="btn btn-info" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>@endif
+                        <a href="https://metabolizmateletip.ankara.edu.tr:44444/{{ $appointment->room_name }}" target="_blank" class="btn btn-success" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>
+                        <a href="{{ route('doctor.survey.index',$appointment->id) }}" target="_blank" class="btn btn-info" title="Anket Oluştur" data-toggle="tooltip"><span class="fas fa-calendar-check"></span> Anket Oluştur</a>@endif
 
                         <a href="{{ route('doctor.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
                         <a href="{{ route('doctor.appointments.edit',$appointment->id) }}" class="btn btn-info" title="Güncelle" data-toggle="tooltip"><span class="fas fa-pen"></span></a>

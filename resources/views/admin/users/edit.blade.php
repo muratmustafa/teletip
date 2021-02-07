@@ -69,7 +69,7 @@
                     <input type="text" class="form-control" id="inputBirthDate" name="birthdate" value="{{ $user->birthdate }}">
                   </div>
                   <div class="form-group">
-                    <label for="inputDiagnostic">Hastanın Metabolik Hastalık Tanısı</label>
+                    <label for="inputDiagnostic">Metabolik Hastalık Tanısı</label>
                     <input type="text" class="form-control" id="inputDiagnostic" name="diagnostic" value="{{ $user->diagnostic }}">
                   </div>
                   <div class="form-group">

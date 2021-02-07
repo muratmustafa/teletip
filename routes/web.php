@@ -54,5 +54,8 @@ Route::middleware('auth:doctor')->prefix('doctor')->name('doctor.')->namespace('
     Route::resource('appointments','MyAppointmentsController');
     Route::resource('users','MyUsersController');
     Route::resource('profile','ProfileController');
-    Route::view('/survey', 'doctor.appointments.survey');
+
+    Route::prefix('appointments')->name('survey.')->group(function($id) {
+        Route::get('{id}/survey', ['as' => 'index','uses' => 'SurveyController@index']);
+    });
 });
