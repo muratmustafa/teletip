@@ -64,12 +64,6 @@
                   <p>Tüm Anketler</p>
                 </a>
               </li>
-              <li class="nav-item">
-                <a href="{{ url('/doctor/survey') }}" target="_blank" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Anket Oluştur</p>
-                </a>
-              </li>
             </ul>
           </li>
           <li class="nav-item">
