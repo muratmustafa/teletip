@@ -32,6 +32,12 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6">
+@if ($message = Session::get('success'))
+
+            <div class="alert alert-success alert-dismissible">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+              {{ $message }}
+            </div>@endif
 
             <div class="card card-danger">
               <div class="card-header">
@@ -39,7 +45,9 @@
               </div>
               <form action="{{ route('user.profile.update',Auth::guard('user')->user()->id) }}" method="post">
                 @csrf
+
                 @method('PUT')
+
                 <div class="card-body">@if ($errors->any())
 
                   <div class="alert alert-danger alert-dismissible">
@@ -81,7 +89,6 @@
 
                 <div class="card-footer">
                   <button type="submit" class="btn btn-danger">Güncelle</button>
-                  <a href="{{ route('user.appointments.index') }}"><div class="btn btn-default">Vazgeç</div></a>
                 </div>
               </form>
             </div>

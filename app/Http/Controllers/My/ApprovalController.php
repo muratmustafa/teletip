@@ -12,9 +12,9 @@ class ApprovalController extends Controller
 {
     public function index()
     {
-        $approvals = Approval::all();
+        $approvals = Approval::latest('id')->paginate(10);
 
-        return view('user.appointments.approval.index',compact('approvals'));
+        return view('user.appointments.approval.index',compact('approvals'))->with('i', (request()->input('page', 1) - 1) * 10);
     }
 
     public function stepOne(Request $request, $id)
@@ -24,8 +24,8 @@ class ApprovalController extends Controller
         $appt_status = \App\Models\Appointment::where('id', $id)->value('appt_status');
         $appt_date = \Carbon\Carbon::parse($appt_date)->format('Y-m-d');
 
-        if (!($appt_date === $today) || !($appt_status === "Normal"))
-            return redirect()->route('user.appointments.index');
+        if ($appt_date !== $today || $appt_status !== "Normal")
+            return back()->with('error','Görüşmeye katılamazsınız.');
 
         $approval = $request->session()->get('approval');
 

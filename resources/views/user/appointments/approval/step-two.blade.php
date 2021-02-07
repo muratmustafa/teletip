@@ -18,6 +18,7 @@
           <div class="col-lg-8">
             <form action="{{ route('user.approval.step.two.post',$id) }}" method="POST">
               @csrf
+
               <div class="card card-primary card-outline">
                 <div class="card-header">
                   <h3 class="card-title">BİLGİLENDİRİLMİŞ GÖNÜLLÜ OLUR FORMU - 2</h3>
@@ -28,6 +29,7 @@
                   $birthdate = \App\Models\User::where('id', $user_id)->value('birthdate');
                   $age = \Carbon\Carbon::parse($birthdate)->age;
                 @endphp @if ($age >= 8)
+
                   <p style="text-align:justify;">
                     <b>Araştırmanın Adı</b>: Ankara Üniversitesi Tıp Fakültesi Çocuk Metabolizma Bilim Dalı’nda Takipli Hastaların Teletıp Sistemi ile Uzaktan Değerlendirilmesi ve Teletıp Memnuniyet Ölçeğinin Uygulanması
                     <br><br>
@@ -49,17 +51,7 @@
                     <br><br>
                     Bir sonraki poliklinik kontrolünde görüşmek üzere.
                     <br><br>
-                  </p>@if ($errors->any())
-
-                  <div class="alert alert-danger alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    There were some problems:<br>
-                    <ul>@foreach ($errors->all() as $error)
-
-                        <li>{{ $error }}</li>@endforeach
-
-                    </ul>
-                  </div>@endif
+                  </p>
 
                   <h3>Hasta Oluru</h3>
 
@@ -71,10 +63,12 @@
                     <input class="custom-control-input" type="checkbox" id="inputPatientApproval" name="user_approval" value="1">
                     <label for="inputPatientApproval" class="custom-control-label">Görüşmeye katılmayı istiyorsan burayı işaretleyebilirsin.</label>
                   </div>@else
+
                   <div class="alert alert-warning alert-dismissible">
                     <b>{{ \App\Models\User::where('id', $user_id)->value('name') }}</b> adlı hasta 8 yaşından küçük olduğu için kendisinden onay alınmayacaktır. Bu adımı geçebilirsiniz.
                   </div>
                   <input type="hidden" id="inputPatientApproval" name="user_approval" value="1">@endif
+
                 </div>
 
                 <div class="card-footer text-right clearfix">

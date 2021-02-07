@@ -18,6 +18,7 @@
           <div class="col-lg-8">
             <form action="{{ route('user.approval.step.three.post',$id) }}" method="POST">
               @csrf
+
               <div class="card card-primary card-outline">
                 <div class="card-header">
                   <h3 class="card-title">BİLGİLENDİRİLMİŞ GÖNÜLLÜ OLUR FORM ÖZETİ</h3>
@@ -25,6 +26,7 @@
                     $user_id = \App\Models\Appointment::where('id', $id)->value('user_id');
                     $doctor_id = \App\Models\Appointment::where('id', $id)->value('doctor_id');
                 @endphp
+
                 <div class="card-body">
 
                     <h3>Özet</h3>
@@ -67,7 +69,7 @@
 
                 <div class="card-footer text-right clearfix">
                   <a href="{{ route('user.approval.step.two',$id) }}" class="btn btn-outline-secondary">Geri</a>
-                  <button type="submit" class="btn btn-primary">Görüşmeye Katıl</button>
+                  <button type="submit" class="btn btn-primary">Onayla ve Görüşmeye Katıl</button>
                 </div>
               </div>
             </form>

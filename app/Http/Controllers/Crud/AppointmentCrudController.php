@@ -62,8 +62,8 @@ class AppointmentCrudController extends Controller
     {
         $request->validate([
             'doctor_email' => 'required',
-            'user_tc'   => 'required',
-            'appt_date' => 'required',
+            'user_tc'      => 'required',
+            'appt_date'    => 'required',
             'appt_status',
             'appt_detail',
         ]);

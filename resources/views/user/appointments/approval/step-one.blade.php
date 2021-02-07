@@ -18,6 +18,7 @@
           <div class="col-lg-8">
             <form action="{{ route('user.approval.step.one.post',$id) }}" method="POST">
               @csrf
+
               <div class="card card-primary card-outline">
                 <div class="card-header">
                   <h3 class="card-title">BİLGİLENDİRİLMİŞ GÖNÜLLÜ OLUR FORMU - 1</h3>
@@ -47,17 +48,7 @@
                     Eğer çalışma ile ilgili daha detaylı bilgi almak isterseniz veya çalışma süresince aklınıza takılan bir soru olursa, çalışmanın sorumlu yürütücüsü ve yardımcı araştırıcısı olan <b>Doç.Dr. Tuba EMİNOĞLU</b> ve <b>Dr. Merve KOÇ YEKEDÜZ</b>’e danışabilirsiniz.
                     <br><br>
                     <b>Tel</b>: +90 (312) 595 7368 / Çocuk Metabolizma Bilim Dalı
-                  </p>@if ($errors->any())
-
-                  <div class="alert alert-danger alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    There were some problems:<br>
-                    <ul>@foreach ($errors->all() as $error)
-
-                        <li>{{ $error }}</li>@endforeach
-
-                    </ul>
-                  </div>@endif
+                  </p>
 
                   <div class="alert alert-warning alert-dismissible">
                     Hastanın anne ve babası halen hayatta olup evlilikleri devam ediyorsa, formu hem anne hem de babanın doldurması <b>zorunludur</b>. Aksi durumlarda görüşmeye yalnız 1 ebeveynin onay verip katılması yeterlidir.

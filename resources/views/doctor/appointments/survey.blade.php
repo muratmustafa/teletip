@@ -237,14 +237,14 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
               <span class="form-sub-label-container" style="vertical-align:top">
                 <input type="tel" class="form-textbox validate[required, limitDate]" id="day_13" name="q13_3Hastanin[day]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_day" />
                 <span class="date-separate" aria-hidden="true">
-                   .
+                   .
                 </span>
                 <label class="form-sub-label" for="day_13" id="sublabel_13_day" style="min-height:13px" aria-hidden="false"> Gün </label>
               </span>
               <span class="form-sub-label-container" style="vertical-align:top">
                 <input type="tel" class="form-textbox validate[required, limitDate]" id="month_13" name="q13_3Hastanin[month]" size="2" data-maxlength="2" data-age="" maxLength="2" value="" required="" autoComplete="off" aria-labelledby="label_13 sublabel_13_month" />
                 <span class="date-separate" aria-hidden="true">
-                   .
+                   .
                 </span>
                 <label class="form-sub-label" for="month_13" id="sublabel_13_month" style="min-height:13px" aria-hidden="false"> Ay </label>
               </span>
@@ -270,7 +270,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         </label>
         <div id="cid_64" class="form-input-wide jf-required" data-layout="half">
           <select class="form-dropdown validate[required]" id="input_64" name="q64_4Hastanin" style="width:310px" data-component="dropdown" required="" aria-labelledby="label_64">
-            <option value=""> Lütfen Seçin </option>
+            <option value=""> Please Select </option>
             <option value="Erkek"> Erkek </option>
             <option value="Kadın"> Kadın </option>
           </select>
@@ -288,26 +288,28 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio validate[required]" id="input_63_0" name="q63_5Teletip" value="a" required="" />
+              <input type="radio" class="form-radio validate[required]" id="input_63_0" name="q63_5Teletip" value="a. Ankara" required="" />
               <label id="label_input_63_0" for="input_63_0"> a. Ankara </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio validate[required]" id="input_63_1" name="q63_5Teletip" value="b" required="" />
+              <input type="radio" class="form-radio validate[required]" id="input_63_1" name="q63_5Teletip" value="b. Ankara’dan 0-500 km uzakta" required="" />
               <label id="label_input_63_1" for="input_63_1"> b. Ankara’dan 0-500 km uzakta </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio validate[required]" id="input_63_2" name="q63_5Teletip" value="c" required="" />
+              <input type="radio" class="form-radio validate[required]" id="input_63_2" name="q63_5Teletip" value="c. Ankara’dan 500-1000 km uzakta" required="" />
               <label id="label_input_63_2" for="input_63_2"> c. Ankara’dan 500-1000 km uzakta </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio validate[required]" id="input_63_3" name="q63_5Teletip" value="d" required="" />
-              <label id="label_input_63_3" for="input_63_3"> d. Ankara’dan 1000 km < uzakta</label>
+              <input type="radio" class="form-radio validate[required]" id="input_63_3" name="q63_5Teletip" value="d. Ankara’dan 1000 km&lt; uzakta" required="" />
+              <label id="label_input_63_3" for="input_63_3">
+                d. Ankara’dan 1000 km
+                < uzakta</label>
             </span>
           </div>
         </div>
@@ -325,25 +327,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_65_0" name="q65_6Teletip" value="a" />
+              <input type="radio" class="form-radio" id="input_65_0" name="q65_6Teletip" value="a. Anne" />
               <label id="label_input_65_0" for="input_65_0"> a. Anne </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_65_1" name="q65_6Teletip" value="b" />
+              <input type="radio" class="form-radio" id="input_65_1" name="q65_6Teletip" value="b. Baba" />
               <label id="label_input_65_1" for="input_65_1"> b. Baba </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_65_2" name="q65_6Teletip" value="c" />
+              <input type="radio" class="form-radio" id="input_65_2" name="q65_6Teletip" value="c. Anne ve baba" />
               <label id="label_input_65_2" for="input_65_2"> c. Anne ve baba </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_65_3" name="q65_6Teletip" value="d" />
+              <input type="radio" class="form-radio" id="input_65_3" name="q65_6Teletip" value="d. Ebeveynler ile hastanın kendisi" />
               <label id="label_input_65_3" for="input_65_3"> d. Ebeveynler ile hastanın kendisi </label>
             </span>
           </div>
@@ -362,37 +364,37 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_67_0" name="q67_8Gorusmeye" value="a" />
+              <input type="radio" class="form-radio" id="input_67_0" name="q67_8Gorusmeye" value="a. Okur-yazar değil" />
               <label id="label_input_67_0" for="input_67_0"> a. Okur-yazar değil </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_67_1" name="q67_8Gorusmeye" value="b" />
+              <input type="radio" class="form-radio" id="input_67_1" name="q67_8Gorusmeye" value="b. İlkokul mezunu" />
               <label id="label_input_67_1" for="input_67_1"> b. İlkokul mezunu </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_67_2" name="q67_8Gorusmeye" value="c" />
+              <input type="radio" class="form-radio" id="input_67_2" name="q67_8Gorusmeye" value="c. Ortaokul mezunu" />
               <label id="label_input_67_2" for="input_67_2"> c. Ortaokul mezunu </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_67_3" name="q67_8Gorusmeye" value="d" />
+              <input type="radio" class="form-radio" id="input_67_3" name="q67_8Gorusmeye" value="d. Lise mezunu" />
               <label id="label_input_67_3" for="input_67_3"> d. Lise mezunu </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_67_4" name="q67_8Gorusmeye" value="e" />
+              <input type="radio" class="form-radio" id="input_67_4" name="q67_8Gorusmeye" value="e. Üniversite mezunu" />
               <label id="label_input_67_4" for="input_67_4"> e. Üniversite mezunu </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_67_5" name="q67_8Gorusmeye" value="f" />
+              <input type="radio" class="form-radio" id="input_67_5" name="q67_8Gorusmeye" value="f. Doktora/Yüksek ihtisas" />
               <label id="label_input_67_5" for="input_67_5"> f. Doktora/Yüksek ihtisas </label>
             </span>
           </div>
@@ -405,13 +407,13 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_68_0" name="q68_9Gorusmeye" value="a" />
+              <input type="radio" class="form-radio" id="input_68_0" name="q68_9Gorusmeye" value="a. Çalışıyor" />
               <label id="label_input_68_0" for="input_68_0"> a. Çalışıyor </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_68_1" name="q68_9Gorusmeye" value="b" />
+              <input type="radio" class="form-radio" id="input_68_1" name="q68_9Gorusmeye" value="b. Çalışmıyor" />
               <label id="label_input_68_1" for="input_68_1"> b. Çalışmıyor </label>
             </span>
           </div>
@@ -424,37 +426,37 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_0" name="q69_10Ailenin" value="a" />
+              <input type="radio" class="form-radio" id="input_69_0" name="q69_10Ailenin" value="a. Geliri yok" />
               <label id="label_input_69_0" for="input_69_0"> a. Geliri yok </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_1" name="q69_10Ailenin" value="b" />
+              <input type="radio" class="form-radio" id="input_69_1" name="q69_10Ailenin" value="b. Geliri yok, sadece engelli maaşı / bakım parası ile geçiniyor" />
               <label id="label_input_69_1" for="input_69_1"> b. Geliri yok, sadece engelli maaşı / bakım parası ile geçiniyor </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_2" name="q69_10Ailenin" value="c" />
+              <input type="radio" class="form-radio" id="input_69_2" name="q69_10Ailenin" value="c. 2500 TL ve altı" />
               <label id="label_input_69_2" for="input_69_2"> c. 2500 TL ve altı </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_3" name="q69_10Ailenin" value="d" />
+              <input type="radio" class="form-radio" id="input_69_3" name="q69_10Ailenin" value="d. 2500-5000 TL" />
               <label id="label_input_69_3" for="input_69_3"> d. 2500-5000 TL </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_4" name="q69_10Ailenin" value="e" />
+              <input type="radio" class="form-radio" id="input_69_4" name="q69_10Ailenin" value="e. 5000-7500 TL" />
               <label id="label_input_69_4" for="input_69_4"> e. 5000-7500 TL </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_69_5" name="q69_10Ailenin" value="f" />
+              <input type="radio" class="form-radio" id="input_69_5" name="q69_10Ailenin" value="f. 7500 TL ve üzeri" />
               <label id="label_input_69_5" for="input_69_5"> f. 7500 TL ve üzeri </label>
             </span>
           </div>
@@ -479,25 +481,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_74_0" name="q74_13Hastanin" value="a" />
+              <input type="radio" class="form-radio" id="input_74_0" name="q74_13Hastanin" value="a. Yaşı küçük, eğitim almıyor" />
               <label id="label_input_74_0" for="input_74_0"> a. Yaşı küçük, eğitim almıyor </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_74_1" name="q74_13Hastanin" value="b" />
+              <input type="radio" class="form-radio" id="input_74_1" name="q74_13Hastanin" value="b. Örgün eğitim" />
               <label id="label_input_74_1" for="input_74_1"> b. Örgün eğitim </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_74_2" name="q74_13Hastanin" value="c" />
+              <input type="radio" class="form-radio" id="input_74_2" name="q74_13Hastanin" value="c. Özel eğitim" />
               <label id="label_input_74_2" for="input_74_2"> c. Özel eğitim </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_74_3" name="q74_13Hastanin" value="d" />
+              <input type="radio" class="form-radio" id="input_74_3" name="q74_13Hastanin" value="d. Örgün eğitim + özel eğitim" />
               <label id="label_input_74_3" for="input_74_3"> d. Örgün eğitim + özel eğitim </label>
             </span>
           </div>
@@ -543,85 +545,85 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_0" name="q79_2Tani" value="a" />
+              <input type="radio" class="form-radio" id="input_79_0" name="q79_2Tani" value="a. Karbonhidrat metabolizma boz" />
               <label id="label_input_79_0" for="input_79_0"> a. Karbonhidrat metabolizma boz </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_1" name="q79_2Tani" value="b" />
+              <input type="radio" class="form-radio" id="input_79_1" name="q79_2Tani" value="b. Aminoasidopatiler" />
               <label id="label_input_79_1" for="input_79_1"> b. Aminoasidopatiler </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_2" name="q79_2Tani" value="c" />
+              <input type="radio" class="form-radio" id="input_79_2" name="q79_2Tani" value="c. Organik asidemiler" />
               <label id="label_input_79_2" for="input_79_2"> c. Organik asidemiler </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_3" name="q79_2Tani" value="d" />
+              <input type="radio" class="form-radio" id="input_79_3" name="q79_2Tani" value="d. Biotinidaz eksikliği" />
               <label id="label_input_79_3" for="input_79_3"> d. Biotinidaz eksikliği </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_4" name="q79_2Tani" value="e" />
+              <input type="radio" class="form-radio" id="input_79_4" name="q79_2Tani" value="e. Yağ asidi oks bozukluğu" />
               <label id="label_input_79_4" for="input_79_4"> e. Yağ asidi oks bozukluğu </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_5" name="q79_2Tani" value="f" />
+              <input type="radio" class="form-radio" id="input_79_5" name="q79_2Tani" value="f. Mitokondrial hastalık" />
               <label id="label_input_79_5" for="input_79_5"> f. Mitokondrial hastalık </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_6" name="q79_2Tani" value="g" />
+              <input type="radio" class="form-radio" id="input_79_6" name="q79_2Tani" value="g. Lipit metabolizma boz" />
               <label id="label_input_79_6" for="input_79_6"> g. Lipit metabolizma boz </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_7" name="q79_2Tani" value="h" />
+              <input type="radio" class="form-radio" id="input_79_7" name="q79_2Tani" value="h. Lizozomal/Peroksizomal hast" />
               <label id="label_input_79_7" for="input_79_7"> h. Lizozomal/Peroksizomal hast </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_8" name="q79_2Tani" value="i" />
+              <input type="radio" class="form-radio" id="input_79_8" name="q79_2Tani" value="i. Nörometabolik hastalıklar" />
               <label id="label_input_79_8" for="input_79_8"> i. Nörometabolik hastalıklar </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_9" name="q79_2Tani" value="j" />
+              <input type="radio" class="form-radio" id="input_79_9" name="q79_2Tani" value="j. Konjenital glikozilasyon boz" />
               <label id="label_input_79_9" for="input_79_9"> j. Konjenital glikozilasyon boz </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_10" name="q79_2Tani" value="k" />
+              <input type="radio" class="form-radio" id="input_79_10" name="q79_2Tani" value="k. Üre siklus bozuklukları" />
               <label id="label_input_79_10" for="input_79_10"> k. Üre siklus bozuklukları </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_11" name="q79_2Tani" value="l" />
+              <input type="radio" class="form-radio" id="input_79_11" name="q79_2Tani" value="l. Safra metabolizma boz" />
               <label id="label_input_79_11" for="input_79_11"> l. Safra metabolizma boz </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_12" name="q79_2Tani" value="m" />
+              <input type="radio" class="form-radio" id="input_79_12" name="q79_2Tani" value="m. Pürin pirimidin boz" />
               <label id="label_input_79_12" for="input_79_12"> m. Pürin pirimidin boz </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_79_13" name="q79_2Tani" value="n" />
+              <input type="radio" class="form-radio" id="input_79_13" name="q79_2Tani" value="n. Diğer" />
               <label id="label_input_79_13" for="input_79_13"> n. Diğer </label>
             </span>
           </div>
@@ -640,25 +642,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_83_0" name="q83_4Hastanin83[]" value="a" />
+              <input type="checkbox" class="form-checkbox" id="input_83_0" name="q83_4Hastanin83[]" value="a. Tedavisiz izlem" />
               <label id="label_input_83_0" for="input_83_0"> a. Tedavisiz izlem </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_83_1" name="q83_4Hastanin83[]" value="b" />
+              <input type="checkbox" class="form-checkbox" id="input_83_1" name="q83_4Hastanin83[]" value="b. Evde ilaç tedavisi" />
               <label id="label_input_83_1" for="input_83_1"> b. Evde ilaç tedavisi </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_83_2" name="q83_4Hastanin83[]" value="c" />
+              <input type="checkbox" class="form-checkbox" id="input_83_2" name="q83_4Hastanin83[]" value="c. Hastanede yatarak enzim tedavisi" />
               <label id="label_input_83_2" for="input_83_2"> c. Hastanede yatarak enzim tedavisi </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_83_3" name="q83_4Hastanin83[]" value="d" />
+              <input type="checkbox" class="form-checkbox" id="input_83_3" name="q83_4Hastanin83[]" value="d. Diyet tedavisi" />
               <label id="label_input_83_3" for="input_83_3"> d. Diyet tedavisi </label>
             </span>
           </div>
@@ -671,25 +673,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_84_0" name="q84_5Kontroller" value="a" />
+              <input type="radio" class="form-radio" id="input_84_0" name="q84_5Kontroller" value="a. 3 ay altı" />
               <label id="label_input_84_0" for="input_84_0"> a. 3 ay altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_84_1" name="q84_5Kontroller" value="b" />
+              <input type="radio" class="form-radio" id="input_84_1" name="q84_5Kontroller" value="b. 3-6 ay" />
               <label id="label_input_84_1" for="input_84_1"> b. 3-6 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_84_2" name="q84_5Kontroller" value="c" />
+              <input type="radio" class="form-radio" id="input_84_2" name="q84_5Kontroller" value="c. 6-12 ay" />
               <label id="label_input_84_2" for="input_84_2"> c. 6-12 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_84_3" name="q84_5Kontroller" value="d" />
+              <input type="radio" class="form-radio" id="input_84_3" name="q84_5Kontroller" value="d. 1 yıl ve üzeri" />
               <label id="label_input_84_3" for="input_84_3"> d. 1 yıl ve üzeri </label>
             </span>
           </div>
@@ -702,25 +704,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_85_0" name="q85_6Autf" value="a" />
+              <input type="radio" class="form-radio" id="input_85_0" name="q85_6Autf" value="a. 3 ay altı" />
               <label id="label_input_85_0" for="input_85_0"> a. 3 ay altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_85_1" name="q85_6Autf" value="b" />
+              <input type="radio" class="form-radio" id="input_85_1" name="q85_6Autf" value="b. 3-6 ay" />
               <label id="label_input_85_1" for="input_85_1"> b. 3-6 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_85_2" name="q85_6Autf" value="c" />
+              <input type="radio" class="form-radio" id="input_85_2" name="q85_6Autf" value="c. 6-12 ay" />
               <label id="label_input_85_2" for="input_85_2"> c. 6-12 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_85_3" name="q85_6Autf" value="d" />
+              <input type="radio" class="form-radio" id="input_85_3" name="q85_6Autf" value="d. 1 yıl ve üzeri" />
               <label id="label_input_85_3" for="input_85_3"> d. 1 yıl ve üzeri </label>
             </span>
           </div>
@@ -733,25 +735,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_86_0" name="q86_7Autf" value="a" />
+              <input type="radio" class="form-radio" id="input_86_0" name="q86_7Autf" value="a. 3 ay altı" />
               <label id="label_input_86_0" for="input_86_0"> a. 3 ay altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_86_1" name="q86_7Autf" value="b" />
+              <input type="radio" class="form-radio" id="input_86_1" name="q86_7Autf" value="b. 3-6 ay" />
               <label id="label_input_86_1" for="input_86_1"> b. 3-6 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_86_2" name="q86_7Autf" value="c" />
+              <input type="radio" class="form-radio" id="input_86_2" name="q86_7Autf" value="c. 6-12 ay" />
               <label id="label_input_86_2" for="input_86_2"> c. 6-12 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_86_3" name="q86_7Autf" value="d" />
+              <input type="radio" class="form-radio" id="input_86_3" name="q86_7Autf" value="d. 1 yıl ve üzeri" />
               <label id="label_input_86_3" for="input_86_3"> d. 1 yıl ve üzeri </label>
             </span>
           </div>
@@ -761,7 +763,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_87" for="input_87"> 8. AÜTF metabolizmada poliklinik randevularınıza düzenli gelebiliyor musunuz? </label>
         <div id="cid_87" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_87" name="q87_8Autf" style="width:310px" data-component="dropdown" aria-labelledby="label_87">
-            <option value=""> Lütfen Seçin </option>
+            <option value=""> Please Select </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
@@ -774,49 +776,49 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_88_0" name="q88_9Autf[]" value="a" />
+              <input type="checkbox" class="form-checkbox" id="input_88_0" name="q88_9Autf[]" value="a. Maddi imkansızlıklar" />
               <label id="label_input_88_0" for="input_88_0"> a. Maddi imkansızlıklar </label>
             </span>
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_88_1" name="q88_9Autf[]" value="b" />
+              <input type="checkbox" class="form-checkbox" id="input_88_1" name="q88_9Autf[]" value="b. Ulaşım sorunları" />
               <label id="label_input_88_1" for="input_88_1"> b. Ulaşım sorunları </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_88_2" name="q88_9Autf[]" value="c" />
+              <input type="checkbox" class="form-checkbox" id="input_88_2" name="q88_9Autf[]" value="c. İşten izin alamama" />
               <label id="label_input_88_2" for="input_88_2"> c. İşten izin alamama </label>
             </span>
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_88_3" name="q88_9Autf[]" value="d" />
+              <input type="checkbox" class="form-checkbox" id="input_88_3" name="q88_9Autf[]" value="d. Evde başka bakacaklarımın olması" />
               <label id="label_input_88_3" for="input_88_3"> d. Evde başka bakacaklarımın olması </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_88_4" name="q88_9Autf[]" value="e" />
+              <input type="checkbox" class="form-checkbox" id="input_88_4" name="q88_9Autf[]" value="e. Ankara’da kalacak yer olmaması (Ankara dışından gelenler için)" />
               <label id="label_input_88_4" for="input_88_4"> e. Ankara’da kalacak yer olmaması (Ankara dışından gelenler için) </label>
             </span>
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_88_5" name="q88_9Autf[]" value="f" />
+              <input type="checkbox" class="form-checkbox" id="input_88_5" name="q88_9Autf[]" value="f. COVID-19 olmak endişesi" />
               <label id="label_input_88_5" for="input_88_5"> f. COVID-19 olmak endişesi </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_88_6" name="q88_9Autf[]" value="g" />
+              <input type="checkbox" class="form-checkbox" id="input_88_6" name="q88_9Autf[]" value="g. Randevu tarihini unutmak" />
               <label id="label_input_88_6" for="input_88_6"> g. Randevu tarihini unutmak </label>
             </span>
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_88_7" name="q88_9Autf[]" value="h" />
+              <input type="checkbox" class="form-checkbox" id="input_88_7" name="q88_9Autf[]" value="h. Diğer" />
               <label id="label_input_88_7" for="input_88_7"> h. Diğer </label>
             </span>
           </div>
@@ -829,25 +831,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_89_0" name="q89_10Autfde89" value="a" />
+              <input type="radio" class="form-radio" id="input_89_0" name="q89_10Autfde89" value="a. 3 ay altı" />
               <label id="label_input_89_0" for="input_89_0"> a. 3 ay altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_89_1" name="q89_10Autfde89" value="b" />
+              <input type="radio" class="form-radio" id="input_89_1" name="q89_10Autfde89" value="b. 3-6 ay" />
               <label id="label_input_89_1" for="input_89_1"> b. 3-6 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_89_2" name="q89_10Autfde89" value="c" />
+              <input type="radio" class="form-radio" id="input_89_2" name="q89_10Autfde89" value="c. 6-12 ay" />
               <label id="label_input_89_2" for="input_89_2"> c. 6-12 ay </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_89_3" name="q89_10Autfde89" value="d" />
+              <input type="radio" class="form-radio" id="input_89_3" name="q89_10Autfde89" value="d. 1 yıl ve üzeri" />
               <label id="label_input_89_3" for="input_89_3"> d. 1 yıl ve üzeri </label>
             </span>
           </div>
@@ -860,25 +862,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_90_0" name="q90_11Autf90" value="a" />
+              <input type="radio" class="form-radio" id="input_90_0" name="q90_11Autf90" value="a. 15 dk ve altı" />
               <label id="label_input_90_0" for="input_90_0"> a. 15 dk ve altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_90_1" name="q90_11Autf90" value="b" />
+              <input type="radio" class="form-radio" id="input_90_1" name="q90_11Autf90" value="b. 15-30 dk" />
               <label id="label_input_90_1" for="input_90_1"> b. 15-30 dk </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_90_2" name="q90_11Autf90" value="c" />
+              <input type="radio" class="form-radio" id="input_90_2" name="q90_11Autf90" value="c. 30-45 dk" />
               <label id="label_input_90_2" for="input_90_2"> c. 30-45 dk </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_90_3" name="q90_11Autf90" value="d" />
+              <input type="radio" class="form-radio" id="input_90_3" name="q90_11Autf90" value="d. 45 ve üzeri" />
               <label id="label_input_90_3" for="input_90_3"> d. 45 ve üzeri </label>
             </span>
           </div>
@@ -888,7 +890,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_91" for="input_91"> 12. AÜTF metabolizma kontrollerinize gidemediğinizde ilaç ve diyet tedavisi ile ilgili motivasyon sorunu yaşar mısınız? </label>
         <div id="cid_91" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_91" name="q91_12Autf91" style="width:310px" data-component="dropdown" aria-labelledby="label_91">
-            <option value=""> Lütfen Seçin </option>
+            <option value=""> Please Select </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
@@ -901,19 +903,19 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_92_0" name="q92_13Ankarada92" value="a" />
+              <input type="radio" class="form-radio" id="input_92_0" name="q92_13Ankarada92" value="a. 30 dk ve altı" />
               <label id="label_input_92_0" for="input_92_0"> a. 30 dk ve altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_92_1" name="q92_13Ankarada92" value="b" />
+              <input type="radio" class="form-radio" id="input_92_1" name="q92_13Ankarada92" value="b. 30 dk-1 saat" />
               <label id="label_input_92_1" for="input_92_1"> b. 30 dk-1 saat </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_92_2" name="q92_13Ankarada92" value="c" />
+              <input type="radio" class="form-radio" id="input_92_2" name="q92_13Ankarada92" value="c. 1 saat ve üzeri" />
               <label id="label_input_92_2" for="input_92_2"> c. 1 saat ve üzeri </label>
             </span>
           </div>
@@ -926,19 +928,19 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_93_0" name="q93_14Ankarada93" value="a" />
+              <input type="radio" class="form-radio" id="input_93_0" name="q93_14Ankarada93" value="a. Yaya" />
               <label id="label_input_93_0" for="input_93_0"> a. Yaya </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_93_1" name="q93_14Ankarada93" value="b" />
+              <input type="radio" class="form-radio" id="input_93_1" name="q93_14Ankarada93" value="b. Toplu taşıma" />
               <label id="label_input_93_1" for="input_93_1"> b. Toplu taşıma </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_93_2" name="q93_14Ankarada93" value="c" />
+              <input type="radio" class="form-radio" id="input_93_2" name="q93_14Ankarada93" value="c. Özel araç veya taksi" />
               <label id="label_input_93_2" for="input_93_2"> c. Özel araç veya taksi </label>
             </span>
           </div>
@@ -951,19 +953,19 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_94_0" name="q94_15Ankarada94" value="a" />
+              <input type="radio" class="form-radio" id="input_94_0" name="q94_15Ankarada94" value="a. 1" />
               <label id="label_input_94_0" for="input_94_0"> a. 1 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_94_1" name="q94_15Ankarada94" value="b" />
+              <input type="radio" class="form-radio" id="input_94_1" name="q94_15Ankarada94" value="b. 2" />
               <label id="label_input_94_1" for="input_94_1"> b. 2 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_94_2" name="q94_15Ankarada94" value="c" />
+              <input type="radio" class="form-radio" id="input_94_2" name="q94_15Ankarada94" value="c. 3 ve üzeri" />
               <label id="label_input_94_2" for="input_94_2"> c. 3 ve üzeri </label>
             </span>
           </div>
@@ -976,19 +978,19 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_95_0" name="q95_16Ankarada95" value="a" />
+              <input type="radio" class="form-radio" id="input_95_0" name="q95_16Ankarada95" value="a. 10-50" />
               <label id="label_input_95_0" for="input_95_0"> a. 10-50 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_95_1" name="q95_16Ankarada95" value="b" />
+              <input type="radio" class="form-radio" id="input_95_1" name="q95_16Ankarada95" value="b. 50-100" />
               <label id="label_input_95_1" for="input_95_1"> b. 50-100 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_95_2" name="q95_16Ankarada95" value="c" />
+              <input type="radio" class="form-radio" id="input_95_2" name="q95_16Ankarada95" value="c. 100 ve üzeri" />
               <label id="label_input_95_2" for="input_95_2"> c. 100 ve üzeri </label>
             </span>
           </div>
@@ -1001,25 +1003,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_96_0" name="q96_17Ankara96" value="a" />
+              <input type="radio" class="form-radio" id="input_96_0" name="q96_17Ankara96" value="a. 3 saat ve altı" />
               <label id="label_input_96_0" for="input_96_0"> a. 3 saat ve altı </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_96_1" name="q96_17Ankara96" value="b" />
+              <input type="radio" class="form-radio" id="input_96_1" name="q96_17Ankara96" value="b. 3-6 saat" />
               <label id="label_input_96_1" for="input_96_1"> b. 3-6 saat </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_96_2" name="q96_17Ankara96" value="c" />
+              <input type="radio" class="form-radio" id="input_96_2" name="q96_17Ankara96" value="c. 6-12 saat" />
               <label id="label_input_96_2" for="input_96_2"> c. 6-12 saat </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_96_3" name="q96_17Ankara96" value="d" />
+              <input type="radio" class="form-radio" id="input_96_3" name="q96_17Ankara96" value="d. 12 saat ve üzeri" />
               <label id="label_input_96_3" for="input_96_3"> d. 12 saat ve üzeri </label>
             </span>
           </div>
@@ -1032,19 +1034,19 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_97_0" name="q97_18Ankara97" value="a" />
+              <input type="radio" class="form-radio" id="input_97_0" name="q97_18Ankara97" value="a. Özel araç" />
               <label id="label_input_97_0" for="input_97_0"> a. Özel araç </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_97_1" name="q97_18Ankara97" value="b" />
+              <input type="radio" class="form-radio" id="input_97_1" name="q97_18Ankara97" value="b. Otobüs-tren" />
               <label id="label_input_97_1" for="input_97_1"> b. Otobüs-tren </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_97_2" name="q97_18Ankara97" value="c" />
+              <input type="radio" class="form-radio" id="input_97_2" name="q97_18Ankara97" value="c. Havayolu" />
               <label id="label_input_97_2" for="input_97_2"> c. Havayolu </label>
             </span>
           </div>
@@ -1057,25 +1059,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_98_0" name="q98_19Ankara98" value="a" />
+              <input type="radio" class="form-radio" id="input_98_0" name="q98_19Ankara98" value="a. 2" />
               <label id="label_input_98_0" for="input_98_0"> a. 2 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_98_1" name="q98_19Ankara98" value="b" />
+              <input type="radio" class="form-radio" id="input_98_1" name="q98_19Ankara98" value="b. 3" />
               <label id="label_input_98_1" for="input_98_1"> b. 3 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_98_2" name="q98_19Ankara98" value="c" />
+              <input type="radio" class="form-radio" id="input_98_2" name="q98_19Ankara98" value="c. 4" />
               <label id="label_input_98_2" for="input_98_2"> c. 4 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_98_3" name="q98_19Ankara98" value="d" />
+              <input type="radio" class="form-radio" id="input_98_3" name="q98_19Ankara98" value="d. 5 ve üzeri" />
               <label id="label_input_98_3" for="input_98_3"> d. 5 ve üzeri </label>
             </span>
           </div>
@@ -1088,37 +1090,37 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_99_0" name="q99_20Ankara" value="a" />
+              <input type="radio" class="form-radio" id="input_99_0" name="q99_20Ankara" value="a. 500 TL altı" />
               <label id="label_input_99_0" for="input_99_0"> a. 500 TL altı </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_99_1" name="q99_20Ankara" value="b" />
+              <input type="radio" class="form-radio" id="input_99_1" name="q99_20Ankara" value="b. 500-1000" />
               <label id="label_input_99_1" for="input_99_1"> b. 500-1000 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_99_2" name="q99_20Ankara" value="c" />
+              <input type="radio" class="form-radio" id="input_99_2" name="q99_20Ankara" value="c. 1000-1500" />
               <label id="label_input_99_2" for="input_99_2"> c. 1000-1500 </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_99_3" name="q99_20Ankara" value="d" />
+              <input type="radio" class="form-radio" id="input_99_3" name="q99_20Ankara" value="d. 1500-2000" />
               <label id="label_input_99_3" for="input_99_3"> d. 1500-2000 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_99_4" name="q99_20Ankara" value="e" />
+              <input type="radio" class="form-radio" id="input_99_4" name="q99_20Ankara" value="e. 2000-3000" />
               <label id="label_input_99_4" for="input_99_4"> e. 2000-3000 </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_99_5" name="q99_20Ankara" value="f" />
+              <input type="radio" class="form-radio" id="input_99_5" name="q99_20Ankara" value="f. 3000 ve üzeri" />
               <label id="label_input_99_5" for="input_99_5"> f. 3000 ve üzeri </label>
             </span>
           </div>
@@ -1131,13 +1133,13 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_100_0" name="q100_21Ankara100" value="a" />
+              <input type="radio" class="form-radio" id="input_100_0" name="q100_21Ankara100" value="a. Eş-dost-akraba evinde" />
               <label id="label_input_100_0" for="input_100_0"> a. Eş-dost-akraba evinde </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_100_1" name="q100_21Ankara100" value="b" />
+              <input type="radio" class="form-radio" id="input_100_1" name="q100_21Ankara100" value="b. Otel veya misafirhanede" />
               <label id="label_input_100_1" for="input_100_1"> b. Otel veya misafirhanede </label>
             </span>
           </div>
@@ -1150,37 +1152,37 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_101_0" name="q101_22Ankara" value="a" />
+              <input type="radio" class="form-radio" id="input_101_0" name="q101_22Ankara" value="a. 500 TL altı" />
               <label id="label_input_101_0" for="input_101_0"> a. 500 TL altı </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_101_1" name="q101_22Ankara" value="b" />
+              <input type="radio" class="form-radio" id="input_101_1" name="q101_22Ankara" value="b. 500-1000" />
               <label id="label_input_101_1" for="input_101_1"> b. 500-1000 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_101_2" name="q101_22Ankara" value="c" />
+              <input type="radio" class="form-radio" id="input_101_2" name="q101_22Ankara" value="c. 1000-1500" />
               <label id="label_input_101_2" for="input_101_2"> c. 1000-1500 </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_101_3" name="q101_22Ankara" value="d" />
+              <input type="radio" class="form-radio" id="input_101_3" name="q101_22Ankara" value="d. 1500-2000" />
               <label id="label_input_101_3" for="input_101_3"> d. 1500-2000 </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_101_4" name="q101_22Ankara" value="e" />
+              <input type="radio" class="form-radio" id="input_101_4" name="q101_22Ankara" value="e. 2000-3000" />
               <label id="label_input_101_4" for="input_101_4"> e. 2000-3000 </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_101_5" name="q101_22Ankara" value="f" />
+              <input type="radio" class="form-radio" id="input_101_5" name="q101_22Ankara" value="f. 3000 ve üzeri" />
               <label id="label_input_101_5" for="input_101_5"> f. 3000 ve üzeri </label>
             </span>
           </div>
@@ -1190,7 +1192,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_103" for="input_103"> 23. Ankara dışında yaşıyorsanız Ankara’ya geldiğinizde konaklama durumu sizi zorluyor mu? </label>
         <div id="cid_103" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_103" name="q103_23Ankara" style="width:310px" data-component="dropdown" aria-labelledby="label_103">
-            <option value=""> Lütfen Seçin </option>
+            <option value=""> Please Select </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Bazen"> Bazen </option>
@@ -1201,7 +1203,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_104" for="input_104"> 24. Poliklinik başvurunuz için iş yerinden izin almanız gerekiyor mu? </label>
         <div id="cid_104" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_104" name="q104_24Poliklinik" style="width:310px" data-component="dropdown" aria-labelledby="label_104">
-            <option value=""> Lütfen Seçin </option>
+            <option value=""> Please Select </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
           </select>
@@ -1211,7 +1213,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_105" for="input_105"> 25. İş yerinden izin almakta zorluk çeker misiniz? </label>
         <div id="cid_105" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_105" name="q105_25Is" style="width:310px" data-component="dropdown" aria-labelledby="label_105">
-            <option value=""> Lütfen Seçin </option>
+            <option value=""> Please Select </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Bazen"> Bazen </option>
@@ -1252,25 +1254,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_108_0" name="q108_1Teletip" value="a" />
+              <input type="radio" class="form-radio" id="input_108_0" name="q108_1Teletip" value="a. Telefon" />
               <label id="label_input_108_0" for="input_108_0"> a. Telefon </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_108_1" name="q108_1Teletip" value="b" />
+              <input type="radio" class="form-radio" id="input_108_1" name="q108_1Teletip" value="b. Tablet" />
               <label id="label_input_108_1" for="input_108_1"> b. Tablet </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_108_2" name="q108_1Teletip" value="c" />
+              <input type="radio" class="form-radio" id="input_108_2" name="q108_1Teletip" value="c. Dizüstü bilgisayar" />
               <label id="label_input_108_2" for="input_108_2"> c. Dizüstü bilgisayar </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_108_3" name="q108_1Teletip" value="d" />
+              <input type="radio" class="form-radio" id="input_108_3" name="q108_1Teletip" value="d. Masaüstü bilgisayar" />
               <label id="label_input_108_3" for="input_108_3"> d. Masaüstü bilgisayar </label>
             </span>
           </div>
@@ -1283,25 +1285,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_109_0" name="q109_2Teletip" value="a" />
+              <input type="radio" class="form-radio" id="input_109_0" name="q109_2Teletip" value="a. Evinizdeki internet bağlantısı (wi-fi)" />
               <label id="label_input_109_0" for="input_109_0"> a. Evinizdeki internet bağlantısı (wi-fi) </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_109_1" name="q109_2Teletip" value="b" />
+              <input type="radio" class="form-radio" id="input_109_1" name="q109_2Teletip" value="b. Telefon hattınızdaki internet bağlantısından" />
               <label id="label_input_109_1" for="input_109_1"> b. Telefon hattınızdaki internet bağlantısından </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_109_2" name="q109_2Teletip" value="c" />
+              <input type="radio" class="form-radio" id="input_109_2" name="q109_2Teletip" value="c. Yakınlarınızın internet bağlantısından" />
               <label id="label_input_109_2" for="input_109_2"> c. Yakınlarınızın internet bağlantısından </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_109_3" name="q109_2Teletip" value="d" />
+              <input type="radio" class="form-radio" id="input_109_3" name="q109_2Teletip" value="d. Diğer" />
               <label id="label_input_109_3" for="input_109_3"> d. Diğer </label>
             </span>
           </div>
@@ -1314,31 +1316,31 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_110_0" name="q110_3Teletip" value="a" />
+              <input type="radio" class="form-radio" id="input_110_0" name="q110_3Teletip" value="a. 15 dk altı" />
               <label id="label_input_110_0" for="input_110_0"> a. 15 dk altı </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_110_1" name="q110_3Teletip" value="b" />
+              <input type="radio" class="form-radio" id="input_110_1" name="q110_3Teletip" value="b. 15-30 dk" />
               <label id="label_input_110_1" for="input_110_1"> b. 15-30 dk </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_110_2" name="q110_3Teletip" value="c" />
+              <input type="radio" class="form-radio" id="input_110_2" name="q110_3Teletip" value="c. 30-45 dk" />
               <label id="label_input_110_2" for="input_110_2"> c. 30-45 dk </label>
             </span>
             <span class="form-radio-item">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_110_3" name="q110_3Teletip" value="d" />
+              <input type="radio" class="form-radio" id="input_110_3" name="q110_3Teletip" value="d. 45 dk-1 saat" />
               <label id="label_input_110_3" for="input_110_3"> d. 45 dk-1 saat </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_110_4" name="q110_3Teletip" value="e" />
+              <input type="radio" class="form-radio" id="input_110_4" name="q110_3Teletip" value="e. 1 saat ve üzeri" />
               <label id="label_input_110_4" for="input_110_4"> e. 1 saat ve üzeri </label>
             </span>
           </div>
@@ -1351,43 +1353,43 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_112_0" name="q112_4Teletipin[]" value="a" />
+              <input type="checkbox" class="form-checkbox" id="input_112_0" name="q112_4Teletipin[]" value="a. Zaman tasarrufu" />
               <label id="label_input_112_0" for="input_112_0"> a. Zaman tasarrufu </label>
             </span>
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_112_1" name="q112_4Teletipin[]" value="b" />
+              <input type="checkbox" class="form-checkbox" id="input_112_1" name="q112_4Teletipin[]" value="b. Yol tararrufu" />
               <label id="label_input_112_1" for="input_112_1"> b. Yol tararrufu </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_112_2" name="q112_4Teletipin[]" value="c" />
+              <input type="checkbox" class="form-checkbox" id="input_112_2" name="q112_4Teletipin[]" value="c. Maddi tasarruf" />
               <label id="label_input_112_2" for="input_112_2"> c. Maddi tasarruf </label>
             </span>
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_112_3" name="q112_4Teletipin[]" value="d" />
+              <input type="checkbox" class="form-checkbox" id="input_112_3" name="q112_4Teletipin[]" value="d. İşten izin alma sorununa çözüm" />
               <label id="label_input_112_3" for="input_112_3"> d. İşten izin alma sorununa çözüm </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_112_4" name="q112_4Teletipin[]" value="e" />
+              <input type="checkbox" class="form-checkbox" id="input_112_4" name="q112_4Teletipin[]" value="e. Okuldan izin alma sorununa çözüm" />
               <label id="label_input_112_4" for="input_112_4"> e. Okuldan izin alma sorununa çözüm </label>
             </span>
             <span class="form-checkbox-item">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_112_5" name="q112_4Teletipin[]" value="f" />
+              <input type="checkbox" class="form-checkbox" id="input_112_5" name="q112_4Teletipin[]" value="f. Hastane ortamına girmeden sağlık işlerini halledebilmek" />
               <label id="label_input_112_5" for="input_112_5"> f. Hastane ortamına girmeden sağlık işlerini halledebilmek </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_112_6" name="q112_4Teletipin[]" value="g" />
+              <input type="checkbox" class="form-checkbox" id="input_112_6" name="q112_4Teletipin[]" value="g. Diyet ve ilaç tedavisi için motivasyonun sağlanması" />
               <label id="label_input_112_6" for="input_112_6"> g. Diyet ve ilaç tedavisi için motivasyonun sağlanması </label>
             </span>
           </div>
@@ -1400,25 +1402,25 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_113_0" name="q113_5Teletipin[]" value="a" />
+              <input type="checkbox" class="form-checkbox" id="input_113_0" name="q113_5Teletipin[]" value="a. Muayene olamamak" />
               <label id="label_input_113_0" for="input_113_0"> a. Muayene olamamak </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_113_1" name="q113_5Teletipin[]" value="b" />
+              <input type="checkbox" class="form-checkbox" id="input_113_1" name="q113_5Teletipin[]" value="b. Kan verememek" />
               <label id="label_input_113_1" for="input_113_1"> b. Kan verememek </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_113_2" name="q113_5Teletipin[]" value="c" />
+              <input type="checkbox" class="form-checkbox" id="input_113_2" name="q113_5Teletipin[]" value="c. Reçete-Rapor yazdıramamak" />
               <label id="label_input_113_2" for="input_113_2"> c. Reçete-Rapor yazdıramamak </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_113_3" name="q113_5Teletipin[]" value="d" />
+              <input type="checkbox" class="form-checkbox" id="input_113_3" name="q113_5Teletipin[]" value="d. Resmi hasta girişi olmadığı için hastanın dosyasına not koyulamaması" />
               <label id="label_input_113_3" for="input_113_3"> d. Resmi hasta girişi olmadığı için hastanın dosyasına not koyulamaması </label>
             </span>
           </div>
@@ -1431,31 +1433,31 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_114_0" name="q114_6Teletipin[]" value="a" />
+              <input type="checkbox" class="form-checkbox" id="input_114_0" name="q114_6Teletipin[]" value="a. Rapor-Reçete yazdırabilmek" />
               <label id="label_input_114_0" for="input_114_0"> a. Rapor-Reçete yazdırabilmek </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_114_1" name="q114_6Teletipin[]" value="b" />
+              <input type="checkbox" class="form-checkbox" id="input_114_1" name="q114_6Teletipin[]" value="b. Sonuçları öğrenebilmek" />
               <label id="label_input_114_1" for="input_114_1"> b. Sonuçları öğrenebilmek </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_114_2" name="q114_6Teletipin[]" value="c" />
+              <input type="checkbox" class="form-checkbox" id="input_114_2" name="q114_6Teletipin[]" value="c. Diyetisyen görüşmesi yapmak" />
               <label id="label_input_114_2" for="input_114_2"> c. Diyetisyen görüşmesi yapmak </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_114_3" name="q114_6Teletipin[]" value="d" />
+              <input type="checkbox" class="form-checkbox" id="input_114_3" name="q114_6Teletipin[]" value="d. Rutin kontrolleri yaptırmak" />
               <label id="label_input_114_3" for="input_114_3"> d. Rutin kontrolleri yaptırmak </label>
             </span>
             <span class="form-checkbox-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="checkbox" class="form-checkbox" id="input_114_4" name="q114_6Teletipin[]" value="e" />
+              <input type="checkbox" class="form-checkbox" id="input_114_4" name="q114_6Teletipin[]" value="e. Aktif şikayet olması halinde doktora danışabilmek" />
               <label id="label_input_114_4" for="input_114_4"> e. Aktif şikayet olması halinde doktora danışabilmek </label>
             </span>
           </div>
@@ -1465,7 +1467,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_115" for="input_115"> 7. Teletıp’ı faydalı buldunuz mu? </label>
         <div id="cid_115" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_115" name="q115_7Teletipi" style="width:310px" data-component="dropdown" aria-labelledby="label_115">
-            <option value=""> Lütfen Seçin </option>
+            <option value=""> Please Select </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Henüz Kararsızım"> Henüz Kararsızım </option>
@@ -1476,7 +1478,7 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
         <label class="form-label form-label-top" id="label_116" for="input_116"> 8. Teletıp’ı sonraki süreçlerde de tercih eder misiniz? </label>
         <div id="cid_116" class="form-input-wide" data-layout="half">
           <select class="form-dropdown" id="input_116" name="q116_8Teletipi" style="width:310px" data-component="dropdown" aria-labelledby="label_116">
-            <option value=""> Lütfen Seçin </option>
+            <option value=""> Please Select </option>
             <option value="Evet"> Evet </option>
             <option value="Hayır"> Hayır </option>
             <option value="Henüz Kararsızım"> Henüz Kararsızım </option>
@@ -1490,13 +1492,13 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_117_0" name="q117_9Teletipi" value="a" />
+              <input type="radio" class="form-radio" id="input_117_0" name="q117_9Teletipi" value="a. Telefonla görüşme" />
               <label id="label_input_117_0" for="input_117_0"> a. Telefonla görüşme </label>
             </span>
             <span class="form-radio-item" style="clear:left">
               <span class="dragger-item">
               </span>
-              <input type="radio" class="form-radio" id="input_117_1" name="q117_9Teletipi" value="b" />
+              <input type="radio" class="form-radio" id="input_117_1" name="q117_9Teletipi" value="b. Videolu görüşme" />
               <label id="label_input_117_1" for="input_117_1"> b. Videolu görüşme </label>
             </span>
           </div>
@@ -1541,10 +1543,10 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
       <li class="form-line" data-type="control_matrix" id="id_36">
         <label class="form-label form-label-top form-label-auto" id="label_36" for="input_36"> A. Teletıp Teknik Memnuniyet </label>
         <div id="cid_36" class="form-input-wide" data-layout="full">
-          <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix">
+          <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix" style="text-align:left;">
             <tr class="form-matrix-tr form-matrix-header-tr">
               <th class="form-matrix-th" style="border:none">
-                 
+                 
               </th>
               <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_0">
                 <label id="label_36_col_0"> 1 </label>
@@ -1818,10 +1820,10 @@ li[data-type=control_fileupload] .qq-upload-button:before{background-image:url(d
       <li class="form-line" data-type="control_matrix" id="id_41">
         <label class="form-label form-label-top form-label-auto" id="label_41" for="input_41"> B. Teletıp Sağlık Hizmetleri Konusunda Memnuniyet </label>
         <div id="cid_41" class="form-input-wide" data-layout="full">
-          <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix">
+          <table summary="" role="presentation" cellPadding="4" cellSpacing="0" class="form-matrix-table" data-component="matrix" style="text-align:left;">
             <tr class="form-matrix-tr form-matrix-header-tr">
               <th class="form-matrix-th" style="border:none">
-                 
+                 
               </th>
               <th scope="col" class="form-matrix-headers form-matrix-column-headers form-matrix-column_0">
                 <label id="label_41_col_0"> 1 </label>
