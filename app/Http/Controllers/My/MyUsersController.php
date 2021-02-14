@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\My;
 
+use App\Models\Appointment;
 use App\Models\User;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
@@ -24,6 +25,8 @@ class MyUsersController extends Controller
 
     public function show(User $user)
     {
-        return view('doctor.users.show',compact('user'));
+        $appointments = Appointment::where('doctor_id', Auth::guard('doctor')->user()->id)->where('user_id', $user->id)->latest('id')->paginate(10);
+
+        return view('doctor.users.show',compact('user','appointments'))->with('i', (request()->input('page', 1) - 1) * 10);
     }
 }

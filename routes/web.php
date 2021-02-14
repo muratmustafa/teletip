@@ -38,6 +38,11 @@ Route::prefix('admin')->name('admin.')->namespace('Auth')->group(function() {
 
 Route::middleware('auth:admin')->prefix('admin')->name('admin.')->namespace('Crud')->group(function() {
     Route::resource('appointments','AppointmentCrudController');
+
+    Route::get('/appointments/create/{id}', function($id) {
+        return view("admin.appointments.create", ['id' => $id]);
+    })->name('appt_create');
+
     Route::resource('doctors','DoctorCrudController');
     Route::resource('users','UserCrudController');
 });
@@ -52,6 +57,11 @@ Route::prefix('doctor')->name('doctor.')->namespace('Auth')->group(function() {
 Route::middleware('auth:doctor')->prefix('doctor')->name('doctor.')->namespace('My')->group(function() {
     //Route::resource('appointments.meeting','MeetingController')->shallow();
     Route::resource('appointments','MyAppointmentsController');
+
+    Route::get('/appointments/create/{id}', function($id) {
+        return view("doctor.appointments.create", ['id' => $id]);
+    })->name('appt_create');
+
     Route::resource('users','MyUsersController');
     Route::resource('profile','ProfileController');
 

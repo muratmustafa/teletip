@@ -33,7 +33,7 @@
                     <b>Doğum Tarihi</b> <a class="float-right">{{ $user->birthdate }}</a>
                   </li>
                 </ul>
-                <a href="#" class="btn btn-primary btn-block"><b>Randevu Ekle</b></a>
+                <a href="{{ route('admin.appt_create',$user->id) }}" class="btn btn-primary btn-block"><b>Randevu Ekle</b></a>
               </div>
             </div>
 

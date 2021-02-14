@@ -23,6 +23,7 @@
               <form action="{{ route('doctor.appointments.update',$appointment->id) }}" method="post">
                 @csrf
                 @method('PUT')
+
                 <div class="card-body">@if ($errors->any())
 
                   <div class="alert alert-danger alert-dismissible">

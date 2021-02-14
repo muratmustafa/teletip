@@ -22,6 +22,7 @@
               </div>
               <form action="{{ route('doctor.appointments.store') }}" method="post">
                 @csrf
+
                 <div class="card-body">@if ($errors->any())
 
                   <div class="alert alert-danger alert-dismissible">
@@ -35,8 +36,12 @@
                   </div>@endif
 
                   <div class="form-group">
-                    <label for="inputPatientTc">Hasta T.C. Kimlik No</label>
-                    <input type="text" class="form-control @error('user_tc') is-invalid @enderror" id="inputPatientTc" name="user_tc" placeholder="Hastanın T.C. Kimlik No'su" value="{{ old('user_tc') }}" required>
+                    <label for="inputPatientTc">Hasta T.C. Kimlik No</label>@if (!empty($id)) @php $tckimlik = \App\Models\User::where('id', $id)->value('tckimlik'); @endphp
+
+                    <input type="text" class="form-control @error('user_tc') is-invalid @enderror" id="inputPatientTc" name="user_tc" placeholder="Hastanın T.C. Kimlik No'su" value="{{ $tckimlik }}" required>@else
+
+                    <input type="text" class="form-control @error('user_tc') is-invalid @enderror" id="inputPatientTc" name="user_tc" placeholder="Hastanın T.C. Kimlik No'su" value="{{ old('user_tc') }}" required>@endif
+
                   </div>
                   <div class="form-group">
                     <label for="inputAppointmentDate">Randevu Tarihi</label>

@@ -33,16 +33,16 @@
                     <b>Doğum Tarihi</b> <a class="float-right">{{ $user->birthdate }}</a>
                   </li>
                 </ul>
-                <a href="#" class="btn btn-primary btn-block"><b>Randevu Ver</b></a>
+                <a href="{{ route('doctor.appt_create',$user->id) }}" class="btn btn-primary btn-block"><b>Randevu Ver</b></a>
               </div>
             </div>
 
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title"><i class="far fa-file-alt mr-1"></i> Notlar</h3>
+                <h3 class="card-title"><i class="far fa-file-alt mr-1"></i> Metabolik Hastalık Tanısı</h3>
               </div>
               <div class="card-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
+                <p class="text-muted">{{ $user->diagnostic }}</p>
               </div>
             </div>
 
@@ -59,7 +59,38 @@
               </div>
               <div class="card-body">
                 <div class="tab-content">
-                  <div class="tab-pane" id="appointments">
+                  <div class="tab-pane active" id="appointments">
+                    <div class="card-body table-responsive p-0">
+                      <table class="table table-hover text-nowrap">
+                        <thead>
+                          <tr>
+                            <th style="width: 5%">#</th>
+                            <th style="width: 15%">Randevu Tarihi</th>
+                            <th style="width: 15%">Durum</th>
+                            <th style="width: 25%">Randevu Notları</th>
+                            <th style="width: 15%" class="text-center"></th>
+                          </tr>
+                        </thead>
+                        <tbody>@foreach ($appointments as $appointment)
+      
+                          <tr>
+                            <td>{{ ++$i }}</td>
+                            <td>{{ $appointment->appt_date }}</td>
+                            <td>{{ $appointment->appt_status }}</td>
+                            <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>
+                            <td class="text-right">@php $today = date("Y-m-d"); $appt_date = \Carbon\Carbon::parse($appointment->appt_date)->format('Y-m-d') @endphp @if ($appt_date === $today && $appointment->appt_status === "Normal")
+      
+                              <a href="https://metabolizmateletip.ankara.edu.tr:44444/{{ $appointment->room_name }}" target="_blank" class="btn btn-success" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>
+                              <a href="{{ route('doctor.survey.index',$appointment->id) }}" target="_blank" class="btn btn-info" title="Anket Oluştur" data-toggle="tooltip"><span class="fas fa-calendar-check"></span> Anket Oluştur</a>@endif
+      
+                              <a href="{{ route('doctor.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
+                              <a href="{{ route('doctor.appointments.edit',$appointment->id) }}" class="btn btn-info" title="Güncelle" data-toggle="tooltip"><span class="fas fa-pen"></span></a>
+                            </td>
+                          </tr>@endforeach
+      
+                        </tbody>
+                      </table>
+                    </div>
                   </div>
 
                   <div class="tab-pane" id="reports">

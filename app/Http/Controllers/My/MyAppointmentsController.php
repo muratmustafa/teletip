@@ -49,6 +49,9 @@ class MyAppointmentsController extends Controller
 
             $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
+            if(empty($user_id))
+                return back()->with('error','Randevu oluşturulamadı: Hasta bulunamadı.');
+
             Appointment::create(array_merge($request->all(), ['user_id'       => $user_id],
                                                              ['doctor_id'     => Auth::guard('doctor')->user()->id],
                                                              ['room_name'     => sha1((Auth::guard('doctor')->user()->id).$user_id.$request->input('appt_date'))],
@@ -94,6 +97,9 @@ class MyAppointmentsController extends Controller
             ]);
 
             $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
+
+            if(empty($user_id))
+                return back()->with('error','Randevu oluşturulamadı: Hasta bulunamadı.');
 
             $appointment->update(array_merge($request->all(), ['user_id'       => $user_id],
                                                               ['doctor_id'     => Auth::guard('doctor')->user()->id],
