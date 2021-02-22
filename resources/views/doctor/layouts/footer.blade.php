@@ -63,5 +63,6 @@
 </script>
 @endif
 @endif
+@yield('end')
 </body>
 </html>

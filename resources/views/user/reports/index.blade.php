@@ -21,6 +21,38 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-12">
+            <div class="card card-primary">
+              <div class="card-header">
+                <h4 class="card-title">
+                  Yeni Bir Dosya Yükleyin
+                </h4>
+              </div>
+              <div class="card-body">
+                <form action="{{ route('user.upload.post',Auth::guard('user')->user()->id) }}" method="post" enctype="multipart/form-data">
+                  @csrf
+
+                  <div class="form-group">
+                    <label for="inputName">Dosya Açıklaması</label>
+                    <input type="text" class="form-control" id="inputName" name="name" placeholder="Bir açıklama girin">
+                  </div>
+                  <div class="form-group">
+                    <label for="inputFile">Dosya</label>
+                    <div class="input-group">
+                      <div class="custom-file">
+                        <label class="custom-file-label" id="fileName" for="inputFile">Bir dosya seçin</label>
+                        <input type="file" class="custom-file-input" name="file" id="inputFile" aria-describedby="fileHelp">
+                      </div>
+                    </div>
+                    <small id="fileHelp" class="form-text text-muted">Lütfen geçerli bir belge yükleyin (doc, docx, pdf). Belgenin boyutu 5MB'den fazla olmamalıdır.</small>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Yükle</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
 
             <div class="card card-primary card-outline">
               <div class="card-header">
@@ -62,40 +94,19 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card card-primary">
-              <div class="card-header">
-                <h4 class="card-title">
-                  Yeni Bir Dosya Yükleyin
-                </h4>
-              </div>
-              <div class="card-body">
-                <form action="{{ route('user.upload.post',Auth::guard('user')->user()->id) }}" method="post" enctype="multipart/form-data">
-                  @csrf
-
-                  <div class="form-group">
-                    <label for="inputName">Dosya Açıklaması</label>
-                    <input type="text" class="form-control" id="inputName" name="name" placeholder="Bir açıklama girin">
-                  </div>
-                  <div class="form-group">
-                    <label for="inputFile">Dosya</label>
-                    <div class="input-group">
-                      <div class="custom-file">
-                        <label class="custom-file-label" for="inputFile">Bir dosya seçin</label>
-                        <input type="file" class="custom-file-input" name="file" id="inputFile" aria-describedby="fileHelp">
-                      </div>
-                    </div>
-                    <small id="fileHelp" class="form-text text-muted">Lütfen geçerli bir belge yükleyin (doc,docx,pdf). Belgenin boyutu 5MB'den fazla olmamalıdır.</small>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Yükle</button>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 
+@endsection
+
+@section('end')
+<script>
+$(document).ready(function(){
+  $('#inputFile').change(function(e){
+    var fileName = e.target.files[0].name;
+    document.getElementById('fileName').innerHTML = fileName;
+  });
+});
+</script>
 @endsection
