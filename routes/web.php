@@ -14,7 +14,13 @@ Route::get('/home', 'Auth\UserController@index')->name('user.home');
 Route::middleware('auth:user')->name('user.')->namespace('My')->group(function() {
     //Route::resource('appointments.meeting','MeetingController')->shallow();
     Route::resource('appointments','MyAppointmentsController');
+
+    Route::resource('reports','MyReportsController');
+
     Route::resource('doctors','MyDoctorsController');
+
+    Route::post('/upload/{id}', 'FileController@upload')->name('upload.post');
+
     Route::resource('profile','ProfileController');
 
     Route::prefix('appointments')->name('approval.')->group(function($id) {
@@ -63,6 +69,9 @@ Route::middleware('auth:doctor')->prefix('doctor')->name('doctor.')->namespace('
     })->name('appt_create');
 
     Route::resource('users','MyUsersController');
+
+    Route::post('/users/{id}/upload', 'FileController@upload')->name('upload.post');
+
     Route::resource('profile','ProfileController');
 
     Route::prefix('appointments')->name('survey.')->group(function($id) {

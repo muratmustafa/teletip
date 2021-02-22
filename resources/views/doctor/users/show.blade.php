@@ -6,6 +6,13 @@
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
+@if ($message = Session::get('success'))
+
+        <div class="alert alert-success alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            {{ $message }}
+        </div>@endif
+
       </div>
     </div>
 
@@ -33,11 +40,11 @@
                     <b>Doğum Tarihi</b> <a class="float-right">{{ $user->birthdate }}</a>
                   </li>
                 </ul>
-                <a href="{{ route('doctor.appt_create',$user->id) }}" class="btn btn-primary btn-block"><b>Randevu Ver</b></a>
+                <a href="{{ route('doctor.appt_create',$user->id) }}" class="btn btn-success btn-block"><b>Randevu Ver</b></a>
               </div>
             </div>
 
-            <div class="card card-primary">
+            <div class="card card-danger">
               <div class="card-header">
                 <h3 class="card-title"><i class="far fa-file-alt mr-1"></i> Metabolik Hastalık Tanısı</h3>
               </div>
@@ -60,7 +67,7 @@
               <div class="card-body">
                 <div class="tab-content">
                   <div class="tab-pane active" id="appointments">
-                    <div class="card-body table-responsive p-0">
+                    <div class="table-responsive p-2">
                       <table class="table table-hover text-nowrap">
                         <thead>
                           <tr>
@@ -72,28 +79,89 @@
                           </tr>
                         </thead>
                         <tbody>@foreach ($appointments as $appointment)
-      
+
                           <tr>
                             <td>{{ ++$i }}</td>
                             <td>{{ $appointment->appt_date }}</td>
                             <td>{{ $appointment->appt_status }}</td>
                             <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>
                             <td class="text-right">@php $today = date("Y-m-d"); $appt_date = \Carbon\Carbon::parse($appointment->appt_date)->format('Y-m-d') @endphp @if ($appt_date === $today && $appointment->appt_status === "Normal")
-      
+
                               <a href="https://metabolizmateletip.ankara.edu.tr:44444/{{ $appointment->room_name }}" target="_blank" class="btn btn-success" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>
                               <a href="{{ route('doctor.survey.index',$appointment->id) }}" target="_blank" class="btn btn-info" title="Anket Oluştur" data-toggle="tooltip"><span class="fas fa-calendar-check"></span> Anket Oluştur</a>@endif
-      
+
                               <a href="{{ route('doctor.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
                               <a href="{{ route('doctor.appointments.edit',$appointment->id) }}" class="btn btn-info" title="Güncelle" data-toggle="tooltip"><span class="fas fa-pen"></span></a>
                             </td>
                           </tr>@endforeach
-      
+
                         </tbody>
                       </table>
                     </div>
                   </div>
 
                   <div class="tab-pane" id="reports">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="table-responsive p-2">
+                          <table class="table table-hover text-nowrap">
+                            <thead>
+                              <tr>
+                                <th style="width: 5%">#</th>
+                                <th style="width: 35%">Dosya Açıklaması</th>
+                                <th style="width: 25%">Yüklenme Tarihi</th>
+                                <th style="width: 15%" class="text-right">Dosya</th>
+                              </tr>
+                            </thead>
+                            <tbody>@foreach ($files as $file)
+
+                              <tr>
+                                <td>#</td>
+                                <td>{{ $file->name }}</td>
+                                <td>{{ $file->created_at }}</td>
+                                <td class="text-right">
+                                  <a href="{{ url('/uploads/'.$file->file_name) }}" class="btn btn-info" title="İndir" data-toggle="tooltip"><span class="fas fa-download"></span></a>
+                                </td>
+                              </tr>@endforeach
+
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="card card-primary">
+                          <div class="card-header">
+                            <h4 class="card-title">
+                              Yeni Bir Dosya Yükleyin
+                            </h4>
+                          </div>
+                          <div class="card-body">
+                            <form action="{{ route('doctor.upload.post',$appointment->user_id) }}" method="post" enctype="multipart/form-data">
+                              @csrf
+
+                              <div class="form-group">
+                                <label for="inputName">Dosya Açıklaması</label>
+                                <input type="text" class="form-control" id="inputName" name="name" placeholder="Bir açıklama girin">
+                              </div>
+                              <div class="form-group">
+                                <label for="inputFile">Dosya</label>
+                                <div class="input-group">
+                                  <div class="custom-file">
+                                    <label class="custom-file-label" for="inputFile">Bir dosya seçin</label>
+                                    <input type="file" class="custom-file-input" name="file" id="inputFile" aria-describedby="fileHelp">
+                                  </div>
+                                </div>
+                                <small id="fileHelp" class="form-text text-muted">Lütfen geçerli bir belge yükleyin (doc,docx,pdf). Belgenin boyutu 5MB'den fazla olmamalıdır.</small>
+                              </div>
+                              <button type="submit" class="btn btn-primary">Yükle</button>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>

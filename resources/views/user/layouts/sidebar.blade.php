@@ -27,6 +27,12 @@
             </a>
           </li>
           <li class="nav-item">
+            <a href="{{ route('user.reports.index') }}" class="nav-link">
+              <i class="nav-icon fas fa-download"></i>
+              <p>Raporlarım</p>
+            </a>
+          </li>
+          <li class="nav-item">
             <a href="{{ route('user.doctors.index') }}" class="nav-link">
               <i class="nav-icon fas fa-user-md"></i>
               <p>Doktorlarım</p>
