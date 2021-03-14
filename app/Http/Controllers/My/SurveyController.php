@@ -12,7 +12,7 @@ class SurveyController extends Controller
 {
     public function index($id)
     {
-        $user_id = \App\Models\Appointment::where('id', $id)->value('user_id');
+        $user_id = Appointment::where('id', $id)->value('user_id');
 
         return view('doctor.appointments.survey.index',compact('user_id'));
     }

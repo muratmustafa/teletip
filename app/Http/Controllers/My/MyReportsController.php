@@ -12,7 +12,7 @@ class MyReportsController extends Controller
 {
     public function index()
     {
-        $files = File::where('user_id', Auth::guard('doctor')->user()->id)->latest('id')->paginate(10);
+        $files = File::where('user_id', Auth::guard('user')->user()->id)->latest('id')->paginate(10);
 
         return view('user.reports.index',compact('files'))->with('i', (request()->input('page', 1) - 1) * 10);
     }

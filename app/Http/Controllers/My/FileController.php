@@ -27,7 +27,6 @@ class FileController extends Controller
 
         $file->save();
 
-        return back()
-            ->with('success','Dosya başarıyla yüklendi.');
+        return back()->with('success','Dosya başarıyla yüklendi.');
     }
 }

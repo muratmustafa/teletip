@@ -20,7 +20,6 @@
         }
         return retVal;
       }
-
       function generate() {
         var input = document.getElementById("inputPassword");
         input.setAttribute('value', generatePassword());
@@ -32,25 +31,24 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6">
-
             <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title">Doktor Ekle</h3>
               </div>
               <form action="{{ route('admin.doctors.store') }}" method="post">
                 @csrf
-                <div class="card-body">@if ($errors->any())
-
-                  <div class="alert alert-danger alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    There were some problems:<br>
-                    <ul>@foreach ($errors->all() as $error)
-
-                        <li>{{ $error }}</li>@endforeach
-
-                    </ul>
-                  </div>@endif
-
+                <div class="card-body">
+                  @if ($errors->any())
+                    <div class="alert alert-danger alert-dismissible">
+                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                      There were some problems:<br>
+                      <ul>
+                        @foreach ($errors->all() as $error)
+                          <li>{{ $error }}</li>
+                        @endforeach
+                      </ul>
+                    </div>
+                  @endif
                   <div class="form-group">
                     <label for="inputName">İsim</label>
                     <input type="text" class="form-control @error('name') is-invalid @enderror" id="inputName" name="name" placeholder="Ad Soyad" value="{{ old('name') }}" required>
@@ -73,7 +71,6 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="card-footer">
                   <button type="submit" class="btn btn-primary">Gönder</button>
                 </div>

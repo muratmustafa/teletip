@@ -14,7 +14,6 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-
             <div class="card card-primary card-outline">
               <div class="card-body box-profile">
                 <div class="text-center">
@@ -33,7 +32,6 @@
                 <a href="#" class="btn btn-primary btn-block"><b>Randevu Al</b></a>
               </div>
             </div>
-
             <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title"><i class="far fa-file-alt mr-1"></i> Notlar</h3>
@@ -42,11 +40,8 @@
                 <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum enim neque.</p>
               </div>
             </div>
-
           </div>
-
           <div class="col-md-9">
-
             <div class="card">
               <div class="card-header p-2">
                 <ul class="nav nav-pills">
@@ -56,17 +51,14 @@
               </div>
               <div class="card-body">
                 <div class="tab-content">
-                  <div class="tab-pane" id="appointments">
+                  <div class="tab-pane active" id="appointments">
                   </div>
-
                   <div class="tab-pane" id="reports">
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </div>

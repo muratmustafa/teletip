@@ -6,13 +6,12 @@
     <!-- Content Header (Page header) -->
     <div class="content-header">
       <div class="container-fluid">
-@if ($message = Session::get('success'))
-
-        <div class="alert alert-success alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            {{ $message }}
-        </div>@endif
-
+        @if ($message = Session::get('success'))
+          <div class="alert alert-success alert-dismissible">
+              <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+              {{ $message }}
+          </div>
+        @endif
       </div>
     </div>
 
@@ -21,7 +20,6 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-3">
-
             <div class="card card-primary card-outline">
               <div class="card-body box-profile">
                 <div class="text-center">
@@ -43,7 +41,6 @@
                 <a href="{{ route('doctor.appt_create',$user->id) }}" class="btn btn-success btn-block"><b>Randevu Ver</b></a>
               </div>
             </div>
-
             <div class="card card-danger">
               <div class="card-header">
                 <h3 class="card-title"><i class="far fa-file-alt mr-1"></i> Metabolik Hastalık Tanısı</h3>
@@ -52,11 +49,8 @@
                 <p class="text-muted">{{ $user->diagnostic }}</p>
               </div>
             </div>
-
           </div>
-
           <div class="col-md-9">
-
             <div class="card">
               <div class="card-header p-2">
                 <ul class="nav nav-pills">
@@ -78,28 +72,31 @@
                             <th style="width: 15%" class="text-center"></th>
                           </tr>
                         </thead>
-                        <tbody>@foreach ($appointments as $appointment)
-
-                          <tr>
-                            <td>{{ ++$i }}</td>
-                            <td>{{ $appointment->appt_date }}</td>
-                            <td>{{ $appointment->appt_status }}</td>
-                            <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>
-                            <td class="text-right">@php $today = date("Y-m-d"); $appt_date = \Carbon\Carbon::parse($appointment->appt_date)->format('Y-m-d') @endphp @if ($appt_date === $today && $appointment->appt_status === "Normal")
-
-                              <a href="https://metabolizmateletip.ankara.edu.tr:44444/{{ $appointment->room_name }}" target="_blank" class="btn btn-success" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>
-                              <a href="{{ route('doctor.survey.index',$appointment->id) }}" target="_blank" class="btn btn-info" title="Anket Oluştur" data-toggle="tooltip"><span class="fas fa-calendar-check"></span> Anket Oluştur</a>@endif
-
-                              <a href="{{ route('doctor.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
-                              <a href="{{ route('doctor.appointments.edit',$appointment->id) }}" class="btn btn-info" title="Güncelle" data-toggle="tooltip"><span class="fas fa-pen"></span></a>
-                            </td>
-                          </tr>@endforeach
-
+                        <tbody>
+                          @foreach ($appointments as $appointment)
+                            <tr>
+                              <td>{{ ++$i }}</td>
+                              <td>{{ $appointment->appt_date }}</td>
+                              <td>{{ $appointment->appt_status }}</td>
+                              <td><div style="white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:250px;">{{ $appointment->appt_detail }}</div></td>
+                              <td class="text-right">
+                                @php
+                                  $today = date("Y-m-d");
+                                  $appt_date = \Carbon\Carbon::parse($appointment->appt_date)->format('Y-m-d')
+                                @endphp
+                                @if ($appt_date === $today && $appointment->appt_status === "Normal")
+                                  <a href="https://metabolizmateletip.ankara.edu.tr:44444/{{ $appointment->room_name }}" target="_blank" class="btn btn-success" title="Görüşmeye Katıl" data-toggle="tooltip"><span class="fas fa-phone"></span> Görüşmeye Katıl</a>
+                                  <a href="{{ route('doctor.survey.index',$appointment->id) }}" target="_blank" class="btn btn-info" title="Anket Oluştur" data-toggle="tooltip"><span class="fas fa-calendar-check"></span> Anket Oluştur</a>
+                                @endif
+                                <a href="{{ route('doctor.appointments.show',$appointment->id) }}" class="btn btn-primary" title="Görüntüle" data-toggle="tooltip"><span class="fas fa-eye"></span></a>
+                                <a href="{{ route('doctor.appointments.edit',$appointment->id) }}" class="btn btn-info" title="Güncelle" data-toggle="tooltip"><span class="fas fa-pen"></span></a>
+                              </td>
+                            </tr>
+                          @endforeach
                         </tbody>
                       </table>
                     </div>
                   </div>
-
                   <div class="tab-pane" id="reports">
                     <div class="row">
                       <div class="col-lg-12">
@@ -112,7 +109,6 @@
                           <div class="card-body">
                             <form action="{{ route('doctor.upload.post',$appointment->user_id) }}" method="post" enctype="multipart/form-data">
                               @csrf
-
                               <div class="form-group">
                                 <label for="inputName">Dosya Açıklaması</label>
                                 <input type="text" class="form-control" id="inputName" name="name" placeholder="Bir açıklama girin">
@@ -133,7 +129,6 @@
                         </div>
                       </div>
                     </div>
-
                     <div class="row">
                       <div class="col-lg-12">
                         <div class="table-responsive p-2">
@@ -146,17 +141,17 @@
                                 <th style="width: 15%" class="text-right">Dosya</th>
                               </tr>
                             </thead>
-                            <tbody>@foreach ($files as $file)
-
-                              <tr>
-                                <td>#</td>
-                                <td>{{ $file->name }}</td>
-                                <td>{{ $file->created_at }}</td>
-                                <td class="text-right">
-                                  <a href="{{ url('/uploads/'.$file->file_name) }}" class="btn btn-info" title="İndir" data-toggle="tooltip"><span class="fas fa-download"></span></a>
-                                </td>
-                              </tr>@endforeach
-
+                            <tbody>
+                              @foreach ($files as $file)
+                                <tr>
+                                  <td>#</td>
+                                  <td>{{ $file->name }}</td>
+                                  <td>{{ $file->created_at }}</td>
+                                  <td class="text-right">
+                                    <a href="{{ url('/uploads/'.$file->file_name) }}" class="btn btn-info" title="İndir" data-toggle="tooltip"><span class="fas fa-download"></span></a>
+                                  </td>
+                                </tr>
+                              @endforeach
                             </tbody>
                           </table>
                         </div>
@@ -166,9 +161,7 @@
                 </div>
               </div>
             </div>
-
           </div>
-
         </div>
       </div>
     </div>
@@ -177,12 +170,10 @@
 @endsection
 
 @section('end')
-<script>
-$(document).ready(function(){
-  $('#inputFile').change(function(e){
-    var fileName = e.target.files[0].name;
-    document.getElementById('fileName').innerHTML = fileName;
+<script src="{{asset('/')}}plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    bsCustomFileInput.init();
   });
-});
 </script>
 @endsection

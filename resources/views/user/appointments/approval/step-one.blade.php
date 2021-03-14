@@ -18,7 +18,6 @@
           <div class="col-lg-8">
             <form action="{{ route('user.approval.step.one.post',$id) }}" method="POST">
               @csrf
-
               <div class="card card-primary card-outline">
                 <div class="card-header">
                   <h3 class="card-title">BİLGİLENDİRİLMİŞ GÖNÜLLÜ OLUR FORMU - 1</h3>
@@ -49,13 +48,8 @@
                     <br><br>
                     <b>Tel</b>: +90 (312) 595 7368 / Çocuk Metabolizma Bilim Dalı
                   </p>
-
-                  <div class="alert alert-warning alert-dismissible">
-                    Hastanın anne ve babası halen hayatta olup evlilikleri devam ediyorsa, formu hem anne hem de babanın doldurması <b>zorunludur</b>. Aksi durumlarda görüşmeye yalnız 1 ebeveynin onay verip katılması yeterlidir.
-                  </div>
-
+                  <div class="alert alert-warning alert-dismissible">Hastanın anne ve babası halen hayatta olup evlilikleri devam ediyorsa, formu hem anne hem de babanın doldurması <b>zorunludur</b>. Aksi durumlarda görüşmeye yalnız 1 ebeveynin onay verip katılması yeterlidir.</div>
                   <h3>Gönüllü Oluru</h3>
-
                   <div class="row">
                     <div class="col-sm-12" id="parent_check">
                       <div class="custom-control custom-checkbox">
@@ -106,14 +100,11 @@
                     </div>
                   </div>
                 </div>
-
                 <div class="card-footer text-right clearfix">
                   <button type="submit" class="btn btn-primary">İleri</button>
                 </div>
               </div>
             </form>
-          </div>
-          <div class="col-lg-2">
           </div>
         </div>
       </div>

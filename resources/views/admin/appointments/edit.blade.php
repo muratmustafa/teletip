@@ -15,7 +15,6 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6">
-
             <div class="card card-danger">
               <div class="card-header">
                 <h3 class="card-title">Kaydı Güncelle</h3>
@@ -23,19 +22,18 @@
               <form action="{{ route('admin.appointments.update',$appointment->id) }}" method="post">
                 @csrf
                 @method('PUT')
-
-                <div class="card-body">@if ($errors->any())
-
-                  <div class="alert alert-danger alert-dismissible">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    There were some problems:<br>
-                    <ul>@foreach ($errors->all() as $error)
-
-                        <li>{{ $error }}</li>@endforeach
-
-                    </ul>
-                  </div>@endif
-
+                <div class="card-body">
+                  @if ($errors->any())
+                    <div class="alert alert-danger alert-dismissible">
+                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                      There were some problems:<br>
+                      <ul>
+                        @foreach ($errors->all() as $error)
+                          <li>{{ $error }}</li>
+                        @endforeach
+                      </ul>
+                    </div>
+                  @endif
                   <div class="form-group">
                     <label for="inputDoctorEmail">Doktor E-postası</label>
                     <input type="email" class="form-control @error('doctor_email') is-invalid @enderror" id="inputDoctorEmail" name="doctor_email" placeholder="Doktorun E-postası" value="{{ \App\Models\Doctor::where('id', $appointment->doctor_id)->value('email') }}" required>
@@ -60,7 +58,6 @@
                     <textarea class="form-control" id="inputAppointmentDetail" name="appt_detail" rows="4">{{ $appointment->appt_detail }}</textarea>
                   </div>
                 </div>
-
                 <div class="card-footer">
                   <button type="submit" class="btn btn-danger">Güncelle</button>
                   <a href="{{ route('admin.appointments.index') }}"><div class="btn btn-default">Vazgeç</div></a>

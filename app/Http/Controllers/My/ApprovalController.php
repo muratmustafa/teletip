@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\My;
 
+use App\Models\Appointment;
 use App\Models\Approval;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -20,9 +21,9 @@ class ApprovalController extends Controller
     public function stepOne(Request $request, $id)
     {
         $today = date("Y-m-d");
-        $appt_date = \App\Models\Appointment::where('id', $id)->value('appt_date');
-        $appt_status = \App\Models\Appointment::where('id', $id)->value('appt_status');
+        $appt_date = Appointment::where('id', $id)->value('appt_date');
         $appt_date = \Carbon\Carbon::parse($appt_date)->format('Y-m-d');
+        $appt_status = Appointment::where('id', $id)->value('appt_status');
 
         if ($appt_date !== $today || $appt_status !== "Normal")
             return back()->with('error','Görüşmeye katılamazsınız.');
@@ -102,8 +103,18 @@ class ApprovalController extends Controller
 
         $request->session()->forget('approval');
 
-        $room_name = \App\Models\Appointment::where('id', $id)->value('room_name');
+        return redirect()->route('user.approval.step.last',$id);
+    }
 
-        return redirect()->away('https://metabolizmateletip.ankara.edu.tr:44444/'.$room_name);
+    public function stepLast(Request $request, $id)
+    {
+        $room_id = Approval::where('room_id',$id)->value('id');
+
+        if(empty($room_id))
+            return redirect()->route('user.approval.step.one',$id);
+
+        $room_name = Appointment::where('id',$id)->value('room_name');
+
+        return view('user.appointments.approval.step-last',compact('id','room_name'));
     }
 }

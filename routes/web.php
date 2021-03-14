@@ -26,12 +26,14 @@ Route::middleware('auth:user')->name('user.')->namespace('My')->group(function()
     Route::prefix('appointments')->name('approval.')->group(function($id) {
         Route::get('{id}/approval/step-one', ['as' => 'step.one','uses' => 'ApprovalController@stepOne']);
         Route::post('{id}/approval/step-one', ['as' => 'step.one.post','uses' => 'ApprovalController@postStepOne']);
-        
+
         Route::get('{id}/approval/step-two', ['as' => 'step.two','uses' => 'ApprovalController@stepTwo']);
         Route::post('{id}/approval/step-two', ['as' => 'step.two.post','uses' => 'ApprovalController@postStepTwo']);
-        
+
         Route::get('{id}/approval/step-three', ['as' => 'step.three','uses' => 'ApprovalController@stepThree']);
         Route::post('{id}/approval/step-three', ['as' => 'step.three.post','uses' => 'ApprovalController@postStepThree']);
+
+        Route::get('{id}/approval/step-last', ['as' => 'step.last','uses' => 'ApprovalController@stepLast']);
     });
 });
 
