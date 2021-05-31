@@ -39,10 +39,16 @@ class AppointmentCrudController extends Controller
         if(empty($user_id) || empty($doctor_id))
             return back()->with('error','Randevu oluşturulamadı: Doktor veya hasta bulunamadı.');
 
+        $room_name = sha1($doctor_id.$user_id.$request->input('appt_date'));
+        $room_password = sha1($user_id.$doctor_id.$request->input('appt_date'));
+
+        if(!empty(Appointment::where('room_name',$room_name)->value('id')))
+            return back()->with('error','Randevu oluşturulamadı: Sistemde böyle bir randevu mevcut.');
+
         Appointment::create(array_merge($request->all(), ['doctor_id'     => $doctor_id],
                                                          ['user_id'       => $user_id],
-                                                         ['room_name'     => sha1($doctor_id.$user_id.$request->input('appt_date'))],
-                                                         ['room_password' => sha1($user_id.$doctor_id.$request->input('appt_date'))],
+                                                         ['room_name'     => $room_name],
+                                                         ['room_password' => $room_password],
                                                          ['appt_status'   => 'Normal']));
 
         return redirect()->route('admin.appointments.index')->with('success','Randevu başarıyla oluşturuldu.');
@@ -74,10 +80,16 @@ class AppointmentCrudController extends Controller
         if(empty($user_id) || empty($doctor_id))
             return back()->with('error','Randevu oluşturulamadı: Doktor veya hasta bulunamadı.');
 
+        $room_name = sha1($doctor_id.$user_id.$request->input('appt_date'));
+        $room_password = sha1($user_id.$doctor_id.$request->input('appt_date'));
+
+        if(!empty(Appointment::where('room_name',$room_name)->value('id')))
+            return back()->with('error','Randevu oluşturulamadı: Sistemde böyle bir randevu mevcut.');
+
         $appointment->update(array_merge($request->all(), ['doctor_id'     => $doctor_id],
                                                           ['user_id'       => $user_id],
-                                                          ['room_name'     => sha1($doctor_id.$user_id.$request->input('appt_date'))],
-                                                          ['room_password' => sha1($user_id.$doctor_id.$request->input('appt_date'))]));
+                                                          ['room_name'     => $room_name],
+                                                          ['room_password' => $room_password]));
 
         return redirect()->route('admin.appointments.index')->with('success','Randevu başarıyla güncellendi.');
     }

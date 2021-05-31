@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\My;
+namespace App\Http\Controllers;
 
 use App\Models\Appointment;
 use App\Models\User;
@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 use Auth;
 use Route;
 
-class MyAppointmentsController extends Controller
+class AppointmentController extends Controller
 {
     public function index()
     {
@@ -47,15 +47,22 @@ class MyAppointmentsController extends Controller
                 'appt_detail',
             ]);
 
+            $doctor_id = Auth::guard('doctor')->user()->id;
             $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
             if(empty($user_id))
                 return back()->with('error','Randevu oluşturulamadı: Hasta bulunamadı.');
 
+            $room_name = sha1($doctor_id.$user_id.$request->input('appt_date'));
+            $room_password = sha1($user_id.$doctor_id.$request->input('appt_date'));
+
+            if(!empty(Appointment::where('room_name',$room_name)->value('id')))
+                return back()->with('error','Randevu oluşturulamadı: Sistemde böyle bir randevu mevcut.');
+
             Appointment::create(array_merge($request->all(), ['user_id'       => $user_id],
-                                                             ['doctor_id'     => Auth::guard('doctor')->user()->id],
-                                                             ['room_name'     => sha1((Auth::guard('doctor')->user()->id).$user_id.$request->input('appt_date'))],
-                                                             ['room_password' => sha1($user_id.(Auth::guard('doctor')->user()->id).$request->input('appt_date'))],
+                                                             ['doctor_id'     => $doctor_id],
+                                                             ['room_name'     => $room_name],
+                                                             ['room_password' => $room_password],
                                                              ['appt_status'   => 'Normal']));
 
             return redirect()->route('doctor.appointments.index')->with('success','Randevu başarıyla oluşturuldu.');
@@ -96,19 +103,25 @@ class MyAppointmentsController extends Controller
                 'appt_detail',
             ]);
 
+            $doctor_id = Auth::guard('doctor')->user()->id;
             $user_id = User::where('tckimlik',$request->input('user_tc'))->value('id');
 
             if(empty($user_id))
                 return back()->with('error','Randevu oluşturulamadı: Hasta bulunamadı.');
 
+            $room_name = sha1($doctor_id.$user_id.$request->input('appt_date'));
+            $room_password = sha1($user_id.$doctor_id.$request->input('appt_date'));
+
+            if(!empty(Appointment::where('room_name',$room_name)->value('id')) && Appointment::where('room_name',$room_name)->value('id') != $appointment->id)
+                return back()->with('error','Randevu oluşturulamadı: Sistemde böyle bir randevu mevcut.');
+
             $appointment->update(array_merge($request->all(), ['user_id'       => $user_id],
-                                                              ['doctor_id'     => Auth::guard('doctor')->user()->id],
-                                                              ['room_name'     => sha1((Auth::guard('doctor')->user()->id).$user_id.$request->input('appt_date'))],
-                                                              ['room_password' => sha1($user_id.(Auth::guard('doctor')->user()->id).$request->input('appt_date'))]));
+                                                              ['doctor_id'     => $doctor_id],
+                                                              ['room_name'     => $room_name],
+                                                              ['room_password' => $room_password]));
 
+            return redirect()->route('doctor.appointments.index')->with('success','Randevu başarıyla güncellendi.');
         }
-
-        return redirect()->route('doctor.appointments.index')->with('success','Randevu başarıyla güncellendi.');
     }
 
     public function destroy(Appointment $appointment)

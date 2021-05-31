@@ -15,6 +15,12 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6">
+            @if ($message = Session::get('error'))
+              <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                {{ $message }}
+              </div>
+            @endif
             <div class="card card-danger">
               <div class="card-header">
                 <h3 class="card-title">Kaydı Güncelle</h3>
@@ -23,17 +29,6 @@
                 @csrf
                 @method('PUT')
                 <div class="card-body">
-                  @if ($errors->any())
-                    <div class="alert alert-danger alert-dismissible">
-                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                      There were some problems:<br>
-                      <ul>
-                        @foreach ($errors->all() as $error)
-                          <li>{{ $error }}</li>
-                        @endforeach
-                      </ul>
-                    </div>
-                  @endif
                   <div class="form-group">
                     <label for="inputPatientTc">Hasta T.C. Kimlik No</label>
                     <input type="text" class="form-control @error('user_tc') is-invalid @enderror" id="inputPatientTc" name="user_tc" placeholder="Hastanın T.C. Kimlik No'su" value="{{ \App\Models\User::where('id', $appointment->user_id)->value('tckimlik') }}" required>

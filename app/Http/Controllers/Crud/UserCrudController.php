@@ -37,6 +37,11 @@ class UserCrudController extends Controller
             'password' => Hash::make($request->input('password')),
         ]);
 
+        $user_id = User::where('tckimlik',$request->input('tckimlik'))->value('id');
+
+        if(!empty($user_id))
+            return back()->with('error','Hasta kaydı oluşturulamadı: Sistemde aynı T.C. kimlik numarasına sahip bir hasta mevcut.');
+
         User::create($request->all());
 
         return redirect()->route('admin.users.index')->with('success','Hasta başarıyla oluşturuldu.');
@@ -67,6 +72,11 @@ class UserCrudController extends Controller
                 'password' => Hash::make($request->input('password')),
             ]);
         }
+
+        $user_id = User::where('tckimlik',$request->input('tckimlik'))->value('id');
+
+        if(!empty($user_id) && $user_id != $user->id)
+            return back()->with('error','Hasta kaydı güncellenemedi: Sistemde aynı T.C. kimlik numarasına sahip bir hasta mevcut.');
 
         $user->update(array_filter($request->all()));
 

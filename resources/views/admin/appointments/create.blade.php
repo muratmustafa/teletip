@@ -15,6 +15,12 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-lg-6">
+            @if ($message = Session::get('error'))
+              <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                {{ $message }}
+              </div>
+            @endif
             <div class="card card-primary">
               <div class="card-header">
                 <h3 class="card-title">Randevu Ekle</h3>
@@ -22,17 +28,6 @@
               <form action="{{ route('admin.appointments.store') }}" method="post">
                 @csrf
                 <div class="card-body">
-                  @if ($errors->any())
-                    <div class="alert alert-danger alert-dismissible">
-                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                      There were some problems:<br>
-                      <ul>
-                        @foreach ($errors->all() as $error)
-                          <li>{{ $error }}</li>
-                        @endforeach
-                      </ul>
-                    </div>
-                  @endif
                   <div class="form-group">
                     <label for="inputDoctorEmail">Doktor E-postası</label>
                     <input type="email" class="form-control @error('doctor_email') is-invalid @enderror" id="inputDoctorEmail" name="doctor_email" placeholder="Doktorun E-postası" value="{{ old('doctor_email') }}" required>

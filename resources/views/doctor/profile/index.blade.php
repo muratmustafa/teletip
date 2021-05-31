@@ -42,7 +42,6 @@
               </div>
               <form action="{{ route('doctor.profile.update',Auth::guard('doctor')->user()->id) }}" method="post">
                 @csrf
-                @method('PUT')
                 <div class="card-body">
                   @if ($errors->any())
                     <div class="alert alert-danger alert-dismissible">

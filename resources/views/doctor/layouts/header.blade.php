@@ -15,6 +15,13 @@
   <link rel='stylesheet' href='{{asset("/")}}plugins/daterangepicker/daterangepicker.css'>
 @endif
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  
+  <!-- fullCalendar -->
+  <link rel="stylesheet" href="{{asset("/")}}plugins/fullcalendar/main.min.css">
+  <link rel="stylesheet" href="{{asset("/")}}plugins/fullcalendar-interaction/main.min.css">
+  <link rel="stylesheet" href="{{asset("/")}}plugins/fullcalendar-daygrid/main.min.css">
+  <link rel="stylesheet" href="{{asset("/")}}plugins/fullcalendar-timegrid/main.min.css">
+  <link rel="stylesheet" href="{{asset("/")}}plugins/fullcalendar-bootstrap/main.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">

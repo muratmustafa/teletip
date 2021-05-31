@@ -43,7 +43,6 @@
               </div>
               <form action="{{ route('user.profile.update',Auth::guard('user')->user()->id) }}" method="post">
                 @csrf
-                @method('PUT')
                 <div class="card-body">
                   <div class="form-group">
                     <label for="inputName">İsim</label>

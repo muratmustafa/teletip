@@ -36,6 +36,11 @@ class DoctorCrudController extends Controller
             'password' => Hash::make($request->input('password')),
         ]);
 
+        $doctor_id = Doctor::where('email',$request->input('email'))->value('id');
+
+        if(!empty($doctor_id))
+            return back()->with('error','Doktor kaydı oluşturulamadı: Sistemde aynı e-posta adresine sahip bir doktor mevcut.');
+
         Doctor::create($request->all());
 
         return redirect()->route('admin.doctors.index')->with('success','Doktor başarıyla oluşturuldu.');
@@ -65,6 +70,11 @@ class DoctorCrudController extends Controller
                 'password' => Hash::make($request->input('password')),
             ]);
         }
+
+        $doctor_id = Doctor::where('email',$request->input('email'))->value('id');
+
+        if(!empty($doctor_id) && $doctor_id != $doctor->id)
+            return back()->with('error','Doktor kaydı güncellenemedi: Sistemde aynı e-posta adresine sahip bir doktor mevcut.');
 
         $doctor->update(array_filter($request->all()));
 

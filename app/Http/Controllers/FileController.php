@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\My;
+namespace App\Http\Controllers;
 
 use App\Models\File;
 use App\Http\Controllers\Controller;
@@ -12,6 +12,9 @@ class FileController extends Controller
 {
     public function upload(Request $request, $id)
     {
+        if(empty($request->name) || empty($request->file))
+            return back()->with('error','Dosya yüklenemedi: Eksik alanlar mevcut.');
+
         $validatedData = $request->validate([
             'name' => 'required|string',
             'file' => 'required|mimes:doc,docx,pdf|max:5120',
